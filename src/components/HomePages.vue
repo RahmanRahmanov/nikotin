@@ -46,6 +46,33 @@
       </h1>
     </div>
   </div>
+<div class="about_us_container">  
+  <div class="about_us_block">
+    <p class="onas_us_block">о нас</p>
+    <div class="about_us_container_text">
+    <p class="about_us_text">Яркие ароматы и вкусопередача</p>
+    <p class="about_us_text">За время работы мы получили много<br> положительных отзывов от наших<br> партнёров.</p>
+    <p class="about_us_text">Нашей продукцией являются<br> Электронные сигареты и жидкости<br>
+      для электронных сигарет</p>
+      <p class="about_us_text">Мы представляем только <br>
+        оригинальную продукцию и стараемся<br> 
+        быть лучшим партнёром для наших<br>
+         клиентов!</p>
+        </div>
+  </div>
+<div class="block_on_block"> 
+  <p class="text_block_on_block">текст,где описан опыт,путь и другая интереная информация о компании текст,где описан опыт,путь и другая интересная инф
+<br>
+<br>
+текст, где описан опыт, путь и другая интересная 
+информация</p>
+</div>
+<div class="tri_block">
+  <p class="nomber_tri_block">24</p>
+  <p class="nomber_tri_block">2</p>
+  <p class="nomber_tri_block">20k</p>
+</div>
+</div>
 </template>
 
 <script></script>
