@@ -46,33 +46,67 @@
       </h1>
     </div>
   </div>
-<div class="about_us_container">  
-  <div class="about_us_block">
-    <p class="onas_us_block">о нас</p>
-    <div class="about_us_container_text">
-    <p class="about_us_text">Яркие ароматы и вкусопередача</p>
-    <p class="about_us_text">За время работы мы получили много<br> положительных отзывов от наших<br> партнёров.</p>
-    <p class="about_us_text">Нашей продукцией являются<br> Электронные сигареты и жидкости<br>
-      для электронных сигарет</p>
-      <p class="about_us_text">Мы представляем только <br>
-        оригинальную продукцию и стараемся<br> 
-        быть лучшим партнёром для наших<br>
-         клиентов!</p>
-        </div>
+  <div class="about_us_container">
+    <div class="about_us_block">
+      <p class="onas_us_block">о нас</p>
+      <div class="about_us_container_text">
+        <p class="about_us_text">Яркие ароматы и вкусопередача</p>
+        <p class="about_us_text">
+          За время работы мы получили много<br />
+          положительных отзывов от наших<br />
+          партнёров.
+        </p>
+        <p class="about_us_text">
+          Нашей продукцией являются<br />
+          Электронные сигареты и жидкости<br />
+          для электронных сигарет
+        </p>
+        <p class="about_us_text">
+          Мы представляем только <br />
+          оригинальную продукцию и стараемся<br />
+          быть лучшим партнёром для наших<br />
+          клиентов!
+        </p>
+      </div>
+    </div>
+    <div class="block_on_block">
+      <p class="text_block_on_block">
+        текст,где описан опыт,путь и другая интереная информация о компании
+        текст,где описан опыт,путь и другая интересная инф
+        <br />
+        <br />
+        текст, где описан опыт, путь и другая интересная информация
+      </p>
+    </div>
   </div>
-<div class="block_on_block"> 
-  <p class="text_block_on_block">текст,где описан опыт,путь и другая интереная информация о компании текст,где описан опыт,путь и другая интересная инф
-<br>
-<br>
-текст, где описан опыт, путь и другая интересная 
-информация</p>
-</div>
-<div class="tri_block">
-  <p class="nomber_tri_block">24</p>
-  <p class="nomber_tri_block">2</p>
-  <p class="nomber_tri_block">20k</p>
-</div>
-</div>
+  <div class="tri_block">
+    <div class="nomber_tri_position">
+      <div class="nomber_block_red nomber_position">
+        <p class="text_nomber_tri">
+          уникальных<br />
+          вкуса
+        </p>
+        <img class="kapla_img" src="@/assets/img/kapla.svg" alt="">
+      </div>
+      <p class="nomber_tri_block">24</p>
+    </div>
+   <div class="nomber_tri_position">
+      <div class="nomber_block_yellow nomber_position">
+        
+        <p class="text_nomber_tri">линейки<br />крепости<br />day & night</p>
+        <img  class="day_img" src="@/assets/img/day.svg" alt="">
+      </div>
+      <p class="nomber_tri_block">2</p>
+   </div>
+    <div class="nomber_tri_position">
+      <div class="nomber_block_black nomber_position">
+        
+        <p class="text_nomber_tri">вкуснейших<br />затяжек</p>
+        <img class="blacktatoo_img" src="@/assets/img/blacktatoo.png" alt="">
+      </div>
+      <p class="nomber_tri_block">20k</p>
+    </div>
+  </div>
 </template>
 
 <script></script>
