@@ -86,26 +86,61 @@
           уникальных<br />
           вкуса
         </p>
-        <img class="kapla_img" src="@/assets/img/kapla.svg" alt="">
+        <img class="kapla_img" src="@/assets/img/kapla.svg" alt="" />
       </div>
       <p class="nomber_tri_block">24</p>
     </div>
-   <div class="nomber_tri_position">
+    <div class="nomber_tri_position">
       <div class="nomber_block_yellow nomber_position">
-        
         <p class="text_nomber_tri">линейки<br />крепости<br />day & night</p>
-        <img  class="day_img" src="@/assets/img/day.svg" alt="">
+        <img class="day_img" src="@/assets/img/day.svg" alt="" />
       </div>
       <p class="nomber_tri_block">2</p>
-   </div>
+    </div>
     <div class="nomber_tri_position">
       <div class="nomber_block_black nomber_position">
-        
         <p class="text_nomber_tri">вкуснейших<br />затяжек</p>
-        <img class="blacktatoo_img" src="@/assets/img/blacktatoo.png" alt="">
+        <img class="blacktatoo_img" src="@/assets/img/blacktatoo.png" alt="" />
       </div>
       <p class="nomber_tri_block">20k</p>
     </div>
+  </div>
+  <div class="catalog_3pods_container">
+    <p class="catalog_3pods_text color_grey-black">каталог</p>
+    <div class="catalog_3pods">
+      <div class="_3pods_1"></div>
+      <div class="_3pods_2"></div>
+      <div class="_3pods_3"></div>
+    </div>
+    <button class="_3pods_button">
+      <p class="_3pods_button_text color_white">перейти</p>
+      <img src="@/assets/img/Arrow 1.svg" alt="" />
+    </button>
+  </div>
+  <div class="top_tastes_container">
+    <p class="top_tastes_text color_grey-black">топ вкусы</p>
+<div class="top_tastes_block_all">
+      <div class="mixed_berry">
+        <p class="mixed_berry_name color_white">mixed<br />berry</p>
+        <p class="mixed_berry_20k color_white">20k</p>
+        <p class="mixed_berry_mg color_white">20mg</p>
+      </div>
+      <div class="lush_ice">
+        <p class="mixed_berry_name color_red">lush ice</p>
+        <p class="mixed_berry_20k color_red">20k</p>
+        <p class="mixed_berry_mg color_red">20mg</p>
+      </div>
+      <div class="raspberry_root_soda">
+        <p class="mixed_berry_name color_grey-black">raspberry <br />root <br />soda</p>
+        <p class="mixed_berry_20k color_grey-black">20k</p>
+        <p class="mixed_berry_mg color_grey-black">20mg</p>
+      </div>
+      <div class="grape_ice_soda">
+        <p class="mixed_berry_name color_red">grape ice</p>
+        <p class="mixed_berry_20k color_red">20k</p>
+        <p class="mixed_berry_mg color_red">20mg</p>
+      </div>
+</div>
   </div>
 </template>
 

@@ -227,7 +227,6 @@
   box-shadow: 0.25rem 0.25rem 0.26rem -0.38rem rgba(81, 76, 87, 0.25);
   backdrop-filter: blur(0.2rem);
   background: rgba(255, 255, 255, 0.7);
- 
 }
 .nomber_block_yellow {
   width: 23.38rem;
@@ -251,8 +250,10 @@
   backdrop-filter: blur(0.2rem);
   background: rgba(255, 255, 255, 0.7);
 }
-.text_nomber_tri {
+.color_grey-black {
   color: rgb(46, 49, 55);
+}
+.text_nomber_tri {
   font-family: Hero-Regular;
   font-size: 32px;
   font-weight: 400;
@@ -272,23 +273,177 @@
   padding-top: 3.75rem;
   padding-left: 3.75rem;
   z-index: 3;
-  
 }
-.nomber_tri_position{
+.nomber_tri_position {
   position: relative;
 }
-.kapla_img{
-position: absolute;
-bottom: 2.93rem;
-right: 3.75rem;
+.kapla_img {
+  position: absolute;
+  bottom: 2.93rem;
+  right: 3.75rem;
 }
-.day_img{
-position: absolute;
-right: 3.75rem;
-bottom: 2.87rem;
+.day_img {
+  position: absolute;
+  right: 3.75rem;
+  bottom: 2.87rem;
 }
-.blacktatoo_img{
-position: absolute;
-right: 3.75rem;
-bottom: 2.81rem;
+.blacktatoo_img {
+  position: absolute;
+  right: 3.75rem;
+  bottom: 2.81rem;
+}
+.catalog_3pods_container {
+  width: 100%;
+  position: relative;
+  padding-top: 5rem;
+  padding-left: 8.75rem;
+  background-image: url(@/assets/img/3podsback.png);
+  background-repeat: no-repeat;
+}
+.catalog_3pods {
+  padding-bottom: 7.5rem;
+  display: flex;
+  gap: 3.75rem;
+}
+.catalog_3pods_text {
+  color: rgb(60, 59, 75);
+  font-family: Hero-Bold;
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 4.81rem;
+  padding-bottom: 3.8rem;
+  text-transform: uppercase;
+}
+._3pods_1 {
+  background: rgb(247, 46, 90);
+  width: 13.75rem;
+  height: 23.94rem;
+  background-image: url(@/assets/img/3pods_1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+._3pods_2 {
+  background: rgb(255, 255, 255);
+  width: 13.75rem;
+  height: 23.94rem;
+  background-image: url(@/assets/img/3pods_2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+._3pods_3 {
+  background: rgb(231, 255, 124);
+  width: 13.75rem;
+  height: 23.94rem;
+  background-image: url(@/assets/img/3pods_3.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+._3pods_button {
+  display: flex;
+  position: absolute;
+  border-radius: 50px;
+  background: rgb(60, 59, 75);
+  width: 20rem;
+  height: 6.25rem;
+  left: 63.37rem;
+  bottom: 7.31rem;
+  padding-left: 3.75rem;
+  padding-right: 3.75rem;
+  align-items: center;
+  justify-content: space-between;
+}
+._3pods_button:hover {
+  width: 21.63rem;
+  background: rgb(72, 71, 88);
+  transition: width 0.3s ease, background-color 0.3s ease;
+}
+._3pods_button_text {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.19rem;
+  text-transform: uppercase;
+  font-family: Hero-Light;
+}
+.top_tastes_container {
+  padding-top: 5rem;
+  padding-left: 5rem;
+  position: relative;
+  padding-bottom: 3rem;
+}
+.top_tastes_text {
+  font-family: Hero-Bold;
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 4.81rem;
+  text-transform: uppercase;
+  padding-bottom: 1.25rem;
+}
+.mixed_berry_20k {
+  position: absolute;
+  font-family: Hero-Regular;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 3.13rem;
+  text-transform: uppercase;
+  left: 3.75rem;
+  bottom: 3.25rem;
+}
+.mixed_berry_name {
+  position: absolute;
+  font-family: Hero-Regular;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 3.13rem;
+  text-transform: uppercase;
+  top: 3rem;
+  left: 3.75rem;
+}
+.mixed_berry_mg {
+  position: absolute;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.19rem;
+  font-family: Hero-Regular;
+  left: 9.87rem;
+  bottom:3.5rem;
+}
+.color_red {
+  color: rgb(247, 46, 90);
+}
+.mixed_berry {
+  position: relative;
+  width: 37.5rem;
+  height: 21.13rem;
+  border-radius: 1.88rem;
+  background-image: url(@/assets/img/mix_berry.png);
+  background-repeat: no-repeat;
+}
+.lush_ice {
+  position: relative;
+  width: 37.5rem;
+  height: 21.13rem;
+  border-radius: 1.88rem;
+  background-image: url(@/assets/img/lush_ice.png);
+  background-repeat: no-repeat;
+}
+.raspberry_root_soda {
+  position: relative;
+  width: 37.5rem;
+  height: 21.13rem;
+  border-radius: 1.88rem;
+  background-image: url(@/assets/img/raspb_soda.png);
+  background-repeat: no-repeat;
+}
+.grape_ice_soda {
+  position: relative;
+  width: 37.5rem;
+  height: 21.13rem;
+  border-radius: 1.88rem;
+  background-image: url(@/assets/img/grape_ice.png);
+  background-repeat: no-repeat;
+}
+.top_tastes_block_all {
+  display: flex;
+  gap: 5rem;
+  flex-wrap: wrap;
 }
