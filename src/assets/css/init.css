@@ -405,7 +405,7 @@
   line-height: 1.19rem;
   font-family: Hero-Regular;
   left: 9.87rem;
-  bottom:3.5rem;
+  bottom: 3.5rem;
 }
 .color_red {
   color: rgb(247, 46, 90);
@@ -446,4 +446,137 @@
   display: flex;
   gap: 5rem;
   flex-wrap: wrap;
+}
+.reviews_name {
+  font-family: Hero-Bold;
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 4.81rem;
+  text-transform: uppercase;
+  padding-bottom: 22rem;
+}
+.reviews_container {
+  background-color: white;
+  padding-top: 2.43rem;
+  padding-left: 5rem;
+  margin-bottom: 3.75rem;
+}
+.reviews_comment_name {
+  font-family: Hero-Regular;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.81rem;
+}
+.reviews_comment {
+  font-family: Hero-Regular;
+  font-weight: 400;
+  line-height: 1.19rem;
+}
+.make_order_container {
+  z-index: 0;
+  position: relative;
+  background-color: white;
+  width: 90rem;
+  height: 53.75rem;
+  padding-top: 3.75rem;
+  padding-left: 5rem;
+}
+.make_order_decor {
+  width: 38.19rem;
+  height: 38.19rem;
+  background-image: url(@/assets/img/smoke.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+.make_order_name_back {
+  background-repeat: no-repeat;
+}
+.make_order_name {
+  font-family: Hero-Bold;
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 4.81rem;
+  text-transform: uppercase;
+  background-size: cover;
+  background-image: url(@/assets/img/text_background.png);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  padding-bottom: 3.75rem;
+  letter-spacing: -0.2rem;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 2.75rem;
+  padding-bottom: 1.875rem;
+  border-radius: 1.88rem;
+  box-shadow: 0.25rem 0.25rem 0.26rem -0.38rem rgba(81, 76, 87, 0.25);
+  background: rgb(223, 224, 232);
+  max-width: 61.25rem;
+}
+.form-input,
+.form-textarea {
+  font-family: Hero-Regular;
+  width: 27.06rem;
+  padding: 1.25rem;
+  border: none;
+  border-radius: 1.88rem;
+  background: rgb(202, 201, 216);
+  color: rgb(93, 92, 114);
+  font-weight: 400;
+  line-height: 1.19rem;
+}
+.form-textarea_last {
+  font-size: 1.05rem;
+}
+.form-textarea {
+  height: 3.25rem;
+  resize: none;
+}
+.form_block {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.125rem;
+}
+.submit-button {
+  font-family: Hero-Regular;
+  width: 29.06rem;
+  padding: 1.25rem;
+  border-radius: 1.88rem;
+  background: rgb(247, 46, 90);
+  color: white;
+  font-weight: 400;
+  line-height: 1.19rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+/* .form-textarea_padd{
+padding: 0rem;
+width: 29.06rem;
+} */
+.submit-button:hover {
+  background-color: #e63e59;
+}
+
+.policy-text {
+  font-family: Hero-Regular;
+  margin-top: 0.625rem;
+  font-weight: 400;
+  line-height: 1.19rem;
+  text-align: center;
+}
+
+.policy-link {
+  font-family: Hero-Regular;
+  text-decoration: underline !important;
+}
+
+.policy-link:hover {
+  text-decoration: underline;
 }

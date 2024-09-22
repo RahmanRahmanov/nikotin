@@ -119,7 +119,7 @@
   </div>
   <div class="top_tastes_container">
     <p class="top_tastes_text color_grey-black">топ вкусы</p>
-<div class="top_tastes_block_all">
+    <div class="top_tastes_block_all">
       <div class="mixed_berry">
         <p class="mixed_berry_name color_white">mixed<br />berry</p>
         <p class="mixed_berry_20k color_white">20k</p>
@@ -131,7 +131,9 @@
         <p class="mixed_berry_mg color_red">20mg</p>
       </div>
       <div class="raspberry_root_soda">
-        <p class="mixed_berry_name color_grey-black">raspberry <br />root <br />soda</p>
+        <p class="mixed_berry_name color_grey-black">
+          raspberry <br />root <br />soda
+        </p>
         <p class="mixed_berry_20k color_grey-black">20k</p>
         <p class="mixed_berry_mg color_grey-black">20mg</p>
       </div>
@@ -140,42 +142,66 @@
         <p class="mixed_berry_20k color_red">20k</p>
         <p class="mixed_berry_mg color_red">20mg</p>
       </div>
-</div>
+    </div>
   </div>
+  <div class="reviews_container">
+    <p class="reviews_name color_grey-black">отзывы</p>
+    <p class="reviews_comment_name color_red"></p>
+    <p class="reviews_comment color_grey-black"></p>
+  </div>
+  <div class="make_order_container">
+    <div class="make_order_decor"></div>
+    <div class="make_order_name_back">
+      <div class="make_order_name">оформить<br />закупку</div>
+    </div>
+        <div class="form-container">
+        <div class="form_block">
+        <input type="text" placeholder="Ваше имя" class="form-input" />
+        <input type="tel" placeholder="+7 (999) 999 99 99" class="form-input" />
+        <textarea placeholder="Расскажите о вашей компании" class="form-textarea form-textarea_padd form-textarea_last"></textarea>
+        <button class="submit-button">ОТПРАВИТЬ</button>
+      </div>
+      <p class="policy-text color_grey-black">
+        Отправляя заявку, вы соглашаетесь с нашей <br>
+        <a href="#" class="policy-link color_red">Политикой в отношении обработки персональных данных</a>
+      </p>
+    </div>
+    </div>
+    
 </template>
 
-<script></script>
+<script>
+// export default {
+//     mounted() {
+//       this.startSlider();
+//     },
+//     data() {
+//       return {
+//         currentSlide: 1, // Текущий слайд (начинаем с 1)
+//         sliderDirection: 1, // 1 - движение вперед, -1 - назад
+//       };
+//     },
+//     methods: {
+//       startSlider() {
+//         const sliderContent = this.$refs.sliderContent;
+//         const slideWidth = 100; // Ширина слайда в vw
 
-<!-- // export default {
-  //   mounted() {
-  //     this.startSlider();
-  //   },
-  //   data() {
-  //     return {
-  //       currentSlide: 1, // Текущий слайд (начинаем с 1)
-  //       sliderDirection: 1, // 1 - движение вперед, -1 - назад
-  //     };
-  //   },
-  //   methods: {
-  //     startSlider() {
-  //       const sliderContent = this.$refs.sliderContent;
-  //       const slideWidth = 100; // Ширина слайда в vw
-  
-  //       setInterval(() => {
-  //         // Вычисляем смещение
-  //         const currentOffset = (this.currentSlide - 1) * slideWidth * this.sliderDirection;
-  //         sliderContent.style.transform = `translateX(${currentOffset}vw)`;
-  
-  //         // Меняем направление движения при достижении 3 или 1 слайда
-  //         if (this.currentSlide === 3) {
-  //           this.sliderDirection = -1;
-  //         } else if (this.currentSlide === 1) {
-  //           this.sliderDirection = 1;
-  //         }
-  
-  //         // Переходим к следующему слайду
-  //         this.currentSlide += this.sliderDirection;
-  //       }, 2000); // Интервал переключения 15 секунд
-  //     },
-  //   },
-  // }; -->
+//         setInterval(() => {
+//           // Вычисляем смещение
+//           const currentOffset = (this.currentSlide - 1) * slideWidth * this.sliderDirection;
+//           sliderContent.style.transform = `translateX(${currentOffset}vw)`;
+
+//           // Меняем направление движения при достижении 3 или 1 слайда
+//           if (this.currentSlide === 3) {
+//             this.sliderDirection = -1;
+//           } else if (this.currentSlide === 1) {
+//             this.sliderDirection = 1;
+//           }
+
+//           // Переходим к следующему слайду
+//           this.currentSlide += this.sliderDirection;
+//         }, 1000); // Интервал переключения 15 секунд
+//       },
+//     },
+//   };
+</script>
