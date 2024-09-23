@@ -19,21 +19,27 @@
     </div>
   </header>
   <div class="section_full_block">
-    <div class="slider-container">
-      <div class="slider-content" ref="sliderContent">
-        <img class="slide_header" src="@/assets/img/header_slider.png" alt="" />
-        <img
-          class="slide_header"
-          src="@/assets/img/header_slider2.png"
-          alt=""
-        />
-        <img
-          class="slide_header"
-          src="@/assets/img/header_slider3.png"
-          alt=""
-        />
+    <section class="section_full_slider">
+      <div class="container_slider" ref="slider">
+        <img src="@/assets/img/header_slider.png" class="img_slider" />
+        <img src="@/assets/img/header_slider2.png" class="img_slider" />
+        <img src="@/assets/img/header_slider3.png" class="img_slider" />
       </div>
-    </div>
+      <div class="box_marker_slider">
+        <div
+          class="marker_slider_1"
+          :class="{ active: sliderPosition === 0 }"
+        ></div>
+        <div
+          class="marker_slider_2"
+          :class="{ active: sliderPosition === -1 }"
+        ></div>
+        <div
+          class="marker_slider_3"
+          :class="{ active: sliderPosition === -2 }"
+        ></div>
+      </div>
+    </section>
     <div class="social_media">
       <div class="mail_social"></div>
       <div class="tg_social"></div>
@@ -146,6 +152,7 @@
   </div>
   <div class="reviews_container">
     <p class="reviews_name color_grey-black">отзывы</p>
+    <SloderReviews />
     <p class="reviews_comment_name color_red"></p>
     <p class="reviews_comment color_grey-black"></p>
   </div>
@@ -154,54 +161,66 @@
     <div class="make_order_name_back">
       <div class="make_order_name">оформить<br />закупку</div>
     </div>
-        <div class="form-container">
-        <div class="form_block">
+    <div class="form-container">
+      <div class="form_block">
         <input type="text" placeholder="Ваше имя" class="form-input" />
         <input type="tel" placeholder="+7 (999) 999 99 99" class="form-input" />
-        <textarea placeholder="Расскажите о вашей компании" class="form-textarea form-textarea_padd form-textarea_last"></textarea>
+        <textarea
+          placeholder="Расскажите о вашей компании"
+          class="form-textarea form-textarea_padd form-textarea_last"
+        ></textarea>
         <button class="submit-button">ОТПРАВИТЬ</button>
       </div>
       <p class="policy-text color_grey-black">
-        Отправляя заявку, вы соглашаетесь с нашей <br>
-        <a href="#" class="policy-link color_red">Политикой в отношении обработки персональных данных</a>
+        Отправляя заявку, вы соглашаетесь с нашей <br />
+        <a href="#" class="policy-link color_red"
+          >Политикой в отношении обработки персональных данных</a
+        >
       </p>
     </div>
-    </div>
-    
+  </div>
 </template>
 
 <script>
-// export default {
-//     mounted() {
-//       this.startSlider();
-//     },
-//     data() {
-//       return {
-//         currentSlide: 1, // Текущий слайд (начинаем с 1)
-//         sliderDirection: 1, // 1 - движение вперед, -1 - назад
-//       };
-//     },
-//     methods: {
-//       startSlider() {
-//         const sliderContent = this.$refs.sliderContent;
-//         const slideWidth = 100; // Ширина слайда в vw
-
-//         setInterval(() => {
-//           // Вычисляем смещение
-//           const currentOffset = (this.currentSlide - 1) * slideWidth * this.sliderDirection;
-//           sliderContent.style.transform = `translateX(${currentOffset}vw)`;
-
-//           // Меняем направление движения при достижении 3 или 1 слайда
-//           if (this.currentSlide === 3) {
-//             this.sliderDirection = -1;
-//           } else if (this.currentSlide === 1) {
-//             this.sliderDirection = 1;
-//           }
-
-//           // Переходим к следующему слайду
-//           this.currentSlide += this.sliderDirection;
-//         }, 1000); // Интервал переключения 15 секунд
-//       },
-//     },
-//   };
+import SloderReviews from "@/components/UI/SloderReviews.vue";
+export default {
+  components: {
+    SloderReviews,
+  },
+  data() {
+    return {
+      sliderPosition: 0,
+    };
+  },
+  mounted() {
+    this.animateSlider();
+  },
+  methods: {
+    animateSlider() {
+      const slider = this.$refs.slider;
+      let count = 0;
+      setInterval(() => {
+        switch (count % 6) {
+          case 0:
+            this.sliderPosition = 0;
+            break;
+          case 1:
+            this.sliderPosition = -1; // -100vw
+            break;
+          case 2:
+            this.sliderPosition = -2; // -200vw
+            break;
+          case 3:
+            this.sliderPosition = -1; // -100vw
+            break;
+          case 4:
+            this.sliderPosition = 0;
+            break;
+        }
+        slider.style.transform = `translateX(${this.sliderPosition * 100}vw)`;
+        count++;
+      }, 15000);
+    },
+  },
+};
 </script>
