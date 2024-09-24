@@ -634,45 +634,87 @@ width: 29.06rem;
 .policy-link:hover {
   text-decoration: underline;
 }
-.footer_img{
- display: flex;
- align-items: center;
- justify-content: center;
+.footer_container {
+  display: flex;
+}
+.footer_img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-image: url(@/assets/img/footerback.png);
   background-repeat: no-repeat;
   width: 12.63rem;
 }
-.footer_ava{
+.footer_ava {
   max-width: 100%;
   max-height: 100%;
 }
 
-.footer_links_text{
-font-family: Hero-Light;
-font-weight: 700;
-text-transform: uppercase;
-line-height: 1.19rem;
+.footer_links_text {
+  font-family: Hero-Light;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.19rem;
 }
-.footer_links{
+.footer_links {
   display: flex;
   row-gap: 0.5rem;
   flex-direction: column;
+  padding-top: 1.25rem;
+  margin-bottom: 3.75rem;
 }
-.footer_block{
+.footer_block {
+  position: relative;
   background: rgb(247, 46, 90);
   height: 13.75rem;
+  width: 100%;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
 }
-.footer_links_opacity_text{
-font-family: Hero-Light;
-font-weight: 200;
-text-transform: uppercase;
-line-height: 1.19rem;
+.footer_links_opacity_text {
+  font-family: Hero-Light;
+  font-weight: 200;
+  text-transform: uppercase;
+  line-height: 1.19rem;
+  position: absolute;
+  bottom: 0.625rem;
+  left: 10.56rem;
 }
-.footer_btn{
+.footer_btn {
   width: 17.81rem;
-height: 6.19rem;
-background: rgb(242, 243, 247);
-font-family: Hero-Regular;
-font-weight: 700;
-line-height: 1.19rem;
+  height: 6.19rem;
+  background: rgb(242, 243, 247);
+  font-family: Hero-Regular;
+  font-weight: 700;
+  line-height: 1.19rem;
+  margin-bottom: 5.06rem;
+}
+.footer_links_text:hover {
+  color: rgb(60, 59, 75);
+}
+.footer_links_text_position {
+  position: absolute;
+  left: 10.56rem;
+  bottom: 3.75rem;
+}
+.footer_links_text_position2 {
+  position: absolute;
+  left:24.18rem;
+  bottom: 3.75rem;
+}
+.footer_links_opacity_text_position{
+  left: 35.87rem;
+  font-family: Hero-Light;
+  font-weight: 200;
+  text-transform: uppercase;
+  line-height: 1.19rem;
+  bottom: 0.625rem;
+  position: absolute;
+}
+.footer_btn:hover{
+  background: rgb(60, 59, 75);
+  color: rgb(255, 255, 255);
 }
