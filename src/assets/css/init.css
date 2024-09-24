@@ -91,7 +91,7 @@
   gap: 20px;
   z-index: 1;
   bottom: 3.75rem;
-  left: 37.81rem;
+  left: 41.81rem;
 }
 .marker_slider_1 {
   background-image: url(/src/assets/img/top_marker_slider.svg);
@@ -147,6 +147,7 @@
   overflow: hidden;
 }
 .title {
+  padding-left: 6rem;
   font-family: Hero-Bold;
   font-size: 14.25rem;
   font-weight: 700;
@@ -505,7 +506,7 @@
   font-weight: 700;
   line-height: 4.81rem;
   text-transform: uppercase;
-  padding-bottom: 22rem;
+  padding-bottom: 3.75rem;
 }
 .reviews_container {
   background-color: white;
@@ -632,4 +633,46 @@ width: 29.06rem;
 
 .policy-link:hover {
   text-decoration: underline;
+}
+.footer_img{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+  background-image: url(@/assets/img/footerback.png);
+  background-repeat: no-repeat;
+  width: 12.63rem;
+}
+.footer_ava{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.footer_links_text{
+font-family: Hero-Light;
+font-weight: 700;
+text-transform: uppercase;
+line-height: 1.19rem;
+}
+.footer_links{
+  display: flex;
+  row-gap: 0.5rem;
+  flex-direction: column;
+}
+.footer_block{
+  background: rgb(247, 46, 90);
+  height: 13.75rem;
+}
+.footer_links_opacity_text{
+font-family: Hero-Light;
+font-weight: 200;
+text-transform: uppercase;
+line-height: 1.19rem;
+}
+.footer_btn{
+  width: 17.81rem;
+height: 6.19rem;
+background: rgb(242, 243, 247);
+font-family: Hero-Regular;
+font-weight: 700;
+line-height: 1.19rem;
 }

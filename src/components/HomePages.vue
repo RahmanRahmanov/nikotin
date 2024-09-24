@@ -179,6 +179,26 @@
       </p>
     </div>
   </div>
+  <footer class="footer_main">
+<div class="footer_container">
+    <div class="footer_img">
+<img class="footer_ava" src="@/assets/img/footerava.svg" alt="">
+</div>
+<div class="footer_block">
+  <div class="footer_links">
+  <a class="footer_links_text color_white" href="/">о нас</a>
+  <a class="footer_links_text color_white" href="/">доставка</a>
+  <a class="footer_links_text color_white" href="/">отзывы</a>
+  <a class="footer_links_text color_white" href="/">контакты</a>
+</div>
+<a class="footer_links_text color_white" href="tel:+89999999999">8 999 999 99 99</a>
+<a class="footer_links_text color_white" href="mailto:7stоbacсo@gmail.com">7stоbacсo@gmail.com</a>
+<a class="footer_links_opacity_text color_white" href="/">политика конфиденциальности</a>
+<a class="footer_links_opacity_text color_white" href="/">© 2024 7s. Все права защищены.</a>
+<button class="footer_btn color_grey-black">связаться с нами</button>
+</div>
+</div>
+  </footer>
 </template>
 
 <script>
