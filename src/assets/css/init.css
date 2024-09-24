@@ -691,6 +691,7 @@ width: 29.06rem;
   font-weight: 700;
   line-height: 1.19rem;
   margin-bottom: 5.06rem;
+  text-transform: uppercase;
 }
 .footer_links_text:hover {
   color: rgb(60, 59, 75);
@@ -699,6 +700,9 @@ width: 29.06rem;
   position: absolute;
   left: 10.56rem;
   bottom: 3.75rem;
+}
+.footer_links_opacity_text_position:hover{
+  color: rgb(60, 59, 75);
 }
 .footer_links_text_position2 {
   position: absolute;

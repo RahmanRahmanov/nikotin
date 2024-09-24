@@ -1,23 +1,5 @@
 <template>
-  <header class="header_main">
-    <div class="container_header">
-      <a href="/" class="header_logo">
-        <img src="@/assets/img/header_img.svg" alt="Header Image"
-      /></a>
-      <div class="nav_text_block">
-        <a href="/" class="nav_text">главная</a>
-        <a href="/" class="nav_text">о нас</a>
-        <a href="/" class="nav_text">доставка</a>
-        <a href="/" class="nav_text">новости</a>
-      </div>
-      <div class="line_btn">
-        <button class="catalog_btn">
-          каталог
-          <div class="gradient-line"></div>
-        </button>
-      </div>
-    </div>
-  </header>
+<HeaderBlock/>
   <div class="section_full_block">
     <section class="section_full_slider">
       <div class="container_slider" ref="slider">
@@ -191,7 +173,9 @@
           <a class="footer_links_text color_white" href="/">отзывы</a>
           <a class="footer_links_text color_white" href="/">контакты</a>
         </div>
-        <a class="footer_links_text color_white footer_links_text_position2" href="tel:+89999999999"
+        <a
+          class="footer_links_text color_white footer_links_text_position2"
+          href="tel:+89999999999"
           >8 999 999 99 99</a
         >
         <a
@@ -199,10 +183,10 @@
           href="mailto:7stоbacсo@gmail.com"
           >7stоbacсo@gmail.com</a
         >
-        <a class="footer_links_opacity_text color_white " href="/"
+        <a class="footer_links_opacity_text color_white" href="/"
           >политика конфиденциальности</a
         >
-        <a class=" color_white footer_links_opacity_text_position" href="/"
+        <a class="color_white footer_links_opacity_text_position" href="/"
           >© 2024 7s. Все права защищены.</a
         >
         <button class="footer_btn color_grey-black">связаться с нами</button>
@@ -212,9 +196,11 @@
 </template>
 
 <script>
+import HeaderBlock from "./stabl/HeaderBlock.vue";
 import SloderReviews from "@/components/UI/SloderReviews.vue";
 export default {
   components: {
+    HeaderBlock,
     SloderReviews,
   },
   data() {
@@ -249,7 +235,7 @@ export default {
         }
         slider.style.transform = `translateX(${this.sliderPosition * 100}vw)`;
         count++;
-      }, 1000);
+      }, 15000);
     },
   },
 };
