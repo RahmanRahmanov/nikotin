@@ -701,15 +701,15 @@ width: 29.06rem;
   left: 10.56rem;
   bottom: 3.75rem;
 }
-.footer_links_opacity_text_position:hover{
+.footer_links_opacity_text_position:hover {
   color: rgb(60, 59, 75);
 }
 .footer_links_text_position2 {
   position: absolute;
-  left:24.18rem;
+  left: 24.18rem;
   bottom: 3.75rem;
 }
-.footer_links_opacity_text_position{
+.footer_links_opacity_text_position {
   left: 35.87rem;
   font-family: Hero-Light;
   font-weight: 200;
@@ -718,7 +718,28 @@ width: 29.06rem;
   bottom: 0.625rem;
   position: absolute;
 }
-.footer_btn:hover{
+.footer_btn:hover {
   background: rgb(60, 59, 75);
   color: rgb(255, 255, 255);
+}
+.title_catalog {
+  font-family: Hero-Bold;
+  font-size: 14.25rem;
+  font-weight: 700;
+  line-height: 12.5rem;
+  text-transform: uppercase;
+}
+.title_catalog_block {
+  background-image: url(@/assets/img/catalog_back.png);
+  background-repeat: no-repeat;
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  justify-content: space-around;
+  padding-top: 15rem;
+}
+.title_catalog_container {
+  padding-top: 6.25rem;
+  background-color: black;
+  height: 100vh;
 }

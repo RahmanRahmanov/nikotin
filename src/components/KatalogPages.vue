@@ -1,6 +1,10 @@
 <template>
-  <HeaderBlock />
-  <div></div>
+ 
+    <HeaderBlock />
+    <section class="title_catalog_container"><div class="title_catalog_block"> 
+      <p class="title_catalog color_red">каталог</p>
+    </div>
+  </section>
 </template>
 
 <script>
