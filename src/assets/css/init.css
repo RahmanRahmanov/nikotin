@@ -163,7 +163,7 @@
   position: absolute;
 }
 .color_white {
-  color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255)!important;
 }
 .mail_social {
   background-repeat: no-repeat;
@@ -234,6 +234,10 @@
 .about_us_block {
   padding-left: 5rem;
   position: relative;
+}
+.about_us_block_contacts{
+  background-color: black;
+  padding-bottom: 4.56rem;
 }
 .block_on_block {
   position: absolute;
@@ -947,4 +951,113 @@ flex-wrap: wrap;
 }
 .list_product_items_block10{
   background-image: url(@/assets/img/back/back_item10.png);
+}
+.contacts_name_container{
+  color: rgb(60, 59, 75);
+font-family: Hero-Bold;
+font-size: 4rem;
+font-weight: 700;
+line-height: 4.81rem;
+text-transform: uppercase;
+}
+.tel_name{
+  font-family: Hero-Bold;
+font-size: 2rem;
+font-weight: 700;
+line-height: 2.38rem;
+text-transform: uppercase;
+}
+.contacts_container{
+  display: flex;
+  row-gap: 2.5rem;
+  flex-direction: column;
+  padding-top: 4rem;
+  padding-left: 5rem;
+  padding-bottom: 2.5rem;
+}
+.contacts_tel{
+  display: flex;
+  gap: 0.5rem;
+}
+.contacts_container_block{
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.5rem;
+}
+.padding_for_contacts{
+  padding: 2rem;
+}
+.section_full_header{
+  width: 100%;
+height: 26.69rem;
+  position: relative;
+  background-color: black;
+}
+.delivery_name{
+  position: absolute;
+  color: rgb(242, 243, 247);
+font-family: Hero-Bold;
+font-size: 4rem;
+font-weight: 700;
+line-height: 4.81rem;
+text-transform: uppercase;
+bottom: 6.43rem;
+left: 5rem;
+}
+.delivery_img_pos{
+  position: absolute;
+  bottom:5.87rem;
+  right: 5rem;
+}
+.social_media_pos{
+  bottom: 2.25rem;
+}
+.delivery_pay_name{
+  color: rgb(247, 46, 90);
+font-family: Hero-Bold;
+font-size: 4rem;
+font-weight: 700;
+line-height: 4.81rem;
+text-transform: uppercase;
+}
+.delivery_pay_text{
+  color: rgb(60, 59, 75);
+  font-family: Hero-Regular;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 2.38rem;
+  text-transform: uppercase;
+}
+.delivery_pay_container{
+  padding-left: 5rem;
+  background-image: url(@/assets/img/back/deliveryback.png);
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-color: white;
+}
+.delivery_pay_block{
+  display: flex;
+  flex-direction: column;
+  row-gap: 2.5rem;
+}
+.delivery_pay_block_pos{
+padding-bottom: 7.5rem;
+padding-top: 4.18rem;
+}
+.delivery_pay_text_end{
+  padding-left: 0.69rem;
+  padding-top: 1.5rem;
+  display: flex;
+  row-gap: 1.25rem;
+  flex-direction: column;
+}
+.delivery_pay_block_pos2{
+  padding-bottom: 10rem;
+}
+.black_hole_between{
+background-color: black;
+padding-bottom: 6.25rem;
+}
+.margin_title1{
+  margin-left: 15.9rem;
 }

@@ -124,20 +124,20 @@
 </div>  
 </div>
 <TopLiest/>
-<RewiewsBlock/>
+<MakeorderBlock/>
 <FooterBlock/>
 </template>
 
 <script>
 import HeaderBlock from "./stabl/HeaderBlock.vue";
 import TopLiest from "./stabl/TopLiest.vue";
-import RewiewsBlock from "./stabl/RewiewsBlock.vue";
+import MakeorderBlock from "./stabl/MakeorderBlock.vue";
 import FooterBlock from "./stabl/FooterBlock.vue";
 export default {
   components: {
     HeaderBlock,
     TopLiest,
-    RewiewsBlock,
+    MakeorderBlock,
     FooterBlock,
   },
 };
