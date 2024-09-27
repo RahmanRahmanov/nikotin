@@ -32,7 +32,7 @@
 <div class="list_product_items_container">
   <div class="list_product_items_block list_product_items_block1">
   <p class="list_product_name color_white">blueberry raspberry</p>
-  <div class="list_product_podik_img"></div>
+  <div class="list_product_podik_img list_product_podik_img1"></div>
   <div class="list_product_dots"> 
     <span>20K</span>
     <span>20 mg</span>
@@ -41,7 +41,7 @@
 </div>
 <div class="list_product_items_block list_product_items_block2">
   <p class="list_product_name color_white">grape ice</p>
-  <div class="list_product_podik_img"></div>
+  <div class="list_product_podik_img list_product_podik_img2"></div>
   <div class="list_product_dots"> 
     <span>20K</span>
     <span>20 mg</span>
@@ -50,7 +50,7 @@
 </div>
 <div class="list_product_items_block list_product_items_block3">
   <p class="list_product_name color_white">lush ice</p>
-  <div class="list_product_podik_img"></div>
+  <div class="list_product_podik_img list_product_podik_img3"></div>
   <div class="list_product_dots"> 
     <span>20K</span>
     <span>20 mg</span>
@@ -59,7 +59,7 @@
 </div>
 <div class="list_product_items_block list_product_items_block4">
   <p class="list_product_name color_white">kiwi strawberry</p>
-  <div class="list_product_podik_img"></div>
+  <div class="list_product_podik_img list_product_podik_img4"></div>
   <div class="list_product_dots"> 
     <span>20K</span>
     <span>20 mg</span>
@@ -68,7 +68,7 @@
 </div>
 <div class="list_product_items_block list_product_items_block5">
   <p class="list_product_name color_white">cola lemon</p>
-  <div class="list_product_podik_img"></div>
+  <div class="list_product_podik_img list_product_podik_img5"></div>
   <div class="list_product_dots"> 
     <span>20K</span>
     <span>20 mg</span>
@@ -77,7 +77,7 @@
 </div>
 <div class="list_product_items_block list_product_items_block6">
   <p class="list_product_name color_white">dark cherry</p>
-  <div class="list_product_podik_img"></div>
+  <div class="list_product_podik_img list_product_podik_img6"></div>
   <div class="list_product_dots"> 
     <span>20K</span>
     <span>20 mg</span>
@@ -86,7 +86,7 @@
 </div>
 <div class="list_product_items_block list_product_items_block7">
   <p class="list_product_name color_white">energy drink</p>
-  <div class="list_product_podik_img"></div>
+  <div class="list_product_podik_img list_product_podik_img7"></div>
   <div class="list_product_dots"> 
     <span>20K</span>
     <span>20 mg</span>
@@ -95,7 +95,7 @@
 </div>
 <div class="list_product_items_block list_product_items_block8">
   <p class="list_product_name color_white">raspberry root soda</p>
-  <div class="list_product_podik_img"></div>
+  <div class="list_product_podik_img list_product_podik_img8"></div>
   <div class="list_product_dots"> 
     <span>20K</span>
     <span>20 mg</span>
@@ -104,7 +104,7 @@
 </div>
 <div class="list_product_items_block list_product_items_block9">
   <p class="list_product_name color_white">mixed berry</p>
-  <div class="list_product_podik_img"></div>
+  <div class="list_product_podik_img list_product_podik_img9"></div>
   <div class="list_product_dots"> 
     <span>20K</span>
     <span>20 mg</span>
@@ -113,7 +113,7 @@
 </div>
 <div class="list_product_items_block list_product_items_block10">
   <p class="list_product_name color_white">blackcurrant strawberry</p>
-  <div class="list_product_podik_img"></div>
+  <div class="list_product_podik_img list_product_podik_img9"></div>
   <div class="list_product_dots"> 
     <span>20K</span>
     <span>20 mg</span>

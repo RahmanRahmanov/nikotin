@@ -1,7 +1,7 @@
 <template>
-    <HeaderBlock/>
-    <div class="section_full_block">
-    <HeaderSlider/>
+  <HeaderBlock />
+  <div class="section_full_block">
+    <div class="news_title_background"></div>
     <div class="social_media">
       <div class="mail_social"></div>
       <div class="tg_social"></div>
@@ -9,14 +9,148 @@
     </div>
     <div class="box_title_home_pages">
       <h1 class="title color_white text_align_left">
-        новости<br/>
+        новости<br />
         <span class="margin_title1 color_white"> 7stars</span>
       </h1>
     </div>
   </div>
-    <TopLiest/>
-    <MakeorderBlock/>
-    <FooterBlock/>
+  <div class="news_container">
+    <div class="news_block news_block_img1">
+      <div class="news_text_block">
+        <p class="news_block_date color_white">12 сентября 2024</p>
+        <p class="news_block_question color_white">
+          Что такое жидкость для вейпа <br />
+          и как её выбрать?
+        </p>
+        <p class="news_block_main_text ">
+          Электронные сигареты с каждым днем <br />
+          становятся все популярнее. Инновационное <br />
+          устройство позволяет получать...
+        </p>
+      </div>
+      <button class="news_block_btn ">подробнее</button>
+    </div>
+    <div class="news_block news_block_img2">      <div class="news_text_block">
+        <p class="news_block_date color_white">12 сентября 2024</p>
+        <p class="news_block_question color_white">
+          Что такое жидкость для вейпа <br />
+          и как её выбрать?
+        </p>
+        <p class="news_block_main_text ">
+          Электронные сигареты с каждым днем <br />
+          становятся все популярнее. Инновационное <br />
+          устройство позволяет получать...
+        </p>
+      </div>
+      <button class="news_block_btn ">подробнее</button></div>
+    <div class="news_block news_block_img3">      <div class="news_text_block">
+        <p class="news_block_date color_white">12 сентября 2024</p>
+        <p class="news_block_question color_white">
+          Что такое жидкость для вейпа <br />
+          и как её выбрать?
+        </p>
+        <p class="news_block_main_text ">
+          Электронные сигареты с каждым днем <br />
+          становятся все популярнее. Инновационное <br />
+          устройство позволяет получать...
+        </p>
+      </div>
+      <button class="news_block_btn ">подробнее</button></div>
+    <div class="news_block news_block_img4">      <div class="news_text_block">
+        <p class="news_block_date color_white">12 сентября 2024</p>
+        <p class="news_block_question color_white">
+          Что такое жидкость для вейпа <br />
+          и как её выбрать?
+        </p>
+        <p class="news_block_main_text ">
+          Электронные сигареты с каждым днем <br />
+          становятся все популярнее. Инновационное <br />
+          устройство позволяет получать...
+        </p>
+      </div>
+      <button class="news_block_btn ">подробнее</button></div>
+    <div class="news_block news_block_img5">      <div class="news_text_block">
+        <p class="news_block_date color_white">12 сентября 2024</p>
+        <p class="news_block_question color_white">
+          Что такое жидкость для вейпа <br />
+          и как её выбрать?
+        </p>
+        <p class="news_block_main_text ">
+          Электронные сигареты с каждым днем <br />
+          становятся все популярнее. Инновационное <br />
+          устройство позволяет получать...
+        </p>
+      </div>
+      <button class="news_block_btn ">подробнее</button></div>
+    <div class="news_block news_block_img6">      <div class="news_text_block">
+        <p class="news_block_date color_white">12 сентября 2024</p>
+        <p class="news_block_question color_white">
+          Что такое жидкость для вейпа <br />
+          и как её выбрать?
+        </p>
+        <p class="news_block_main_text ">
+          Электронные сигареты с каждым днем <br />
+          становятся все популярнее. Инновационное <br />
+          устройство позволяет получать...
+        </p>
+      </div>
+      <button class="news_block_btn ">подробнее</button></div>
+    <div class="news_block news_block_img7">      <div class="news_text_block">
+        <p class="news_block_date color_white">12 сентября 2024</p>
+        <p class="news_block_question color_white">
+          Что такое жидкость для вейпа <br />
+          и как её выбрать?
+        </p>
+        <p class="news_block_main_text ">
+          Электронные сигареты с каждым днем <br />
+          становятся все популярнее. Инновационное <br />
+          устройство позволяет получать...
+        </p>
+      </div>
+      <button class="news_block_btn ">подробнее</button></div>
+    <div class="news_block news_block_img8">      <div class="news_text_block">
+        <p class="news_block_date color_white">12 сентября 2024</p>
+        <p class="news_block_question color_white">
+          Что такое жидкость для вейпа <br />
+          и как её выбрать?
+        </p>
+        <p class="news_block_main_text ">
+          Электронные сигареты с каждым днем <br />
+          становятся все популярнее. Инновационное <br />
+          устройство позволяет получать...
+        </p>
+      </div>
+      <button class="news_block_btn ">подробнее</button></div>
+    <div class="news_block news_block_img9">      <div class="news_text_block">
+        <p class="news_block_date color_white">12 сентября 2024</p>
+        <p class="news_block_question color_white">
+          Что такое жидкость для вейпа <br />
+          и как её выбрать?
+        </p>
+        <p class="news_block_main_text ">
+          Электронные сигареты с каждым днем <br />
+          становятся все популярнее. Инновационное <br />
+          устройство позволяет получать...
+        </p>
+      </div>
+      <button class="news_block_btn ">подробнее</button></div>
+    <div class="news_block news_block_img10">      <div class="news_text_block">
+        <p class="news_block_date color_white">12 сентября 2024</p>
+        <p class="news_block_question color_white">
+          Что такое жидкость для вейпа <br />
+          и как её выбрать?
+        </p>
+        <p class="news_block_main_text ">
+          Электронные сигареты с каждым днем <br />
+          становятся все популярнее. Инновационное <br />
+          устройство позволяет получать...
+        </p>
+      </div>
+      <button class="news_block_btn ">подробнее</button></div>
+  </div>
+  <TopLiest />
+  <MakeorderBlock />
+  <FooterBlock />
 </template>
 
 <script>
@@ -24,14 +158,12 @@ import HeaderBlock from "./stabl/HeaderBlock.vue";
 import TopLiest from "./stabl/TopLiest.vue";
 import MakeorderBlock from "./stabl/MakeorderBlock.vue";
 import FooterBlock from "./stabl/FooterBlock.vue";
-import HeaderSlider from "@/components/UI/HeaderSlider.vue";
 export default {
   components: {
     HeaderBlock,
     TopLiest,
     MakeorderBlock,
     FooterBlock,
-    HeaderSlider,
   },
 };
 </script>
