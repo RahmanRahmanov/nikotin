@@ -15,7 +15,7 @@
     </div>
   </div>
   <div class="news_container">
-    <div class="news_block news_block_img1">
+    <div class="news_block "><img class="news_block_img1" src="@/assets/img/news1.png" alt="">
       <div class="news_text_block">
         <p class="news_block_date color_white">12 сентября 2024</p>
         <p class="news_block_question color_white">
@@ -30,7 +30,8 @@
       </div>
       <button class="news_block_btn ">подробнее</button>
     </div>
-    <div class="news_block news_block_img2">      <div class="news_text_block">
+    <div class="news_block "><img class="news_block_img1" src="@/assets/img/news2.png" alt="">
+       <div class="news_text_block">
         <p class="news_block_date color_white">12 сентября 2024</p>
         <p class="news_block_question color_white">
           Что такое жидкость для вейпа <br />
@@ -43,7 +44,8 @@
         </p>
       </div>
       <button class="news_block_btn ">подробнее</button></div>
-    <div class="news_block news_block_img3">      <div class="news_text_block">
+    <div class="news_block "> <img class="news_block_img1" src="@/assets/img/news3.png" alt="">
+      <div class="news_text_block">
         <p class="news_block_date color_white">12 сентября 2024</p>
         <p class="news_block_question color_white">
           Что такое жидкость для вейпа <br />
@@ -56,7 +58,7 @@
         </p>
       </div>
       <button class="news_block_btn ">подробнее</button></div>
-    <div class="news_block news_block_img4">      <div class="news_text_block">
+    <div class="news_block ">    <img class="news_block_img1" src="@/assets/img/news4.png" alt="">  <div class="news_text_block">
         <p class="news_block_date color_white">12 сентября 2024</p>
         <p class="news_block_question color_white">
           Что такое жидкость для вейпа <br />
@@ -69,7 +71,7 @@
         </p>
       </div>
       <button class="news_block_btn ">подробнее</button></div>
-    <div class="news_block news_block_img5">      <div class="news_text_block">
+    <div class="news_block ">    <img class="news_block_img1" src="@/assets/img/news5.png" alt="">  <div class="news_text_block">
         <p class="news_block_date color_white">12 сентября 2024</p>
         <p class="news_block_question color_white">
           Что такое жидкость для вейпа <br />
@@ -82,7 +84,7 @@
         </p>
       </div>
       <button class="news_block_btn ">подробнее</button></div>
-    <div class="news_block news_block_img6">      <div class="news_text_block">
+    <div class="news_block ">    <img class="news_block_img1" src="@/assets/img/news6.png" alt="">  <div class="news_text_block">
         <p class="news_block_date color_white">12 сентября 2024</p>
         <p class="news_block_question color_white">
           Что такое жидкость для вейпа <br />
@@ -95,7 +97,7 @@
         </p>
       </div>
       <button class="news_block_btn ">подробнее</button></div>
-    <div class="news_block news_block_img7">      <div class="news_text_block">
+    <div class="news_block ">    <img class="news_block_img1" src="@/assets/img/news7.png" alt="">  <div class="news_text_block">
         <p class="news_block_date color_white">12 сентября 2024</p>
         <p class="news_block_question color_white">
           Что такое жидкость для вейпа <br />
@@ -108,7 +110,7 @@
         </p>
       </div>
       <button class="news_block_btn ">подробнее</button></div>
-    <div class="news_block news_block_img8">      <div class="news_text_block">
+    <div class="news_block ">   <img class="news_block_img1" src="@/assets/img/news8.png" alt="">   <div class="news_text_block">
         <p class="news_block_date color_white">12 сентября 2024</p>
         <p class="news_block_question color_white">
           Что такое жидкость для вейпа <br />
@@ -121,7 +123,7 @@
         </p>
       </div>
       <button class="news_block_btn ">подробнее</button></div>
-    <div class="news_block news_block_img9">      <div class="news_text_block">
+    <div class="news_block ">    <img class="news_block_img1" src="@/assets/img/news9.png" alt="">  <div class="news_text_block">
         <p class="news_block_date color_white">12 сентября 2024</p>
         <p class="news_block_question color_white">
           Что такое жидкость для вейпа <br />
@@ -134,7 +136,7 @@
         </p>
       </div>
       <button class="news_block_btn ">подробнее</button></div>
-    <div class="news_block news_block_img10">      <div class="news_text_block">
+    <div class="news_block ">    <img class="news_block_img1" src="@/assets/img/news10.png" alt="">  <div class="news_text_block">
         <p class="news_block_date color_white">12 сентября 2024</p>
         <p class="news_block_question color_white">
           Что такое жидкость для вейпа <br />
@@ -149,6 +151,7 @@
       <button class="news_block_btn ">подробнее</button></div>
   </div>
   <TopLiest />
+  <div class="propast"></div>
   <MakeorderBlock />
   <FooterBlock />
 </template>

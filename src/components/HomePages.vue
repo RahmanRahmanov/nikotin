@@ -96,9 +96,9 @@
   <div class="catalog_3pods_container">
     <p class="catalog_3pods_text color_grey-black">каталог</p>
     <div class="catalog_3pods">
-      <div class="_3pods_1"></div>
-      <div class="_3pods_2"></div>
-      <div class="_3pods_3"></div>
+    <div class="_3pods_1"><img class="_3pods_img" src="@/assets/img/3pods_1.png" alt=""></div>
+    <div class="_3pods_2"><img class="_3pods_img" src="@/assets/img/3pods_2.png" alt=""></div>
+    <div class="_3pods_3"><img class="_3pods_img" src="@/assets/img/3pods_3.png" alt=""></div>
     </div>
     <button class="_3pods_button">
       <p class="_3pods_button_text color_white">перейти</p>
@@ -138,29 +138,7 @@
     <p class="reviews_comment_name color_red"></p>
     <p class="reviews_comment color_grey-black"></p>
   </div>
-  <div class="make_order_container">
-    <div class="make_order_decor"></div>
-    <div class="make_order_name_back">
-      <div class="make_order_name">оформить<br />закупку</div>
-    </div>
-    <div class="form-container">
-      <div class="form_block">
-        <input type="text" placeholder="Ваше имя" class="form-input" />
-        <input type="tel" placeholder="+7 (999) 999 99 99" class="form-input" />
-        <textarea
-          placeholder="Расскажите о вашей компании"
-          class="form-textarea form-textarea_padd form-textarea_last"
-        ></textarea>
-        <button class="submit-button">ОТПРАВИТЬ</button>
-      </div>
-      <p class="policy-text color_grey-black">
-        Отправляя заявку, вы соглашаетесь с нашей <br />
-        <a href="#" class="policy-link color_red"
-          >Политикой в отношении обработки персональных данных</a
-        >
-      </p>
-    </div>
-  </div>
+  <MakeorderBlock/>
   <footer class="footer_main">
     <div class="footer_container">
       <div class="footer_img">
@@ -198,10 +176,48 @@
 <script>
 import HeaderBlock from "./stabl/HeaderBlock.vue";
 import SloderReviews from "@/components/UI/SloderReviews.vue";
+import MakeorderBlock from "./stabl/MakeorderBlock.vue";
 export default {
   components: {
     HeaderBlock,
     SloderReviews,
+    MakeorderBlock,
+  },
+  data() {
+    return {
+      sliderPosition: 0,
+    };
+  },
+  mounted() {
+    this.animateSlider();
+  },
+  methods: {
+    animateSlider() {
+      const slider = this.$refs.slider;
+      let count = 0;
+      setInterval(() => {
+        switch (count % 6) {
+          case 0:
+            this.sliderPosition = 0;
+            break;
+          case 1:
+            this.sliderPosition = -1; // -100vw
+            break;
+          case 2:
+            this.sliderPosition = -2; // -200vw
+            break;
+          case 3:
+            this.sliderPosition = -1; // -100vw
+            break;
+          case 4:
+            this.sliderPosition = 0;
+            break;
+        }
+        slider.style.transform = `translateX(${this.sliderPosition * 100}vw)`;
+        count++;
+      }, 15000);
+    },
   },
 };
+
 </script>

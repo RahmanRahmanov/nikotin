@@ -2,7 +2,7 @@
   <header class="header_main">
     <div class="container_header">
       <a href="/" class="header_logo">
-        <img src="@/assets/img/header_img.svg" alt="Header Image"
+        <img class="header_logo_img" src="@/assets/img/header_img.svg" alt="Header Image"
       /></a>
       <div class="nav_text_block">
         <a href="/" class="nav_text">главная</a>
@@ -11,7 +11,7 @@
         <a href="/" class="nav_text">новости</a>
       </div>
       <div class="line_btn">
-        <button class="catalog_btn">
+        <button :class="isKatalogPage ? 'catalog_btn_active' : 'catalog_btn'">
           каталог
           <div class="gradient-line"></div>
         </button>
@@ -19,3 +19,13 @@
     </div>
   </header>
 </template>
+
+<script>
+export default {
+  computed: {
+    isKatalogPage() {
+      return this.$route.path === "/katalog";
+    },
+  },
+};
+</script>
