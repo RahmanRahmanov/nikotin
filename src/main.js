@@ -6,6 +6,7 @@ import KatalogPages from "@/components/KatalogPages.vue";
 import ContactsPages from "@/components/ContactsPages.vue";
 import DeliveryPages from "@/components/DeliveryPages.vue";
 import NewsPages from "@/components/NewsPages.vue";
+import ArticlePages from "@/components/ArticlePages.vue";
 
 const router = createRouter({
   history: createWebHistory(),
@@ -34,6 +35,11 @@ const router = createRouter({
     name: "NewsPages",
     path: "/news",
     component: NewsPages,
+   },   
+   { 
+    name: "ArticlePages",
+    path: "/article",
+    component: ArticlePages,
    }
   ],
 });
