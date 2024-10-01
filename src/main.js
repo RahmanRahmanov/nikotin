@@ -7,7 +7,7 @@ import ContactsPages from "@/components/ContactsPages.vue";
 import DeliveryPages from "@/components/DeliveryPages.vue";
 import NewsPages from "@/components/NewsPages.vue";
 import ArticlePages from "@/components/ArticlePages.vue";
-
+import GoodsPages from "@/components/GoodsPages.vue";
 const router = createRouter({
   history: createWebHistory(),
   routes: [
@@ -40,6 +40,11 @@ const router = createRouter({
     name: "ArticlePages",
     path: "/article",
     component: ArticlePages,
+   },
+   { 
+    name: "GoodsPages",
+    path: "/goods",
+    component: GoodsPages,
    }
   ],
 });
