@@ -53,7 +53,7 @@
           <div class="list_product_podik_img">
             <img class="list_product_podik_img1" src="@/assets/img/katalog_pod/katalog_pod1.png" alt="">
           </div>
-          <div class="list_product_dots">
+          <div class="list_product_dots list_product_dots_pos_katalog ">
             <span>20K</span>
             <span>20 mg</span>
             <span>salt</span>

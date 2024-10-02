@@ -8,7 +8,7 @@
       <div class="tg_social"></div>
       <div class="wp_social"></div>
     </div>
-    <div class="day_night_img_block delivery_img_pos" >
+    <div class="day_night_img_block delivery_img_pos">
       <div class="day_night_img"><img class="delivery_img1" src="@/assets/img/delivery_day_night1.png" alt=""><p class="day_night_text_img color_white">высокое<br>качество<br>товара</p></div>
       <div class="day_night_img"><img class="delivery_img1" src="@/assets/img/rubl.png" alt=""><p class="day_night_text_img  color_white">выгодная<br>цена</p></div>
       <div class="day_night_img"><img class="delivery_img1" src="@/assets/img/day_night3.png" alt=""><p class="day_night_text_img color_white">быстрая<br>доставка<br>по всей <br>области</p></div>

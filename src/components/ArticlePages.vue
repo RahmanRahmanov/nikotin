@@ -86,10 +86,79 @@
           <li>пропиленгликоль (вязкое вещество, помогающее компонентам перемещаться по дыхательным путям).
           </li>
         </ul></div>
-        <p class="article_after_block_text pad_text_article5rem">В наполнитель для электронных сигарет добавляют подсластители, усилители вкуса и другие компоненты<br>
+        <p class="article_after_block_text pad_text_article5rem pad_text_article_bot40px">В наполнитель для электронных сигарет добавляют подсластители, усилители вкуса и другие компоненты<br>
         системы.</p>
-  </div>
-
+        <p class="article_after_block_text pad_text_article5rem pad_text_article_bot20px">Жидкости в электронную сигарету различают по вкусовыми качествами, уровню никотина.</p>
+        <p class="article_after_block_text pad_text_article5rem pad_text_article_bot20px">За уровнем никотина выделяют:</p>
+<ul class="list_articles article_after_block_text pad_text_article5rem pad_text_article_bot20px">
+          <p ></p>
+          <li>
+            безникотиновые – подходят пользователям, которые победили никотиновую зависимость, а привычка <br> курить осталась;          </li>
+          <li>
+            очень легкие –доза 6-11 мг;
+          </li>
+          <li>
+            легкие(12-15мг) – хороший вариант курильщикам со стажем, которые хотят избавиться плохой привычки;
+          </li>
+          <li>
+            крепкие (18 мг) – самый популярный вид среди ассортимента жидкостей для электронных сигарет.
+          </li>
+          <li>
+            очень крепкие (от 25 мг).
+          </li>
+        </ul>
+<p class="article_after_block_text pad_text_article5rem pad_text_article_bot20px">За вкусовыми качествами различают:</p>
+<ul class="list_articles article_after_block_text pad_text_article5rem pad_text_article_bot20px">
+          <p ></p>
+          <li>
+            табачные;
+          </li>
+          <li>
+            фруктовые;
+          </li>
+          <li>
+            коктейльные;
+          </li>
+          <li>
+            десертные;
+          </li>
+          <li>
+            ментоловые;
+          </li>          
+          <li>
+            без ароматизаторов;
+          </li>          
+          <li>
+            ореховые. 
+          </li>
+        </ul>
+<p class="article_after_block_text pad_text_article5rem pad_text_article_bot40px">К десертным вкусам относятся ароматы ванили, карамели, шоколадных напитков, взбитых сливок. Категория <br>
+популярна миксами вкуса десертов, различной выпечки. Помогает забыть о привычке курения обычных <br>
+сигарет.</p>
+<p class="article_after_block_text pad_text_article5rem pad_text_article_bot20px">Универсальный вид – фруктовый. Отличаются необычным сочетанием фруктов, ягод. Фруктовые<br>
+  разновидности продуктов можно разделить на:</p>
+<ul class="list_articles article_after_block_text pad_text_article5rem pad_bot12px">
+          <p ></p>
+          <li>
+          кислые;
+          </li>
+          <li>
+            сладкие;
+          </li>
+          <li>
+            кисло-сладкие.
+          </li>
+        </ul>
+<p class="article_after_block_text pad_text_article5rem pad_text_article_bot40px">Также на современном рынке представлены вейпы без вкуса и запаха.</p>
+<p class="article_after_block_name pad_text_article5rem pad_text_article_bot20px">Как выбрать жидкость для электронной <br>
+  сигареты</p>
+  <p class="article_after_block_text pad_text_article5rem article_last_text">Выбор жидкости для вейпера зависит от потребностей курящего. Если ваша цель – выбрать безопаснейший <br> способ курения, тогда подойдет заправка с любимым вкусом, но уровень никотина желательно брать такой же <br> как в сигаретах. При решении побороть плохую привычку нужно уменьшать дозу каждые 4-5 месяцев. Вы <br> постепенно отвыкнете от вкуса, запаха табака и через некоторое время снизите уровень никотина к нулю.</p>
+<div class="article_after_block_links pad_text_article5rem ">
+  <a class="article_after_block_link " href="">ПРЕДЫДУЮЩАЯ СТАТЬЯ</a>
+  <a class="article_after_block_link" href="">СЛЕДУЮЩАЯ СТАТЬЯ</a>
+</div>
+</div>
+<div class="propast"></div>
   <MakeorderBlock />
   <FooterBlock />
 </template>
@@ -139,7 +208,7 @@ methods: {
     block.style.right = "0";
     } else if (window.pageYOffset + block.offsetHeight >= containerBottom) {
       block.style.position = "absolute";
-    block.style.top = "130rem";
+    block.style.top = "132rem";
     block.style.right = "0";
     } else {
       block.style.position = "absolute";
