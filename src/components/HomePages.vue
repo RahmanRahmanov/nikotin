@@ -1,5 +1,5 @@
 <template>
-<HeaderBlock/>
+  <HeaderBlock />
   <div class="section_full_block">
     <section class="section_full_slider">
       <div class="container_slider" ref="slider">
@@ -29,7 +29,7 @@
     </div>
     <div class="box_title_home_pages">
       <h1 class="title color_white text_align_left">
-        seven<br/>
+        seven<br />
         <span class="margin_title color_white"> stars</span>
       </h1>
     </div>
@@ -96,9 +96,15 @@
   <div class="catalog_3pods_container">
     <p class="catalog_3pods_text color_grey-black">каталог</p>
     <div class="catalog_3pods">
-    <div class="_3pods_1"><img class="_3pods_img" src="@/assets/img/3pods_1.png" alt=""></div>
-    <div class="_3pods_2"><img class="_3pods_img" src="@/assets/img/3pods_2.png" alt=""></div>
-    <div class="_3pods_3"><img class="_3pods_img" src="@/assets/img/3pods_3.png" alt=""></div>
+      <div class="_3pods_1">
+        <img class="_3pods_img" src="@/assets/img/3pods_1.png" alt="" />
+      </div>
+      <div class="_3pods_2">
+        <img class="_3pods_img" src="@/assets/img/3pods_2.png" alt="" />
+      </div>
+      <div class="_3pods_3">
+        <img class="_3pods_img" src="@/assets/img/3pods_3.png" alt="" />
+      </div>
     </div>
     <button class="_3pods_button">
       <p class="_3pods_button_text color_white">перейти</p>
@@ -138,7 +144,7 @@
     <p class="reviews_comment_name color_red"></p>
     <p class="reviews_comment color_grey-black"></p>
   </div>
-  <MakeorderBlock/>
+  <MakeorderBlock />
   <footer class="footer_main">
     <div class="footer_container">
       <div class="footer_img">
@@ -219,5 +225,4 @@ export default {
     },
   },
 };
-
 </script>
