@@ -6,6 +6,9 @@
         <img src="@/assets/img/header_slider.png" class="img_slider" />
         <img src="@/assets/img/header_slider2.png" class="img_slider" />
         <img src="@/assets/img/header_slider3.png" class="img_slider" />
+        <img src="@/assets/img/for_phone/home_slider1.png" class="img_slider_phone" />
+        <img src="@/assets/img/for_phone/home_slider2.png" class="img_slider_phone" />
+        <img src="@/assets/img/for_phone/home_slider3.png" class="img_slider_phone" />
       </div>
       <div class="box_marker_slider">
         <div
@@ -34,7 +37,7 @@
       </h1>
     </div>
   </div>
-  <div class="about_us_container">
+   <div class="about_us_container">
     <div class="about_us_block">
       <p class="onas_us_block">о нас</p>
       <div class="about_us_container_text">
@@ -56,7 +59,28 @@
           клиентов!
         </p>
       </div>
+      <div class="about_us_container_text_phone">
+        <p class="about_us_text">Яркие ароматы и вкусопередача</p>
+        <p class="about_us_text">
+          За время работы мы <br />получили много<br />
+          положительных<br /> отзывов от наших<br />
+          партнёров.
+        </p>
+        <p class="about_us_text">
+          Нашей продукцией<br /> являются<br />
+          Электронные<br /> сигареты и жидкости<br />
+          для электронных <br />сигарет
+        </p>
+        <p class="about_us_text">
+          Мы представляем <br />только 
+          оригинальную<br /> продукцию и стараемся<br />
+          быть лучшим<br /> партнёром для наших<br />
+          клиентов!
+        </p>
+      </div>
     </div>
+    
+    
     <div class="block_on_block">
       <p class="text_block_on_block">
         текст,где описан опыт,путь и другая интереная информация о компании
@@ -65,8 +89,8 @@
         <br />
         текст, где описан опыт, путь и другая интересная информация
       </p>
-    </div>
-  </div>
+    </div></div>
+   
   <div class="tri_block">
     <div class="nomber_tri_position">
       <div class="nomber_block_red nomber_position">
@@ -81,7 +105,7 @@
     <div class="nomber_tri_position">
       <div class="nomber_block_yellow nomber_position">
         <p class="text_nomber_tri">линейки<br />крепости<br />day & night</p>
-        <img class="day_img" src="@/assets/img/day.svg" alt="" />
+        <img class="day_img" src="@/assets/img/day.png" alt="" />
       </div>
       <p class="nomber_tri_block">2</p>
     </div>
@@ -92,7 +116,8 @@
       </div>
       <p class="nomber_tri_block">20k</p>
     </div>
-  </div>
+  </div> 
+
   <div class="catalog_3pods_container">
     <p class="catalog_3pods_text color_grey-black">каталог</p>
     <div class="catalog_3pods">
@@ -110,7 +135,8 @@
       <p class="_3pods_button_text color_white">перейти</p>
       <img src="@/assets/img/Arrow 1.svg" alt="" />
     </button>
-  </div>
+  </div>  
+  <!--
   <div class="top_tastes_container">
     <p class="top_tastes_text color_grey-black">топ вкусы</p>
     <div class="top_tastes_block_all">
@@ -176,18 +202,18 @@
         <button class="footer_btn color_grey-black">связаться с нами</button>
       </div>
     </div>
-  </footer>
+  </footer> -->
 </template>
 
 <script>
 import HeaderBlock from "./stabl/HeaderBlock.vue";
-import SloderReviews from "@/components/UI/SloderReviews.vue";
-import MakeorderBlock from "./stabl/MakeorderBlock.vue";
+// import SloderReviews from "@/components/UI/SloderReviews.vue";
+// import MakeorderBlock from "./stabl/MakeorderBlock.vue";
 export default {
   components: {
     HeaderBlock,
-    SloderReviews,
-    MakeorderBlock,
+    // SloderReviews,
+    // MakeorderBlock,
   },
   data() {
     return {

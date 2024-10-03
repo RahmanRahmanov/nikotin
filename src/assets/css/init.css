@@ -236,6 +236,13 @@
   display: flex;
   gap: 1.2rem;
 }
+.social_media_goods {
+  position: absolute;
+  left: 5rem;
+  bottom: -3rem;
+  display: flex;
+  gap: 1.2rem;
+}
 .margin_title {
   margin-left: 19rem;
 }
@@ -452,7 +459,7 @@
   background: rgb(60, 59, 75);
   width: 20rem;
   height: 6.25rem;
-  left: 63.37rem;
+  left: 6.625rem;
   bottom: 7.31rem;
   padding-left: 3.75rem;
   padding-right: 3.75rem;
@@ -587,7 +594,7 @@
   z-index: 0;
   position: relative;
   background-color: white;
-  width: 90rem;
+  width: 100%;
   height: 53.75rem;
   padding-top: 3.75rem;
   padding-left: 5rem;
@@ -807,7 +814,7 @@ width: 29.06rem;
 }
 .title_catalog_container {
   padding-top: 6.25rem;
-  height: 100vh;
+  height: calc(100vh + 6.25rem);
   background-color: black;
 }
 .mail_social_katalog {
@@ -1505,6 +1512,8 @@ width: 29.06rem;
   z-index: 0;
   object-fit: cover;
   filter: brightness(30%);
+  height: 100%;
+  width: 100%;
 }
 .goods_zind {
   background-color: black;
@@ -1512,8 +1521,6 @@ width: 29.06rem;
   top: 0;
   left: 0;
   padding-bottom: 6.25rem;
-}
-.title_goods_conrtainer {
 }
 .title_goods_list_text {
   color: rgb(242, 243, 247);
@@ -1540,4 +1547,269 @@ width: 29.06rem;
   flex-direction: column;
   display: flex;
   row-gap: 0.81rem;
+}
+.header_burger {
+  /* display: none; */
+  position: relative;
+  width: 1.38rem;
+  height: 0.88rem;
+}
+.burger_line1 {
+  position: absolute;
+  width: 1.13rem;
+  height: 0rem;
+  background-color: rgb(255, 255, 255);
+  border-radius: 0.88rem;
+  top: 0;
+  border: 0.12rem solid rgb(255, 255, 255);
+}
+.burger_line2 {
+  position: absolute;
+  width: 1.13rem;
+  height: 0rem;
+  right: 0;
+  background-color: rgb(255, 255, 255);
+  border-radius: 0.88rem;
+  top: 50%; /* Средняя линия */
+  transform: translateY(-50%);
+  border: 0.12rem solid rgb(255, 255, 255);
+}
+
+.burger_line3 {
+  position: absolute;
+  width: 1.13rem;
+  height: 0rem;
+  background-color: rgb(255, 255, 255);
+  border-radius: 0.88rem;
+  bottom: 0;
+  border: 0.12rem solid rgb(255, 255, 255);
+}
+
+@media (max-width: 767px) {
+  .container_header {
+    padding-left: 2rem;
+    height: 4.44rem;
+    background-color: black;
+  }
+  .header_logo_img {
+    width: 2.17rem;
+    height: 2.13rem;
+  }
+  .header_burger {
+    display: block;
+  }
+  .catalog_btn {
+    width: 11.63rem;
+    height: 4.44rem;
+    font-weight: 700;
+    line-height: 1.19rem;
+  }
+  .gradient-line {
+    display: none;
+  }
+  .adapt_header_img_pos {
+    display: flex;
+    gap: 3.5rem;
+    align-items: center;
+  }
+  .nav_text_block {
+    display: none;
+  }
+  .img_slider {
+    display: none;
+  }
+  .img_slider_phone {
+    width: 100vw;
+    height: 100%;
+    object-fit: cover;
+  }
+  .box_title_home_pages {
+    transform: rotate(-90deg); /* Поворот на 90 градусов */
+    transform-origin: left top; /* Точка поворота */
+    white-space: nowrap; /* Запрещает перенос строки */
+    left: 11rem;
+    bottom: -10rem;
+  }
+  .title {
+    font-size: 6rem;
+    font-weight: 700;
+    line-height: 5.63rem;
+  }
+  .margin_title {
+    margin-left: 8.6rem;
+  }
+  .social_media {
+    gap: 1.62rem;
+    flex-direction: column;
+    left: 2rem;
+    bottom: 2.5rem;
+  }
+  .box_marker_slider {
+    bottom: 2.31rem;
+    left: 8.81rem;
+  }
+  .marker_slider_1 {
+    width: 1.19rem;
+    height: 1.19rem;
+  }
+  .marker_slider_1.active {
+    width: 1.19rem;
+    height: 1.19rem;
+  }
+  .marker_slider_3 {
+    width: 1.19rem;
+    height: 1.19rem;
+  }
+  .marker_slider_2 {
+    width: 1.19rem;
+    height: 1.19rem;
+  }
+  .marker_slider_2.active {
+    width: 1.19rem;
+    height: 1.19rem;
+  }
+  .marker_slider_3.active {
+    width: 1.19rem;
+    height: 1.19rem;
+  }
+  .onas_us_block {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2.38rem;
+    padding-top: 2.5rem;
+    margin-bottom: 0.75rem;
+  }
+  .about_us_text {
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.81rem;
+  }
+  .about_us_block {
+    padding-left: 1.875rem;
+    padding-bottom: 2.69rem;
+  }
+  .about_us_container_text_phone {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+  }
+  .about_us_container_text {
+    display: none;
+  }
+  .block_on_block {
+    position: relative;
+    width: 100%;
+    height: 31.56rem;
+    top: 0;
+    right: 0;
+    padding-top: 3rem;
+    padding-left: 2rem;
+  }
+  .text_block_on_block {
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.81rem;
+    width: 19.13rem;
+    height: 23.56rem;
+    letter-spacing: -0.03rem;
+  }
+  .tri_block {
+    flex-direction: column;
+    gap: 4.37rem;
+    margin-top: 6.87rem;
+    padding-left: 2.5rem;
+  }
+  .nomber_block_red {
+    width: 18.44rem;
+    height: 18.44rem;
+  }
+  .nomber_block_yellow {
+    width: 18.44rem;
+    height: 18.44rem;
+  }
+  .nomber_block_black {
+    width: 18.44rem;
+    height: 18.44rem;
+  }
+  .text_nomber_tri {
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.81rem;
+  }
+  .nomber_position {
+    padding-left: 2.5rem;
+    padding-top: 2.5rem;
+  }
+  .kapla_img {
+    bottom: 2.5rem;
+    right: 2.5rem;
+    width: 3.13rem;
+    height: 4.56rem;
+  }
+  .day_img {
+    bottom: 2.5rem;
+    right: 2.5rem;
+  }
+  .blacktatoo_img {
+    width: 2.94rem;
+    height: 5.88rem;
+    bottom: 2.5rem;
+    right: 2.5rem;
+  }
+  .nomber_tri_block {
+    font-size: 5.63rem;
+    font-weight: 700;
+    line-height: 6.75rem;
+    left: 1.75rem;
+    top: -4.3rem;
+  }
+  .catalog_3pods_container {
+    padding-top: 2.5rem;
+    padding-left: 1.87rem;
+    background-image: url(@/assets/img/for_phone/3pods_forphone.png);
+    width: 23.44rem;
+    height: 51.88rem;
+  }
+  .catalog_3pods_text {
+    font-size: 2.25rem;
+    font-weight: 700;
+    line-height: 2.69rem;
+  }
+  ._3pods_1 {
+    position: absolute;
+    width: 8.5rem;
+    height: 14.44rem;
+    left: 3.81rem;
+    top: 6.75rem;
+  }
+  ._3pods_img {
+    width: 4.44rem;
+    height: 8.5rem;
+  }
+  ._3pods_2 {
+    position: absolute;
+    width: 8.5rem;
+    height: 14.44rem;
+    right: 3.75rem;
+    top: 16.62rem;
+    z-index: 2;
+  }
+  ._3pods_3 {
+    position: absolute;
+    width: 8.5rem;
+    height: 14.44rem;
+    left: 7.5rem;
+    bottom: 7.5rem;
+  }
+  ._3pods_button {
+    right: 1.87rem;
+    bottom: 1.87rem;
+    width: 12.19rem;
+    height: 3.75rem;
+  }
+  ._3pods_button_text {
+    font-size: 0.75rem;
+    font-weight: 400;
+    line-height: 0.88rem;
+  }
 }

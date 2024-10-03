@@ -75,7 +75,7 @@
         </div>
       </div>
     </div>
-    <div class="social_media">
+    <div class="social_media_goods">
       <div class="mail_social"></div>
       <div class="tg_social"></div>
       <div class="wp_social"></div>
@@ -122,6 +122,7 @@
   <section class="top_goods_slider">
     <div class="top_goods_block">
       <p class="top_tastes_text color_grey-black">популярные товары</p>
+      <GoodsSlider />
     </div>
   </section>
   <TopLiest />
@@ -134,12 +135,14 @@ import HeaderBlock from "./stabl/HeaderBlock.vue";
 import MakeorderBlock from "./stabl/MakeorderBlock.vue";
 import FooterBlock from "./stabl/FooterBlock.vue";
 import TopLiest from "./stabl/TopLiest.vue";
+import GoodsSlider from "@/components/UI/GoodsSlider.vue";
 export default {
   components: {
     HeaderBlock,
     MakeorderBlock,
     FooterBlock,
     TopLiest,
+    GoodsSlider,
   },
 };
 </script>
