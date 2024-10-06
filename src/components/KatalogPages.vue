@@ -1,6 +1,6 @@
 <template>
   <HeaderBlock />
-  <section class="title_catalog_container">
+  <section class="title_catalog_container1">
     <div class="title_catalog_block">
       <p class="title_catalog color_red">каталог</p>
     </div>
@@ -14,7 +14,8 @@
     <div class="day_night_block">
       <div class="day_night_text_block">
         <p class="day_night_title">day&night</p>
-        <p class="day_night_text">линейка вкусов<br />для ценителей крепости</p>
+        <p class="day_night_text day_night_text_none">линейка вкусов<br />для ценителей крепости</p>
+        <p class="day_night_text day_night_text_none_phone">линейка вкусов для<br />ценителей крепости</p>
       </div>
       <div class="day_night_img_block">
         <div class="day_night_img">
@@ -107,7 +108,7 @@
               alt=""
             />
           </div>
-          <div class="list_product_dots">
+          <div class="list_product_dots list_product_dots_pos_katalog">
             <span>20K</span>
             <span>20 mg</span>
             <span>salt</span>
@@ -127,7 +128,7 @@
               alt=""
             />
           </div>
-          <div class="list_product_dots">
+          <div class="list_product_dots list_product_dots_pos_katalog">
             <span>20K</span>
             <span>20 mg</span>
             <span>salt</span>
@@ -147,7 +148,7 @@
               alt=""
             />
           </div>
-          <div class="list_product_dots">
+          <div class="list_product_dots list_product_dots_pos_katalog">
             <span>20K</span>
             <span>20 mg</span>
             <span>salt</span>
@@ -167,7 +168,7 @@
               alt=""
             />
           </div>
-          <div class="list_product_dots">
+          <div class="list_product_dots list_product_dots_pos_katalog">
             <span>20K</span>
             <span>20 mg</span>
             <span>salt</span>
@@ -187,7 +188,7 @@
               alt=""
             />
           </div>
-          <div class="list_product_dots">
+          <div class="list_product_dots list_product_dots_pos_katalog">
             <span>20K</span>
             <span>20 mg</span>
             <span>salt</span>
@@ -207,7 +208,7 @@
               alt=""
             />
           </div>
-          <div class="list_product_dots">
+          <div class="list_product_dots list_product_dots_pos_katalog">
             <span>20K</span>
             <span>20 mg</span>
             <span>salt</span>
@@ -227,7 +228,7 @@
               alt=""
             />
           </div>
-          <div class="list_product_dots">
+          <div class="list_product_dots list_product_dots_pos_katalog">
             <span>20K</span>
             <span>20 mg</span>
             <span>salt</span>
@@ -247,7 +248,7 @@
               alt=""
             />
           </div>
-          <div class="list_product_dots">
+          <div class="list_product_dots list_product_dots_pos_katalog">
             <span>20K</span>
             <span>20 mg</span>
             <span>salt</span>
@@ -267,7 +268,7 @@
               alt=""
             />
           </div>
-          <div class="list_product_dots">
+          <div class="list_product_dots list_product_dots_pos_katalog">
             <span>20K</span>
             <span>20 mg</span>
             <span>salt</span>
@@ -290,7 +291,7 @@
                 alt=""
               />
             </div>
-            <div class="list_product_dots">
+            <div class="list_product_dots list_product_dots_pos_katalog">
               <span>20K</span>
               <span>20 mg</span>
               <span>salt</span>
@@ -310,7 +311,7 @@
                 alt=""
               />
             </div>
-            <div class="list_product_dots">
+            <div class="list_product_dots list_product_dots_pos_katalog">
               <span>20K</span>
               <span>20 mg</span>
               <span>salt</span>
@@ -330,7 +331,7 @@
                 alt=""
               />
             </div>
-            <div class="list_product_dots">
+            <div class="list_product_dots list_product_dots_pos_katalog">
               <span>20K</span>
               <span>20 mg</span>
               <span>salt</span>
@@ -350,7 +351,7 @@
                 alt=""
               />
             </div>
-            <div class="list_product_dots">
+            <div class="list_product_dots list_product_dots_pos_katalog">
               <span>20K</span>
               <span>20 mg</span>
               <span>salt</span>

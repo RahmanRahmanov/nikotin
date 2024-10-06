@@ -6,9 +6,18 @@
         <img src="@/assets/img/header_slider.png" class="img_slider" />
         <img src="@/assets/img/header_slider2.png" class="img_slider" />
         <img src="@/assets/img/header_slider3.png" class="img_slider" />
-        <img src="@/assets/img/for_phone/home_slider1.png" class="img_slider_phone" />
-        <img src="@/assets/img/for_phone/home_slider2.png" class="img_slider_phone" />
-        <img src="@/assets/img/for_phone/home_slider3.png" class="img_slider_phone" />
+        <img
+          src="@/assets/img/for_phone/home_slider1.png"
+          class="img_slider_phone"
+        />
+        <img
+          src="@/assets/img/for_phone/home_slider2.png"
+          class="img_slider_phone"
+        />
+        <img
+          src="@/assets/img/for_phone/home_slider3.png"
+          class="img_slider_phone"
+        />
       </div>
       <div class="box_marker_slider">
         <div
@@ -37,7 +46,7 @@
       </h1>
     </div>
   </div>
-   <div class="about_us_container">
+  <div class="about_us_container">
     <div class="about_us_block">
       <p class="onas_us_block">о нас</p>
       <div class="about_us_container_text">
@@ -63,24 +72,27 @@
         <p class="about_us_text">Яркие ароматы и вкусопередача</p>
         <p class="about_us_text">
           За время работы мы <br />получили много<br />
-          положительных<br /> отзывов от наших<br />
+          положительных<br />
+          отзывов от наших<br />
           партнёров.
         </p>
         <p class="about_us_text">
-          Нашей продукцией<br /> являются<br />
-          Электронные<br /> сигареты и жидкости<br />
+          Нашей продукцией<br />
+          являются<br />
+          Электронные<br />
+          сигареты и жидкости<br />
           для электронных <br />сигарет
         </p>
         <p class="about_us_text">
-          Мы представляем <br />только 
-          оригинальную<br /> продукцию и стараемся<br />
-          быть лучшим<br /> партнёром для наших<br />
+          Мы представляем <br />только оригинальную<br />
+          продукцию и стараемся<br />
+          быть лучшим<br />
+          партнёром для наших<br />
           клиентов!
         </p>
       </div>
     </div>
-    
-    
+
     <div class="block_on_block">
       <p class="text_block_on_block">
         текст,где описан опыт,путь и другая интереная информация о компании
@@ -89,8 +101,9 @@
         <br />
         текст, где описан опыт, путь и другая интересная информация
       </p>
-    </div></div>
-   
+    </div>
+  </div>
+
   <div class="tri_block">
     <div class="nomber_tri_position">
       <div class="nomber_block_red nomber_position">
@@ -116,7 +129,7 @@
       </div>
       <p class="nomber_tri_block">20k</p>
     </div>
-  </div> 
+  </div>
 
   <div class="catalog_3pods_container">
     <p class="catalog_3pods_text color_grey-black">каталог</p>
@@ -133,10 +146,15 @@
     </div>
     <button class="_3pods_button">
       <p class="_3pods_button_text color_white">перейти</p>
-      <img src="@/assets/img/Arrow 1.svg" alt="" />
+      <img class="arrow_katalog_img" src="@/assets/img/Arrow 1.svg" alt="" />
+      <img
+        class="arrow_katalog_img_phone"
+        src="@/assets/img/Arrow_phone.png"
+        alt=""
+      />
     </button>
-  </div>  
-  <!--
+  </div>
+
   <div class="top_tastes_container">
     <p class="top_tastes_text color_grey-black">топ вкусы</p>
     <div class="top_tastes_block_all">
@@ -183,16 +201,18 @@
           <a class="footer_links_text color_white" href="/">отзывы</a>
           <a class="footer_links_text color_white" href="/">контакты</a>
         </div>
-        <a
-          class="footer_links_text color_white footer_links_text_position2"
-          href="tel:+89999999999"
-          >8 999 999 99 99</a
-        >
-        <a
-          class="footer_links_text color_white footer_links_text_position"
-          href="mailto:7stоbacсo@gmail.com"
-          >7stоbacсo@gmail.com</a
-        >
+        <div class="footer_links_text_phone">
+          <a
+            class="footer_links_text color_white footer_links_text_position2"
+            href="tel:+89999999999"
+            >8 999 999 99 99</a
+          >
+          <a
+            class="footer_links_text color_white footer_links_text_position"
+            href="mailto:7stоbacсo@gmail.com"
+            >7stоbacсo@gmail.com</a
+          >
+        </div>
         <a class="footer_links_opacity_text color_white" href="/"
           >политика конфиденциальности</a
         >
@@ -202,18 +222,27 @@
         <button class="footer_btn color_grey-black">связаться с нами</button>
       </div>
     </div>
-  </footer> -->
+    <button class="footer_btn_phone">связаться с нами</button>
+    <div class="footer_phone_end">
+      <a class="footer_links_phone_text color_white" href="/"
+        >политика конфиденциальности</a
+      >
+      <a class="color_white footer_links_phone_text" href="/"
+        >© 2024 7s. Все права защищены.</a
+      >
+    </div>
+  </footer>
 </template>
 
 <script>
 import HeaderBlock from "./stabl/HeaderBlock.vue";
-// import SloderReviews from "@/components/UI/SloderReviews.vue";
-// import MakeorderBlock from "./stabl/MakeorderBlock.vue";
+import SloderReviews from "@/components/UI/SloderReviews.vue";
+import MakeorderBlock from "./stabl/MakeorderBlock.vue";
 export default {
   components: {
     HeaderBlock,
-    // SloderReviews,
-    // MakeorderBlock,
+    SloderReviews,
+    MakeorderBlock,
   },
   data() {
     return {
@@ -247,7 +276,7 @@ export default {
         }
         slider.style.transform = `translateX(${this.sliderPosition * 100}vw)`;
         count++;
-      }, 15000);
+      }, 5000);
     },
   },
 };

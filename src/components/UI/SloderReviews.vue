@@ -3,7 +3,7 @@
     <swiper
       :modules="{ Autoplay }"
       :slidesPerView="slidesPerView"
-      :spaceBetween="30"
+      :spaceBetween="spaceBetween"
       :autoplay="{ delay: 3000, disableOnInteraction: false }"
       :speed="5000"
       class="mySwiper"
@@ -11,7 +11,7 @@
       <swiper-slide v-for="(review, index) in reviewsData" :key="index">
         <div class="review-card">
           <p class="reviews_comment_name color_red">{{ review.name }}</p>
-          <p class="reviews_comment color_grey-black ">{{ review.text }}</p>
+          <p class="reviews_comment color_grey-black">{{ review.text }}</p>
         </div>
       </swiper-slide>
     </swiper>
@@ -23,7 +23,7 @@
 </template>
 
 <script>
-import { ref } from "vue"; //, onMounted, onUpdated
+import { ref, onMounted, onUpdated } from "vue"; //, onMounted, onUpdated
 import { Swiper, SwiperSlide } from "swiper/vue";
 import SwiperCore, { Autoplay } from "swiper/core";
 import "swiper/swiper-bundle.css";
@@ -61,24 +61,28 @@ export default {
     ]);
 
     const slidesPerView = ref(2.5);
+    const spaceBetween = ref(100);
 
-    // const updateSlidesPerView = () => {
-    //   if (window.innerWidth <= 980) {
-    //     slidesPerView.value = 1;
-    //   } else {
-    //     slidesPerView.value = 3;
-    //   }
-    // };
+    const updateSlidesPerView = () => {
+      if (window.innerWidth <= 767) {
+        slidesPerView.value = 1.5;
+        spaceBetween.value = 50;
+      } else {
+        slidesPerView.value = 2.5;
+        spaceBetween.value = 100;
+      }
+    };
 
-    // onMounted(() => {
-    //   updateSlidesPerView();
-    // });
-    // onUpdated(updateSlidesPerView);
+    onMounted(() => {
+      updateSlidesPerView();
+    });
+    onUpdated(updateSlidesPerView);
 
     return {
       reviewsData,
       slidesPerView,
       SwiperCore,
+      spaceBetween,
       modules: {
         Autoplay,
       },

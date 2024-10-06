@@ -12,6 +12,7 @@
             placeholder="Ваше имя"
             v-model="name"
             class="form-input"
+            ref="form_input_name"
           />
           <p v-if="nameError" class="error-text">{{ nameError }}</p>
         </div>
@@ -22,6 +23,7 @@
             placeholder="+7 (999) 999 99 99"
             v-model="phone"
             class="form-input"
+            ref="form_input_phone"
           />
           <p v-if="phoneError" class="error-text">{{ phoneError }}</p>
         </div>
@@ -41,7 +43,6 @@
         >
       </p>
     </div>
-
     <div v-if="showError" class="error_make_oreder">
       <p class="error_order_text color_white">
         Пожалуйста, заполните все обязательные поля
@@ -89,24 +90,28 @@ export default {
 
       // Валидация имени (минимум 2 символа)
       if (this.name.length < 2) {
-        this.nameError = "Имя должно содержать не менее 2 символов";
+        this.nameError = "Имя не менее 2 символов";
+        this.$refs.form_input_name.classList.toggle("active");
       }
 
       // Валидация телефона (+7 или 8)
       const phonePattern = /^(?:\+7|8)\s?\(?\d{3}\)?\s?\d{3}\s?\d{2}\s?\d{2}$/;
       if (!phonePattern.test(this.phone)) {
-        this.phoneError = "Введите корректный номер телефона (+7 или 8)";
+        this.phoneError = "Введите корректный номер)";
+        this.$refs.form_input_phone.classList.toggle("active");
       }
 
       // Если нет ошибок, открываем модальное окно
       if (!this.nameError && !this.phoneError) {
         console.log("Имя:", this.name);
         console.log("Телефон:", this.phone);
+
         if (this.company) {
           console.log("Компания:", this.company);
         } else {
           console.log("Компания: не указана");
         }
+
         this.openModal();
       } else {
         // Показ статического окна ошибки на 5 секунд
@@ -118,7 +123,9 @@ export default {
     },
     resetErrors() {
       this.nameError = "";
+      this.$refs.form_input_name.classList.remove("active");
       this.phoneError = "";
+      this.$refs.form_input_phone.classList.remove("active");
     },
     openModal() {
       this.showModal = true;
@@ -136,7 +143,7 @@ export default {
 .form-input,
 .form-textarea {
   display: block;
-  margin-bottom: 0,62rem;
+  margin-bottom: 0, 62rem;
 }
 
 .error-text {
