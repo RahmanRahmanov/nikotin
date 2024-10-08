@@ -1,4 +1,5 @@
 <template>
+  <AgeVerification/>
   <header class="header_main">
     <div class="container_header">
       <div class="adapt_header_img_pos">
@@ -27,8 +28,13 @@
   </header>
 </template>
 
+
 <script>
+import AgeVerification from "@/components/UI/AgeVerification.vue";
 export default {
+  components: {
+    AgeVerification
+  },
   computed: {
     isKatalogPage() {
       return this.$route.path === "/katalog";

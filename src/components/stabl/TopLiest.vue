@@ -1,5 +1,5 @@
 <template>
-     <div class="top_tastes_container">
+ <div class="top_tastes_container">
     <p class="top_tastes_text color_grey-black">топ вкусы</p>
     <div class="top_tastes_block_all">
       <div class="mixed_berry">
@@ -25,5 +25,5 @@
         <p class="mixed_berry_mg color_red">20mg</p>
       </div>
     </div>
-</div>
+  </div>
 </template>

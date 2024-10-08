@@ -54,16 +54,30 @@
         <p class="tel_name color_red">телефон:</p>
         <a class="tel_name" href="tel:+89999999999"> 8 999 999 99 99</a>
       </div>
-      <div class="contacts_tel">
+      <div class="contacts_tel tel_name_phone1">
         <p class="tel_name color_red">почта:</p>
         <a class="tel_name" href="mailto:7stоbacсo@gmail.com">
           7stоbacсo@gmail.com</a
         >
       </div>
-      <div class="contacts_text">
-        <p class="tel_name">
+      <div class="contacts_tel tel_name_phone">
+        <p class="tel_name color_red">почта: <br></p>
+        <a class="tel_name" href="mailto:7stоbacсo@gmail.com">
+          7stоbacсo@gmail.com</a
+        >
+      </div>
+      <div class="contacts_text tel_name_time_phone1">
+        <p class="tel_name ">
           Принимаем звонки
           <span class="tel_name color_red"> с 9:00 до 21:00 </span
+          ><span class="tel_name">(по Москве)</span>
+        </p>
+        <p class="tel_name">заказы через сайт принимаются круглосуточно!</p>
+      </div>
+      <div class="contacts_text tel_name_time_phone">
+        <p class="tel_name ">
+          Принимаем звонки <br>
+          <span class="tel_name color_red"> с 9:00 до 21:00 <br> </span
           ><span class="tel_name">(по Москве)</span>
         </p>
         <p class="tel_name">заказы через сайт принимаются круглосуточно!</p>

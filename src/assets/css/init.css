@@ -236,7 +236,7 @@
   display: flex;
   gap: 1.2rem;
 }
-.social_media_delivery{
+.social_media_delivery {
   position: absolute;
   left: 5rem;
   bottom: 3rem;
@@ -1108,6 +1108,9 @@ width: 29.06rem;
   object-position: bottom;
   bottom: 0;
 }
+.tel_name_time_phone {
+  display: none;
+}
 .contacts_name_container {
   color: rgb(60, 59, 75);
   font-family: Hero-Bold;
@@ -1160,6 +1163,10 @@ width: 29.06rem;
   bottom: 6.43rem;
   left: 5rem;
 }
+.title_goods_name_phone {
+  display: none;
+}
+
 .delivery_img_pos {
   position: absolute;
   right: 5rem;
@@ -1178,6 +1185,9 @@ width: 29.06rem;
   font-weight: 700;
   line-height: 4.81rem;
   text-transform: uppercase;
+}
+.full_block_18_text_phone {
+  display: none;
 }
 .delivery_pay_text {
   color: rgb(60, 59, 75);
@@ -1245,6 +1255,66 @@ width: 29.06rem;
   padding-bottom: 2rem;
   width: 37.5rem;
 }
+.no-scroll {
+  overflow: hidden;
+}
+.tel_name_phone {
+  display: none;
+}
+.full_block_18 {
+  display: flex;
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  z-index: 3;
+  background-image: url(@/assets/img/ageverification_back.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex-direction: column;
+  row-gap: 2.5rem;
+}
+.full_block_18_question {
+  padding-top: 18.87rem;
+  font-family: Hero-Regular;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 2.38rem;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+}
+.full_block_18_text {
+  font-family: Hero-Regular;
+  font-size: 0.81rem;
+  font-weight: 400;
+  line-height: 1rem;
+  width: 35.13rem;
+  text-transform: uppercase;
+}
+.full_block_18_button {
+  border-radius: 3.13rem;
+  background-color: white;
+  width: 16.25rem;
+  height: 6.25rem;
+  color: rgb(46, 49, 55);
+  font-family: Hero-Regular;
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 2.38rem;
+}
+.full_block_18_button:hover {
+  background-color: rgb(231, 255, 124);
+}
+.full_block_18_text_block {
+  display: flex;
+  justify-content: center;
+}
+.full_block_18_button_block {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+}
 .propast {
   padding-bottom: 2rem;
 }
@@ -1260,6 +1330,7 @@ width: 29.06rem;
   font-weight: 700;
   line-height: 1.5rem;
   text-transform: uppercase;
+  width: 17.19rem;
 }
 .news_block_main_text {
   color: rgb(127, 126, 147);
@@ -1267,6 +1338,7 @@ width: 29.06rem;
   font-size: 0.88rem;
   font-weight: 400;
   line-height: 1.06rem;
+  width: 21.13rem;
 }
 .news_block_btn {
   border-radius: 3.81rem;
@@ -1618,7 +1690,7 @@ width: 29.06rem;
   left: 0;
   padding-bottom: 6.25rem;
 }
-.delivery_pay_text_mobile{
+.delivery_pay_text_mobile {
   display: none;
 }
 .title_goods_list_text {
@@ -1730,6 +1802,7 @@ width: 29.06rem;
     bottom: -10rem;
   }
   .title {
+    padding-left: 4rem;
     font-size: 6rem;
     font-weight: 700;
     line-height: 5.63rem;
@@ -1786,14 +1859,12 @@ width: 29.06rem;
   .about_us_block {
     padding-left: 1.875rem;
     padding-bottom: 2.69rem;
+    padding-right: 1.75rem;
   }
   .about_us_container_text_phone {
     display: flex;
     flex-direction: column;
     row-gap: 1.5rem;
-  }
-  .about_us_container_text {
-    display: none;
   }
   .block_on_block {
     position: relative;
@@ -2242,60 +2313,206 @@ width: 29.06rem;
   .day_night_text_none_phone {
     display: block;
   }
-  .social_media_delivery{  
+  .social_media_delivery {
     display: none;
   }
-  .delivery_name{
+  .delivery_name {
     font-size: 2.25rem;
-font-weight: 700;
-line-height: 2.69rem;
-left: 1.87rem;
-bottom: 0;
+    font-weight: 700;
+    line-height: 2.69rem;
+    left: 1.87rem;
+    bottom: 0;
   }
-.day_night_container{
-  background-color: black;
-}
-.delivery_block{
-  position: relative;
-  padding-top: 14rem;
-}
-.section_full_header{
-  height: 100%;
-}
-.delivery_pay_name{
-  font-size: 2rem;
-font-weight: 700;
-line-height: 2.38rem;
-}
-.delivery_pay_text{
-  font-size: 1.5rem;
-font-weight: 700;
-line-height: 1.81rem;
-}
-.delivery_pay_container{
-  padding-left: 1.87rem;
-  padding-bottom: 1.87rem;
-  padding-right: 1.87rem;
-  background-image: url(@/assets/img/delivery_phone_back.png);
-}
-.delivery_pay_block{
-  row-gap: 1.25rem;
-
-}
-.delivery_pay_block{
-  padding-bottom: 2.5rem;
-  padding-top: 2.5rem ;
-}
-.black_hole_between{
-  padding-bottom: 3.13rem;
-}
-.delivery_pay_text_mobile{
-display: block;
-}
-.delivery_pay_text_mobile1{
-  display: none;
-}
-.delivery_pay_text_end{
-  padding-left: 1rem;
-}
+  .day_night_container {
+    background-color: black;
+  }
+  .delivery_block {
+    position: relative;
+    padding-top: 14rem;
+  }
+  .section_full_header {
+    height: 100%;
+  }
+  .delivery_pay_name {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2.38rem;
+  }
+  .delivery_pay_text {
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.81rem;
+  }
+  .delivery_pay_container {
+    padding-left: 1.87rem;
+    padding-bottom: 1.87rem;
+    padding-right: 1.87rem;
+    background-image: url(@/assets/img/delivery_phone_back.png);
+  }
+  .delivery_pay_block {
+    row-gap: 1.25rem;
+  }
+  .delivery_pay_block {
+    padding-bottom: 2.5rem;
+    padding-top: 2.5rem;
+  }
+  .black_hole_between {
+    padding-bottom: 3.13rem;
+  }
+  .delivery_pay_text_mobile {
+    display: block;
+  }
+  .delivery_pay_text_mobile1 {
+    display: none;
+  }
+  .delivery_pay_text_end {
+    padding-left: 1rem;
+  }
+  .full_block_18 {
+    background-image: url(@/assets/img/ageverification_back_phone.png);
+  }
+  .full_block_18_question {
+    padding-top: 15.75rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.81rem;
+  }
+  .full_block_18_button {
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.81rem;
+    border-radius: 3.13rem;
+    width: 10rem;
+    height: 4.13rem;
+  }
+  .full_block_18_text {
+    font-size: 0.63rem;
+    font-weight: 400;
+    line-height: 0.75rem;
+    width: 21.2rem;
+  }
+  .full_block_18_button_block {
+    gap: 1.25rem;
+  }
+  .full_block_18_text_phone {
+    display: block;
+  }
+  .full_block_18_text_desc {
+    display: none;
+  }
+  .contacts_container {
+    padding-top: 2.5rem;
+    padding-left: 1.87rem;
+  }
+  .contacts_name_container {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2.38rem;
+  }
+  .tel_name {
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.81rem;
+  }
+  .tel_name_phone {
+    display: block;
+  }
+  .tel_name_phone1 {
+    display: none;
+  }
+  .tel_name_time_phone {
+    display: block;
+  }
+  .tel_name_time_phone1 {
+    display: none;
+  }
+  .margin_title1 {
+    margin-left: 6.9rem;
+  }
+  .news_container {
+    padding: 1.87rem;
+    gap: 1.87rem;
+  }
+  .not_phone_news {
+    display: none;
+    flex-direction: column;
+  }
+  .news_block {
+    padding-left: 1rem;
+    padding-top: 0.75rem;
+    width: 19.69rem;
+    padding-bottom: 1.07rem;
+    border-radius: 1rem;
+  }
+  .news_block_img1 {
+    width: 6.56rem;
+    height: 11.5rem;
+  }
+  .news_text_block {
+    row-gap: 0.5rem;
+    padding-bottom: 1.31rem;
+  }
+  .news_block_question {
+    width: 10.31rem;
+    font-size: 0.75rem;
+    font-weight: 700;
+    line-height: 0.88rem;
+  }
+  .news_block_main_text {
+    width: 11.44rem;
+    font-size: 0.63rem;
+    font-weight: 400;
+    line-height: 0.75rem;
+  }
+  .news_block_date {
+    font-size: 0.63rem;
+    font-weight: 400;
+    line-height: 0.75rem;
+  }
+  .news_block_btn {
+    width: 6.88rem;
+    height: 1.88rem;
+    font-size: 0.75rem;
+    font-weight: 700;
+    line-height: 0.88rem;
+  }
+  .show_news_button_phone {
+    color: rgb(255, 255, 255);
+    font-family: Hero-Regular;
+    font-weight: 700;
+    line-height: 1.19rem;
+    width: 100%;
+    height: 5rem;
+    background: rgb(247, 46, 90);
+    text-transform: uppercase;
+  }
+  .show_news_block_phone {
+    padding-bottom: 0.62rem;
+  }
+  .title_goods_name {
+    font-size: 2.25rem;
+    font-weight: 700;
+    line-height: 2.69rem;
+  }
+  .header_goods_img {
+    width: 8.69rem;
+    height: 16.44rem;
+  }
+  .goods_name_margin {
+    margin-left: 1.7rem;
+  }
+  .social_media_goods {
+    display: none;
+  }
+  .title_goods_name_phone {
+    display: block;
+  }
+  .title_goods_name_phone1 {
+    display: none;
+  }
+  .title_goods_block {
+  }
+  .title_goods_name_phone_pos {
+    z-index: 1;
+  }
 }
