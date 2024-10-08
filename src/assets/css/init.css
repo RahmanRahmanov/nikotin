@@ -236,6 +236,13 @@
   display: flex;
   gap: 1.2rem;
 }
+.social_media_delivery{
+  position: absolute;
+  left: 5rem;
+  bottom: 3rem;
+  display: flex;
+  gap: 1.2rem;
+}
 .social_media_goods {
   position: absolute;
   left: 5rem;
@@ -2232,4 +2239,49 @@ width: 29.06rem;
   .day_night_text_none_phone {
     display: block;
   }
+  .social_media_delivery{  
+    display: none;
+  }
+  .delivery_name{
+    font-size: 2.25rem;
+font-weight: 700;
+line-height: 2.69rem;
+left: 1.87rem;
+bottom: 0;
+  }
+.day_night_container{
+  background-color: black;
+}
+.delivery_block{
+  position: relative;
+  padding-top: 14rem;
+}
+.section_full_header{
+  height: 100%;
+}
+.delivery_pay_name{
+  font-size: 2rem;
+font-weight: 700;
+line-height: 2.38rem;
+}
+.delivery_pay_text{
+  font-size: 1.5rem;
+font-weight: 700;
+line-height: 1.81rem;
+}
+.delivery_pay_container{
+  padding-left: 1.87rem;
+  padding-bottom: 1.87rem;
+}
+.delivery_pay_block{
+  row-gap: 1.25rem;
+
+}
+.delivery_pay_block{
+  padding-bottom: 2.5rem;
+  padding-top: 2.5rem ;
+}
+.black_hole_between{
+  padding-bottom: 3.13rem;
+}
 }
