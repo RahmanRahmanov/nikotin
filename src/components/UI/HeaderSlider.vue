@@ -4,6 +4,19 @@
         <img src="@/assets/img/header_slider.png" class="img_slider" />
         <img src="@/assets/img/header_slider2.png" class="img_slider" />
         <img src="@/assets/img/header_slider3.png" class="img_slider" />
+        <img
+          src="@/assets/img/for_phone/home_slider1.png"
+          class="img_slider_phone"
+        />
+        <img
+          src="@/assets/img/for_phone/home_slider2.png"
+          class="img_slider_phone"
+        />
+        <img
+          src="@/assets/img/for_phone/home_slider3.png"
+          class="img_slider_phone"
+        />
+      
       </div>
       <div class="box_marker_slider">
         <div

@@ -1,6 +1,7 @@
 <template>
   <div class="section_full_header">
     <HeaderBlock />
+    
     <div class="delivery_block">
       <p class="delivery_name">доставка<br />и оплата</p>
     </div>
@@ -45,9 +46,12 @@
       <div class="delivery_pay_text_block">
         <p class="delivery_pay_text">Вы можете оплатить заказ:</p>
         <div class="delivery_pay_text_end">
-          <p class="delivery_pay_text">
+          <p class="delivery_pay_text delivery_pay_text_mobile1">
             1. Банковской картой Visa, Mastercard <br />
             &nbsp;&nbsp;&nbsp;или МИР при оформлении заказа
+          </p>
+          <p class="delivery_pay_text delivery_pay_text_mobile">
+            1. Банковской картой Visa, Mastercard или МИР при оформлении заказа
           </p>
           <p class="delivery_pay_text">2. Наличными (только при самовывозе)</p>
         </div>

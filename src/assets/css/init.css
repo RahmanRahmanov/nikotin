@@ -1618,6 +1618,9 @@ width: 29.06rem;
   left: 0;
   padding-bottom: 6.25rem;
 }
+.delivery_pay_text_mobile{
+  display: none;
+}
 .title_goods_list_text {
   color: rgb(242, 243, 247);
   font-family: Hero-Regular;
@@ -2272,6 +2275,8 @@ line-height: 1.81rem;
 .delivery_pay_container{
   padding-left: 1.87rem;
   padding-bottom: 1.87rem;
+  padding-right: 1.87rem;
+  background-image: url(@/assets/img/delivery_phone_back.png);
 }
 .delivery_pay_block{
   row-gap: 1.25rem;
@@ -2283,5 +2288,14 @@ line-height: 1.81rem;
 }
 .black_hole_between{
   padding-bottom: 3.13rem;
+}
+.delivery_pay_text_mobile{
+display: block;
+}
+.delivery_pay_text_mobile1{
+  display: none;
+}
+.delivery_pay_text_end{
+  padding-left: 1rem;
 }
 }
