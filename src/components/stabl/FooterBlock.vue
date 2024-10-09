@@ -6,10 +6,18 @@
       </div>
       <div class="footer_block">
         <div class="footer_links">
-          <a class="footer_links_text color_white" href="/">о нас</a>
-          <a class="footer_links_text color_white" href="/">доставка</a>
-          <a class="footer_links_text color_white" href="/">отзывы</a>
-          <a class="footer_links_text color_white" href="/">контакты</a>
+          <RouterLink to="/" class="footer_links_text color_white"
+            >главная</RouterLink
+          >
+          <RouterLink to="/contacts" class="footer_links_text color_white"
+            >о&nbsp;нас</RouterLink
+          >
+          <RouterLink to="/" class="footer_links_text color_white"
+            >отзывы</RouterLink
+          >
+          <RouterLink to="/contacts" class="footer_links_text color_white"
+            >контакты</RouterLink
+          >
         </div>
         <div class="footer_links_text_phone">
           <a
@@ -26,13 +34,17 @@
         <a class="footer_links_opacity_text color_white" href="/"
           >политика конфиденциальности</a
         >
-        <a class="color_white footer_links_opacity_text_position" href="/"
-          >© 2024 7s. Все права защищены.</a
+        <p class="color_white footer_links_opacity_text_position">
+          © 2024 7s. Все права защищены.
+        </p>
+        <a href="#make_order_container" class="footer_btn color_grey-black"
+          >связаться с нами</a
         >
-        <button class="footer_btn color_grey-black">связаться с нами</button>
       </div>
     </div>
-    <button class="footer_btn_phone">связаться с нами</button>
+    <a href="#make_order_container" class="footer_btn_phone"
+      >связаться с нами</a
+    >
     <div class="footer_phone_end">
       <a class="footer_links_phone_text color_white" href="/"
         >политика конфиденциальности</a

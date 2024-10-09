@@ -1,5 +1,5 @@
 <template>
-  <div class="make_order_container">
+  <div id="make_order_container" class="make_order_container">
     <div class="make_order_decor"></div>
     <div class="make_order_name_back">
       <div class="make_order_name">оформить<br />закупку</div>

@@ -16,6 +16,8 @@
   width: 2.81rem;
   height: 2.75rem;
   object-fit: cover;
+  position: relative;
+  z-index: 1;
 }
 .section_full_block {
   width: 100%;
@@ -32,7 +34,8 @@
 }
 .nav_text {
   color: rgb(255, 255, 255);
-  font-family: Hero-Regular;
+  font-family: Hero-Bold;
+  text-transform: uppercase;
 }
 .nav_text:hover {
   color: rgb(231, 255, 124);
@@ -231,6 +234,13 @@
 }
 .social_media {
   position: absolute;
+  left: 5rem;
+  bottom: 3rem;
+  display: flex;
+  gap: 1.2rem;
+  z-index: 1;
+}
+.social_media_v2 {
   left: 5rem;
   bottom: 3rem;
   display: flex;
@@ -888,7 +898,7 @@ width: 29.06rem;
 }
 .title_catalog_container {
   padding-top: 6.25rem;
-  height: calc(100vh + 6.25rem);
+  height: 100vh;
   background-color: black;
 }
 .title_catalog_container1 {
@@ -1150,10 +1160,17 @@ width: 29.06rem;
   width: 100%;
   height: 26.69rem;
   position: relative;
-  background-color: black;
+  background-color: rgb(22, 22, 22);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 6.25rem 5rem 2.5rem 5rem;
+  gap: 2.5rem;
+}
+.section_full_header .day_night_container {
+  padding: 0;
 }
 .delivery_name {
-  position: absolute;
   color: rgb(242, 243, 247);
   font-family: Hero-Bold;
   font-size: 4rem;
@@ -1433,6 +1450,33 @@ width: 29.06rem;
   background: rgb(22, 22, 22);
   padding-bottom: 9.625rem;
 }
+.header_back_article_container_test_v2 {
+  display: flex;
+  background: rgb(22, 22, 22);
+  position: relative;
+  justify-content: space-between;
+  padding: 9rem 5rem 0rem 5rem;
+}
+.header_back_article_container_test {
+  justify-content: space-between;
+  position: relative;
+  display: flex;
+  gap: 1.5rem;
+}
+.box_black {
+  position: absolute;
+  z-index: -3;
+  background: rgb(22, 22, 22);
+  width: 100%;
+  height: 50rem;
+  top: 0px;
+  left: 0px;
+}
+.all_info {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
 .header_article_date {
   color: rgb(255, 255, 255);
   font-family: Hero-Regular;
@@ -1447,8 +1491,14 @@ width: 29.06rem;
   font-weight: 700;
   line-height: 2.38rem;
   text-transform: uppercase;
-  padding-bottom: 3.75rem;
   padding-top: 1.25rem;
+  letter-spacing: -0.02rem;
+}
+.first_block_article {
+  display: flex;
+  flex-direction: column;
+  padding-left: 5rem;
+  gap: 3rem;
 }
 .header_article_img {
   width: 54.81rem;
@@ -1505,7 +1555,7 @@ width: 29.06rem;
   grid-template-columns: auto calc(28.75rem - 1.25rem);
 }
 .article_container {
-  height: 100rem;
+  height: fit-content;
   position: relative;
   padding-top: 1.25rem;
 }
@@ -1539,6 +1589,19 @@ width: 29.06rem;
   padding-bottom: 2.37rem;
   padding-right: 4.81rem;
   z-index: 1000;
+}
+.article_content_block_test {
+  position: sticky;
+  top: 20px;
+  margin-top: 2rem;
+  height: fit-content;
+  border-radius: 1.88rem 0rem 0rem 1.88rem;
+  background: rgb(22, 22, 22);
+  padding-top: 2.19rem;
+  padding-left: 3rem;
+  padding-bottom: 2.37rem;
+  padding-right: 4.81rem;
+  z-index: 1;
 }
 .article_content_link_name {
   color: rgb(213, 237, 62);
@@ -1753,6 +1816,7 @@ width: 29.06rem;
   border-radius: 0.88rem;
   top: 0;
   border: 0.12rem solid rgb(255, 255, 255);
+  transition: 0.5s ease;
 }
 .burger_line2 {
   position: absolute;
@@ -1764,6 +1828,7 @@ width: 29.06rem;
   top: 50%; /* Средняя линия */
   transform: translateY(-50%);
   border: 0.12rem solid rgb(255, 255, 255);
+  transition: 0.5s ease;
 }
 
 .burger_line3 {
@@ -1774,13 +1839,15 @@ width: 29.06rem;
   border-radius: 0.88rem;
   bottom: 0;
   border: 0.12rem solid rgb(255, 255, 255);
+  transition: 0.5s ease;
 }
-
+.burger {
+  display: none;
+}
 @media (max-width: 767px) {
   .container_header {
     padding-left: 2rem;
     height: 4.44rem;
-    background-color: black;
   }
   .header_logo_img {
     width: 2.17rem;
@@ -1796,7 +1863,7 @@ width: 29.06rem;
     line-height: 1.19rem;
   }
   .gradient-line {
-    display: none;
+    top: 4.4rem;
   }
   .adapt_header_img_pos {
     display: flex;
@@ -2184,7 +2251,9 @@ width: 29.06rem;
     height: 2.75rem;
   }
   .footer_btn_phone {
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   .footer_btn {
     display: none;
@@ -2237,6 +2306,10 @@ width: 29.06rem;
   }
   .day_night_block {
     flex-direction: column;
+    gap: 1.5rem;
+  }
+  .social_media_v2 {
+    display: none;
   }
   .day_night_text_img {
     text-align: left;
@@ -2322,7 +2395,7 @@ width: 29.06rem;
     display: none;
   }
   .title_catalog_container1 {
-    padding-top: 0;
+    padding-top: 4.44rem;
   }
   .day_night_text_block {
     width: 17.75rem;
@@ -2344,7 +2417,7 @@ width: 29.06rem;
     bottom: 0;
   }
   .day_night_container {
-    background-color: black;
+    background-color: rgb(22, 22, 22);
   }
   .delivery_block {
     position: relative;
@@ -2352,6 +2425,8 @@ width: 29.06rem;
   }
   .section_full_header {
     height: 100%;
+
+    padding-left: 1.87rem;
   }
   .delivery_pay_name {
     font-size: 2rem;
@@ -2535,20 +2610,72 @@ width: 29.06rem;
   .title_goods_name_phone_pos {
     z-index: 1;
   }
-  .header_text_container_goods_img_pos_phone{
+  .header_text_container_goods_img_pos_phone {
     display: none;
-
   }
-  .top_goods_block{
+  .top_goods_block {
     padding-left: 1.87rem;
   }
-  .slide-background{
+  .slide-background {
     width: 6.56rem;
-height: 9.88rem;
-border-radius: 1rem;
+    height: 9.88rem;
+    border-radius: 1rem;
   }
-  .slide-image{
+  .slide-image {
     width: 2.81rem;
-height: 5.31rem;
+    height: 5.31rem;
+  }
+  .burger_line1.active {
+    transform: rotate(45deg) translate(0px, 0px);
+    transition: 0.5s ease;
+    right: 0px;
+    left: 0px;
+    top: 0.4rem;
+  }
+  .burger_line2.active {
+    transform: rotate(-45deg) translate(0px, 0px);
+    left: 0px;
+    top: 0.4rem;
+    transition: 0.5s ease;
+  }
+  .burger_line3.active {
+    opacity: 0;
+    transition: 0.5s ease;
+  }
+  .burger {
+    display: flex;
+    padding: 0rem 0rem 0 0rem;
+    position: absolute;
+    width: calc(0% - 0rem);
+    background: rgb(22, 22, 22);
+    height: 100vh;
+    top: 0px;
+    left: 0px;
+    z-index: 0;
+    transition: 0.5s ease;
+    gap: 1.5rem;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  .burger.active {
+    padding: 6.94rem 4.25rem 0 1.87rem;
+    width: calc(100% - 11.63rem);
+    transition: 0.5s ease;
+  }
+  .burger_text_nav {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    opacity: 0;
+    transition: 0.5s ease;
+  }
+  .burger_text_nav.active {
+    opacity: 1;
+    transition: 0.5s ease;
+  }
+  .header_text_container_goods_img_pos{
+    flex-direction: column-reverse;
+    gap: 1.87rem;
+    
   }
 }

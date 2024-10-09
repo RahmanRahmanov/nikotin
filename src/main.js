@@ -8,6 +8,7 @@ import DeliveryPages from "@/components/DeliveryPages.vue";
 import NewsPages from "@/components/NewsPages.vue";
 import ArticlePages from "@/components/ArticlePages.vue";
 import GoodsPages from "@/components/GoodsPages.vue";
+import TestPages from "@/components/TestPages.vue";
 const router = createRouter({
   history: createWebHistory(),
   routes: [
@@ -26,26 +27,31 @@ const router = createRouter({
       path: "/contacts",
       component: ContactsPages,
     },
-   { 
-    name: "DeliveryPages",
-    path: "/delivery",
-    component: DeliveryPages,
-   },
-   { 
-    name: "NewsPages",
-    path: "/news",
-    component: NewsPages,
-   },   
-   { 
-    name: "ArticlePages",
-    path: "/article",
-    component: ArticlePages,
-   },
-   { 
-    name: "GoodsPages",
-    path: "/goods",
-    component: GoodsPages,
-   }
+    {
+      name: "DeliveryPages",
+      path: "/delivery",
+      component: DeliveryPages,
+    },
+    {
+      name: "NewsPages",
+      path: "/news",
+      component: NewsPages,
+    },
+    {
+      name: "ArticlePages",
+      path: "/article",
+      component: ArticlePages,
+    },
+    {
+      name: "GoodsPages",
+      path: "/goods",
+      component: GoodsPages,
+    },
+    {
+      name: "TestPages",
+      path: "/test",
+      component: TestPages,
+    },
   ],
 });
 const app = createApp(App);

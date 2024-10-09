@@ -189,7 +189,7 @@
     <p class="reviews_comment color_grey-black"></p>
   </div>
   <MakeorderBlock />
-  <footer class="footer_main">
+  <!-- <footer class="footer_main">
     <div class="footer_container">
       <div class="footer_img">
         <img class="footer_ava" src="@/assets/img/footerava.svg" alt="" />
@@ -231,11 +231,13 @@
         >© 2024 7s. Все права защищены.</a
       >
     </div>
-  </footer>
+  </footer> -->
+  <FooterBlock />
 </template>
 
 <script>
 import HeaderBlock from "./stabl/HeaderBlock.vue";
+import FooterBlock from "./stabl/FooterBlock.vue";
 import SloderReviews from "@/components/UI/SloderReviews.vue";
 import MakeorderBlock from "./stabl/MakeorderBlock.vue";
 export default {
@@ -243,6 +245,7 @@ export default {
     HeaderBlock,
     SloderReviews,
     MakeorderBlock,
+    FooterBlock,
   },
   data() {
     return {

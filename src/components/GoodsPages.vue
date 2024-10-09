@@ -8,9 +8,9 @@
         alt=""
       />
 
-      <div class="header_text_container_goods_img_pos header_text_container_goods_img_pos_phone">
+      <div class="header_text_container_goods_img_pos ">
         <div class="header_text_container_goods">
-          <p class="title_goods_name">
+          <p class="title_goods_name header_text_container_goods_img_pos_phone">
             blueberry <br />
             <span class="goods_name_margin title_goods_name">raspberry</span>
           </p>
@@ -75,7 +75,7 @@
         </div>
       </div>
     </div>
-    <div class="social_media_goods">
+    <div class="social_media">
       <div class="mail_social"></div>
       <div class="tg_social"></div>
       <div class="wp_social"></div>

@@ -1,39 +1,52 @@
 <template>
+  <HeaderBlock />
   <div class="section_full_header">
-    <HeaderBlock />
-    
-    <div class="delivery_block">
-      <p class="delivery_name">доставка<br />и оплата</p>
+    <div class="day_night_container">
+      <div class="day_night_block">
+        <div class="day_night_text_block">
+          <p class="delivery_name">доставка<br />и оплата</p>
+        </div>
+        <div class="day_night_img_block">
+          <div class="day_night_img">
+            <img
+              class="day_night_img1"
+              src="@/assets/img/day_night1.png"
+              alt=""
+            />
+            <p class="day_night_text_img color_white">
+              Более высокая<br />усвояемость<br />никотина
+            </p>
+          </div>
+          <div class="day_night_img">
+            <img
+              class="day_night_img1"
+              src="@/assets/img/day_night2.png"
+              alt=""
+            />
+            <p class="day_night_text_img color_white">
+              Отличное<br />насыщение
+            </p>
+          </div>
+          <div class="day_night_img">
+            <img
+              class="day_night_img1"
+              src="@/assets/img/day_night3.png"
+              alt=""
+            />
+            <p class="day_night_text_img color_white">
+              Инновационный<br />подход
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="social_media_pos social_media_delivery">
+
+    <div class="social_media_v2">
       <div class="mail_social"></div>
       <div class="tg_social"></div>
       <div class="wp_social"></div>
-    </div>  <div class="day_night_container">
-    <div class="day_night_block">
-    <div class="day_night_img_block">
-      <div class="day_night_img">
-        <img
-          class="day_night_img1"
-          src="@/assets/img/delivery_day_night1.png"
-          alt=""
-        />
-        <p class="day_night_text_img color_white">
-          высокое<br />качество<br />товара
-        </p>
-      </div>
-      <div class="day_night_img">
-        <img class="day_night_img1" src="@/assets/img/rubl.png" alt="" />
-        <p class="day_night_text_img color_white">выгодная<br />цена</p>
-      </div>
-      <div class="day_night_img">
-        <img class="day_night_img1" src="@/assets/img/day_night3.png" alt="" />
-        <p class="day_night_text_img color_white">
-          быстрая<br />доставка<br />по всей <br />области
-        </p>
-      </div>
-    </div></div></div>
     </div>
+  </div>
   <div class="delivery_pay_container">
     <div class="delivery_pay_block delivery_pay_block_pos">
       <p class="delivery_pay_name">доставка</p>
