@@ -8,7 +8,7 @@
         alt=""
       />
 
-      <div class="header_text_container_goods_img_pos">
+      <div class="header_text_container_goods_img_pos header_text_container_goods_img_pos_phone">
         <div class="header_text_container_goods">
           <p class="title_goods_name">
             blueberry <br />

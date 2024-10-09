@@ -48,6 +48,7 @@
           />
         </div>
       </swiper-slide>
+
       <swiper-slide>
         <div class="slide-background">
           <img
@@ -57,6 +58,7 @@
           />
         </div>
       </swiper-slide>
+
       <swiper-slide>
         <div class="slide-background">
           <img
@@ -71,7 +73,7 @@
 </template>
 
 <script>
-import { ref } from "vue";
+import { ref, onMounted, onBeforeUnmount } from "vue";
 import { Swiper, SwiperSlide } from "swiper/vue";
 import SwiperCore, { Autoplay } from "swiper/core";
 import "swiper/swiper-bundle.css";
@@ -81,7 +83,24 @@ SwiperCore.use([Autoplay]);
 export default {
   components: { Swiper, SwiperSlide },
   setup() {
-    const slidesPerView = ref(5); // Число видимых слайдов
+    const slidesPerView = ref(5);
+
+    const updateSlidesPerView = () => {
+      if (window.innerWidth <= 767) {
+        slidesPerView.value = 3;
+      } else {
+        slidesPerView.value = 5;
+      }
+    };
+
+    onMounted(() => {
+      updateSlidesPerView();
+      window.addEventListener("resize", updateSlidesPerView);
+    });
+
+    onBeforeUnmount(() => {
+      window.removeEventListener("resize", updateSlidesPerView);
+    });
 
     return {
       slidesPerView,
@@ -89,26 +108,3 @@ export default {
   },
 };
 </script>
-
-<style scoped>
-.container_slider_reviews1 {
-  width: 100%;
-  padding: 1rem 0;
-}
-
-.slide-background {
-  width: 13.75rem; /* Ширина блока */
-  height: 21.13rem; /* Высота блока */
-  background: rgb(255, 255, 255); /* Белый фон */
-  border-radius: 1.88rem; /* Скругление углов */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.slide-image {
-  width: 6.25rem; /* Ширина изображения */
-  height: 11.79rem; /* Высота изображения */
-  object-fit: cover; /* Чтобы изображение не деформировалось */
-}
-</style>

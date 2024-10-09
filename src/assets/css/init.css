@@ -1644,6 +1644,26 @@ width: 29.06rem;
   width: 54.81rem;
   justify-content: space-between;
 }
+.container_slider_reviews1 {
+  width: 100%;
+  padding: 1rem 0;
+}
+
+.slide-background {
+  width: 13.75rem; /* Ширина блока */
+  height: 21.13rem; /* Высота блока */
+  background: rgb(255, 255, 255); /* Белый фон */
+  border-radius: 1.88rem; /* Скругление углов */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slide-image {
+  width: 6.25rem; /* Ширина изображения */
+  height: 11.79rem; /* Высота изображения */
+  object-fit: cover; /* Чтобы изображение не деформировалось */
+}
 .article_after_block_link {
   color: rgb(46, 49, 55);
   font-family: Hero-Regular;
@@ -2514,5 +2534,21 @@ width: 29.06rem;
   }
   .title_goods_name_phone_pos {
     z-index: 1;
+  }
+  .header_text_container_goods_img_pos_phone{
+    display: none;
+
+  }
+  .top_goods_block{
+    padding-left: 1.87rem;
+  }
+  .slide-background{
+    width: 6.56rem;
+height: 9.88rem;
+border-radius: 1rem;
+  }
+  .slide-image{
+    width: 2.81rem;
+height: 5.31rem;
   }
 }
