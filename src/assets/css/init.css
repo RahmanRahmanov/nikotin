@@ -238,7 +238,7 @@
   bottom: 3rem;
   display: flex;
   gap: 1.2rem;
-  z-index: 1;
+  z-index: 0;
 }
 .social_media_v2 {
   left: 5rem;
@@ -1018,6 +1018,9 @@ width: 29.06rem;
   right: 0;
   top: 0;
 }
+.title_article_list_text_phone {
+  display: none;
+}
 .list_product_button {
   padding: 1.25rem 2.5rem;
   border-radius: 3.81rem;
@@ -1105,6 +1108,10 @@ width: 29.06rem;
   bottom: 3.62rem;
   left: 3.81rem;
 }
+.title_goods_list_text_phone {
+  display: none;
+}
+
 .list_product_podik_img1 {
   width: 6.76rem;
   height: 13.13rem;
@@ -1592,7 +1599,7 @@ width: 29.06rem;
 }
 .article_content_block_test {
   position: sticky;
-  top: 20px;
+  top: 1.25rem;
   margin-top: 2rem;
   height: fit-content;
   border-radius: 1.88rem 0rem 0rem 1.88rem;
@@ -1684,6 +1691,7 @@ width: 29.06rem;
   display: flex;
   gap: 12.56rem;
   z-index: 1;
+  align-items: center;
 }
 .top_goods_block {
   padding-top: 2.5rem;
@@ -1693,7 +1701,7 @@ width: 29.06rem;
   padding-bottom: 2.5rem;
 }
 .pad_text_article_bot20px {
-  padding-bottom: 1.25rem;
+  padding-bottom: 0.75rem;
 }
 .pad_bot12 {
   padding-bottom: 0.75rem;
@@ -2288,6 +2296,7 @@ width: 29.06rem;
   .title_catalog_container {
     background: none;
     padding-top: 0;
+    height: 110vh;
   }
   .title_catalog_block {
     background-image: url(@/assets/img/catalog_phone_back.png);
@@ -2372,10 +2381,38 @@ width: 29.06rem;
     left: 4.87rem;
     top: 6.12rem;
   }
+  .title_goods_list_text {
+    font-size: 0.75rem;
+    font-weight: 700;
+    line-height: 0.88rem;
+  }
+  .title_goods_list_container_block {
+    row-gap: 0.1rem;
+  }
+  .title_goods_list_text_phone {
+    display: block;
+  }
   .list_product_dots {
-    width: 6rem;
-    flex-direction: column;
+    width: 19.13rem;
+    flex-direction: row;
     align-items: flex-start;
+    padding-left: 1.02rem;
+  }
+  .header_goods_img_block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 94%;
+  }
+  .header_text_container_goods_img_pos_phone1 {
+    display: block;
+    position: absolute;
+    z-index: 2;
+    top: 6rem;
+    left: 4.37rem;
+  }
+  .list_product_dots_pos_goods {
+    padding-top: 0;
   }
   .list_product_items_container {
     gap: 1.18rem;
@@ -2385,6 +2422,14 @@ width: 29.06rem;
     width: 10.06rem;
     height: 4.37rem;
     border-radius: 0rem 0rem 1rem 1rem;
+  }
+  .list_product_dots_pos_goods span {
+    font-size: 1.5rem !important;
+    line-height: 1.81rem !important;
+    padding: 0;
+  }
+  .title_goods_list {
+    width: 13.19rem;
   }
   .list_product_dots span {
     font-size: 1rem;
@@ -2547,6 +2592,7 @@ width: 29.06rem;
     row-gap: 0.5rem;
     padding-bottom: 1.31rem;
   }
+
   .news_block_question {
     width: 10.31rem;
     font-size: 0.75rem;
@@ -2588,6 +2634,7 @@ width: 29.06rem;
     font-size: 2.25rem;
     font-weight: 700;
     line-height: 2.69rem;
+    padding-bottom: 0.62rem;
   }
   .header_goods_img {
     width: 8.69rem;
@@ -2606,6 +2653,7 @@ width: 29.06rem;
     display: none;
   }
   .title_goods_block {
+    padding-left: 0;
   }
   .title_goods_name_phone_pos {
     z-index: 1;
@@ -2673,9 +2721,140 @@ width: 29.06rem;
     opacity: 1;
     transition: 0.5s ease;
   }
-  .header_text_container_goods_img_pos{
+  .header_text_container_goods_img_pos {
     flex-direction: column-reverse;
     gap: 1.87rem;
-    
+  }
+  .header_text_container_goods {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 1.87rem;
+  }
+
+  .title_goods_list_text_phone1 {
+    display: none;
+  }
+  .header_back_article_container_test_v2 {
+    padding: 6.25rem 1.87rem 0rem 1.87rem;
+  }
+  .header_article_date {
+    font-family: Hero-Light;
+    font-size: 0.63rem;
+    font-weight: 400;
+    line-height: 0.75rem;
+  }
+  .header_article_question {
+    padding-top: 1.87rem;
+    width: 19.69rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.81rem;
+  }
+  .first_block_article {
+    padding-left: 1.87rem;
+    gap: 1.5rem;
+  }
+  .article_content_block_phone1 {
+    width: 100%;
+    height: 11.31rem;
+    padding-left: 1.87rem;
+    padding-top: 1.87rem;
+    padding-bottom: 2.12rem;
+    border-radius: 0;
+  }
+  .header_article_img {
+    width: 19.69rem;
+    height: 24.06rem;
+    border-radius: 1.88rem;
+  }
+  .article_content_block_test {
+    display: block;
+    margin-top: 0;
+    border-radius: 0;
+    padding: 1.87rem 5rem 1.87rem 1.87rem;
+  }
+  .article_content_link_name {
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.81rem;
+    padding-bottom: 1.87rem;
+  }
+  .header_article_top_name {
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.81rem;
+  }
+  .header_article_top_text {
+    font-size: 0.75rem;
+    font-weight: 400;
+    line-height: 0.88rem;
+  }
+  .article_content_link_block {
+    row-gap: 1rem;
+  }
+  .article_content_link {
+    font-size: 0.75rem;
+    font-weight: 700;
+    line-height: 0.88rem;
+    width: 19.88rem;
+  }
+  .box_black {
+    height: 41.87rem;
+  }
+  .article_container {
+    padding-top: 0;
+  }
+  .article_after_block_text_pos1 {
+    padding-left: 1.87rem;
+    padding-top: 1.25rem;
+  }
+  .article_after_block_text {
+    font-size: 0.75rem;
+    font-weight: 700;
+    line-height: 0.88rem;
+    width: 21rem;
+  }
+
+  .header_back_article_container_test {
+    display: block;
+  }
+  .article_after_name_block {
+    padding-left: 1.87rem;
+    padding-top: 1.5rem;
+    row-gap: 0.75rem;
+  }
+  .article_after_block_name {
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.81rem;
+    width: 21.4rem;
+  }
+  .pad_text_article5rem {
+    padding-left: 1.87rem;
+  }
+  .pad_text_article_bot40px {
+    padding-bottom: 1.5rem;
+  }
+  .article_after_block_links {
+    width: 100%;
+    padding-left: 0 !important;
+  }
+  .article_after_block_link {
+    font-size: 0.75rem;
+    font-weight: 700;
+    line-height: 0.88rem;
+    background: rgb(247, 46, 90);
+    width: 11.72rem;
+    height: 5rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .title_article_list_text_phone1 {
+    display: none;
+  }
+  .propast {
+    display: none;
   }
 }

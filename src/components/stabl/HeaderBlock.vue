@@ -9,6 +9,11 @@
           <RouterLink to="/delivery" class="nav_text">доставка</RouterLink>
           <RouterLink to="/news" class="nav_text">новости</RouterLink>
         </div>
+        <div class="social_media">
+          <div class="mail_social"></div>
+          <div class="tg_social"></div>
+          <div class="wp_social"></div>
+        </div>
       </div>
       <div class="adapt_header_img_pos">
         <RouterLink to="/" class="header_logo">
@@ -30,14 +35,12 @@
         <RouterLink to="/news" class="nav_text">новости</RouterLink>
       </div>
       <div class="line_btn">
-<RouterLink to="/katalog">
-          <button
-            :class="isKatalogPage ? 'catalog_btn_active' : 'catalog_btn'"
-          >
+        <RouterLink to="/katalog">
+          <button :class="isKatalogPage ? 'catalog_btn_active' : 'catalog_btn'">
             каталог
             <div class="gradient-line"></div>
           </button>
-</RouterLink>
+        </RouterLink>
       </div>
     </div>
   </header>

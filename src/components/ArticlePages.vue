@@ -23,7 +23,7 @@
         </div>
       </div>
       <div class="article_container">
-        <div class="article_content_block">
+        <div class="article_content_block article_content_block_phone1">
           <p class="article_content_link_name">Содержание:</p>
           <div class="article_content_link_block">
             <a class="article_content_link" data-index="1. " href=""
@@ -34,11 +34,18 @@
             >
           </div>
         </div>
-        <p class="article_after_block_text article_after_block_text_pos1">
+        <p class="article_after_block_text article_after_block_text_pos1 title_goods_list_text_phone1">
           Электронные сигареты с каждым днем становятся все популярнее.
           Инновационное устройство позволяет <br />
           получать удовольствие и обеспечит более безопасное курение. Жидкость
           для электронной сигареты – это <br />
+          заправка, которая обеспечит приятный вкус и аромат во время парения.
+        </p>
+        <p class="article_after_block_text article_after_block_text_pos1 title_goods_list_text_phone">
+          Электронные сигареты с каждым днем становятся все популярнее.
+          Инновационное устройство позволяет 
+          получать удовольствие и обеспечит более безопасное курение. Жидкость
+          для электронной сигареты – это 
           заправка, которая обеспечит приятный вкус и аромат во время парения.
         </p>
         <div class="article_after_name_block">
@@ -64,10 +71,17 @@
           </ul>
         </div>
         <p
-          class="article_after_block_text pad_text_article5rem pad_text_article_bot40px"
+          class="article_after_block_text pad_text_article5rem pad_text_article_bot40px title_goods_list_text_phone1"
         >
           В наполнитель для электронных сигарет добавляют подсластители,
           усилители вкуса и другие компоненты<br />
+          системы.
+        </p>
+        <p
+          class="article_after_block_text pad_text_article5rem pad_text_article_bot40px title_goods_list_text_phone"
+        >
+          В наполнитель для электронных сигарет добавляют подсластители,
+          усилители вкуса и другие компоненты
           системы.
         </p>
         <p
@@ -119,12 +133,21 @@
           <li>ореховые.</li>
         </ul>
         <p
-          class="article_after_block_text pad_text_article5rem pad_text_article_bot40px"
+          class="article_after_block_text pad_text_article5rem pad_text_article_bot40px title_goods_list_text_phone1"
         >
           К десертным вкусам относятся ароматы ванили, карамели, шоколадных
           напитков, взбитых сливок. Категория <br />
           популярна миксами вкуса десертов, различной выпечки. Помогает забыть о
           привычке курения обычных <br />
+          сигарет.
+        </p>
+        <p
+          class="article_after_block_text pad_text_article5rem pad_text_article_bot40px title_goods_list_text_phone"
+        >
+          К десертным вкусам относятся ароматы ванили, карамели, шоколадных
+          напитков, взбитых сливок. Категория 
+          популярна миксами вкуса десертов, различной выпечки. Помогает забыть о
+          привычке курения обычных 
           сигарет.
         </p>
         <p
@@ -165,9 +188,12 @@
           постепенно отвыкнете от вкуса, запаха табака и через некоторое время
           снизите уровень никотина к нулю.
         </p>
-        <div class="article_after_block_links pad_text_article5rem">
-          <a class="article_after_block_link" href="">ПРЕДЫДУЮЩАЯ СТАТЬЯ</a>
-          <a class="article_after_block_link" href="">СЛЕДУЮЩАЯ СТАТЬЯ</a>
+        <div class="article_after_block_links pad_text_article5rem title_article_list_text_phone1">
+          <a class="article_after_block_link title_article_list_text_phone1" href="">ПРЕДЫДУЮЩАЯ СТАТЬЯ</a>
+          <a class="article_after_block_link title_article_list_text_phone1" href="">СЛЕДУЮЩАЯ СТАТЬЯ</a></div>
+          <div class="article_after_block_links pad_text_article5rem title_article_list_text_phone">
+          <a class="article_after_block_link title_article_list_text_phone" href="">ПРЕДЫДУЮЩАЯ <br>СТАТЬЯ</a>
+          <a class="article_after_block_link title_article_list_text_phone" href="">СЛЕДУЮЩАЯ <br>СТАТЬЯ</a>
         </div>
       </div>
     </div>

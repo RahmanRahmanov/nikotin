@@ -8,7 +8,7 @@
         alt=""
       />
 
-      <div class="header_text_container_goods_img_pos ">
+      <div class="header_text_container_goods_img_pos">
         <div class="header_text_container_goods">
           <p class="title_goods_name header_text_container_goods_img_pos_phone">
             blueberry <br />
@@ -18,7 +18,7 @@
             <div class="title_goods_list_text_block">
               <div class="title_goods_list_container">
                 <div class="title_goods_list">
-                  <p class="title_goods_list_text">Затяжка</p>
+                  <p class="title_goods_list_text">затяжка</p>
                   <hr />
                 </div>
                 <p class="title_goods_list_text">регулируемая</p>
@@ -29,7 +29,12 @@
                 <p class="title_goods_list_text">материал</p>
                 <hr />
               </div>
-              <p class="title_goods_list_text">алюминиевый сплав, пластик</p>
+              <p class="title_goods_list_text title_goods_list_text_phone1">
+                алюминиевый сплав, пластик
+              </p>
+              <p class="title_goods_list_text title_goods_list_text_phone">
+                алюм, сплав, пластик
+              </p>
             </div>
             <div class="title_goods_list_container">
               <div class="title_goods_list">
@@ -40,21 +45,21 @@
             </div>
             <div class="title_goods_list_container">
               <div class="title_goods_list">
-                <p class="title_goods_list_text">Количество тяжек</p>
+                <p class="title_goods_list_text">количество тяжек</p>
                 <hr />
               </div>
               <p class="title_goods_list_text">20 000</p>
             </div>
             <div class="title_goods_list_container">
               <div class="title_goods_list">
-                <p class="title_goods_list_text">Объем</p>
+                <p class="title_goods_list_text">объем</p>
                 <hr />
               </div>
               <p class="title_goods_list_text">18.0 мл</p>
             </div>
             <div class="title_goods_list_container">
               <div class="title_goods_list">
-                <p class="title_goods_list_text">Крепость</p>
+                <p class="title_goods_list_text">крепость</p>
                 <hr />
               </div>
               <p class="title_goods_list_text">2.0%</p>
@@ -73,9 +78,13 @@
             alt=""
           />
         </div>
+        <p class="title_goods_name">
+          blueberry <br />
+          <span class="goods_name_margin title_goods_name">raspberry</span>
+        </p>
       </div>
     </div>
-    <div class="social_media">
+    <div class="social_media_v2">
       <div class="mail_social"></div>
       <div class="tg_social"></div>
       <div class="wp_social"></div>
