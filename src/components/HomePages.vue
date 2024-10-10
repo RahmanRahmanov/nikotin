@@ -49,7 +49,7 @@
   <div class="about_us_container">
     <div class="about_us_block">
       <p class="onas_us_block">о нас</p>
-      <div class="about_us_container_text">
+      <div class="about_us_container_text title_article_list_text_phone1">
         <p class="about_us_text">Яркие ароматы и вкусопередача</p>
         <p class="about_us_text">
           За время работы мы получили много<br />
@@ -68,7 +68,7 @@
           клиентов!
         </p>
       </div>
-      <div class="about_us_container_text_phone">
+      <div class="about_us_container_text_phone title_article_list_text_phone">
         <p class="about_us_text">Яркие ароматы и вкусопередача</p>
         <p class="about_us_text">
           За время работы мы <br />получили много<br />

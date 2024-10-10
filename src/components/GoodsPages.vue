@@ -12,7 +12,7 @@
         <div class="header_text_container_goods">
           <p class="title_goods_name header_text_container_goods_img_pos_phone">
             blueberry <br />
-            <span class="goods_name_margin title_goods_name">raspberry</span>
+            <span class="goods_name_margin title_goods_name ">raspberry</span>
           </p>
           <div class="title_goods_list_container_block">
             <div class="title_goods_list_text_block">
@@ -65,7 +65,7 @@
               <p class="title_goods_list_text">2.0%</p>
             </div>
           </div>
-          <div class="list_product_dots list_product_dots_pos_goods">
+          <div class="list_product_dots list_product_dots_goods list_product_dots_pos_goods">
             <span>20K</span>
             <span>20 mg</span>
             <span>salt</span>
@@ -78,13 +78,13 @@
             alt=""
           />
         </div>
-        <p class="title_goods_name">
+        <p class="title_goods_name title_article_list_text_phone12" >
           blueberry <br />
-          <span class="goods_name_margin title_goods_name">raspberry</span>
+          <span class="goods_name_margin title_goods_name title_article_list_text_phone12">raspberry</span>
         </p>
       </div>
     </div>
-    <div class="social_media_v2">
+    <div class="social_media title_article_list_text_phone1">
       <div class="mail_social"></div>
       <div class="tg_social"></div>
       <div class="wp_social"></div>

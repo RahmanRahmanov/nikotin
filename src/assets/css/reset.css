@@ -176,42 +176,42 @@ html {
     font-size: 6px;
   }
 }
-@media (min-width: 795px) {
+@media (min-width: 720px) {
   html {
     font-size: 7px;
   }
 }
-@media (min-width: 870px) {
+@media (min-width: 750px) {
   html {
-    font-size: 8px;
+    font-size: 8.7px;
   }
 }
-@media (min-width: 940px) {
+@media (min-width: 774px) {
   html {
     font-size: 9px;
   }
 }
-@media (min-width: 1010px) {
+@media (min-width: 870px) {
   html {
     font-size: 10px;
   }
 }
-@media (min-width: 1080px) {
+@media (min-width: 960px) {
   html {
     font-size: 11px;
   }
 }
-@media (min-width: 1160px) {
+@media (min-width: 1050px) {
   html {
     font-size: 12px;
   }
 }
-@media (min-width: 1225px) {
+@media (min-width: 1200px) {
   html {
     font-size: 13px;
   }
 }
-@media (min-width: 1299px) {
+@media (min-width: 1255px) {
   html {
     font-size: 14px;
   }
@@ -294,22 +294,22 @@ html {
 
 @media (max-width: 767px) {
   html {
-    font-size: 15px;
+    font-size: 20px;
   }
 }
 @media (max-width: 505px) {
   html {
-    font-size: 14px;
+    font-size: 19px;
   }
 }
 @media (max-width: 470px) {
   html {
-    font-size: 13px;
+    font-size: 18px;
   }
 }
 @media (max-width: 440px) {
   html {
-    font-size: 12px;
+    font-size: 17px;
   }
 }
 @media (max-width: 405px) {

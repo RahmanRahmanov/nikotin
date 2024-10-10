@@ -74,12 +74,12 @@
         </button>
       </div>
       <div class="list_product_items_container" v-if="activeButton === 1">
-        <div class="list_product_items_block">
+        <a class="list_product_items_link" href=""> <div class="list_product_items_block">
           <img
             class="list_product_items_block1"
             src="@/assets/img/back/back_item1.png"
             alt=""
-          />
+          /> 
           <p class="list_product_name color_white">blueberry raspberry</p>
           <div class="list_product_podik_img">
             <img
@@ -93,8 +93,8 @@
             <span>20 mg</span>
             <span>salt</span>
           </div>
-        </div>
-        <div class="list_product_items_block">
+        </div></a>
+        <a class="list_product_items_link" href=""> <div class="list_product_items_block">
           <img
             class="list_product_items_block1"
             src="@/assets/img/back/back_item2.png"
@@ -113,8 +113,8 @@
             <span>20 mg</span>
             <span>salt</span>
           </div>
-        </div>
-        <div class="list_product_items_block">
+        </div></a>
+        <a class="list_product_items_link" href=""> <div class="list_product_items_block">
           <img
             class="list_product_items_block1"
             src="@/assets/img/back/back_item3.png"
@@ -133,8 +133,8 @@
             <span>20 mg</span>
             <span>salt</span>
           </div>
-        </div>
-        <div class="list_product_items_block">
+        </div></a>
+        <a class="list_product_items_link" href=""><div class="list_product_items_block">
           <img
             class="list_product_items_block1"
             src="@/assets/img/back/back_item4.png"
@@ -153,8 +153,8 @@
             <span>20 mg</span>
             <span>salt</span>
           </div>
-        </div>
-        <div class="list_product_items_block">
+        </div></a>
+        <a class="list_product_items_link" href=""> <div class="list_product_items_block">
           <img
             class="list_product_items_block1"
             src="@/assets/img/back/back_item5.png"
@@ -173,7 +173,7 @@
             <span>20 mg</span>
             <span>salt</span>
           </div>
-        </div>
+        </div></a><a class="list_product_items_link" href="">
         <div class="list_product_items_block">
           <img
             class="list_product_items_block1"
@@ -193,7 +193,7 @@
             <span>20 mg</span>
             <span>salt</span>
           </div>
-        </div>
+        </div></a><a class="list_product_items_link" href="">
         <div class="list_product_items_block">
           <img
             class="list_product_items_block1"
@@ -213,7 +213,7 @@
             <span>20 mg</span>
             <span>salt</span>
           </div>
-        </div>
+        </div></a> <a class="list_product_items_link" href="">
         <div class="list_product_items_block">
           <img
             class="list_product_items_block1"
@@ -233,7 +233,7 @@
             <span>20 mg</span>
             <span>salt</span>
           </div>
-        </div>
+        </div></a> <a class="list_product_items_link" href="">
         <div class="list_product_items_block">
           <img
             class="list_product_items_block1"
@@ -253,7 +253,7 @@
             <span>20 mg</span>
             <span>salt</span>
           </div>
-        </div>
+        </div></a> <a class="list_product_items_link" href="">
         <div class="list_product_items_block">
           <img
             class="list_product_items_block1"
@@ -273,10 +273,10 @@
             <span>20 mg</span>
             <span>salt</span>
           </div>
-        </div>
+        </div></a>
       </div>
       <div class="list_product_items_container" v-if="activeButton === 2">
-        <div class="list_product_items_container">
+        <div class="list_product_items_container"> <a class="list_product_items_link" href="">
           <div class="list_product_items_block">
             <img
               class="list_product_items_block1"
@@ -296,7 +296,7 @@
               <span>20 mg</span>
               <span>salt</span>
             </div>
-          </div>
+          </div></a> <a class="list_product_items_link" href="">
           <div class="list_product_items_block">
             <img
               class="list_product_items_block1"
@@ -316,7 +316,7 @@
               <span>20 mg</span>
               <span>salt</span>
             </div>
-          </div>
+          </div></a> <a class="list_product_items_link" href="">
           <div class="list_product_items_block">
             <img
               class="list_product_items_block1"
@@ -336,7 +336,7 @@
               <span>20 mg</span>
               <span>salt</span>
             </div>
-          </div>
+          </div></a> <a class="list_product_items_link" href="">
           <div class="list_product_items_block">
             <img
               class="list_product_items_block1"
@@ -356,7 +356,7 @@
               <span>20 mg</span>
               <span>salt</span>
             </div>
-          </div>
+          </div></a>
         </div>
       </div>
     </div>

@@ -26,10 +26,10 @@
         <div class="article_content_block article_content_block_phone1">
           <p class="article_content_link_name">Содержание:</p>
           <div class="article_content_link_block">
-            <a class="article_content_link" data-index="1. " href=""
+            <a class="article_content_link" data-index="1. " href="#vid_jidkosti"
               >Виды жидкостей для электронных сигарет</a
             >
-            <a class="article_content_link" data-index="2. " href=""
+            <a class="article_content_link" data-index="2. " href="#how_to_chose"
               >как выбрать жидкость для электронной сигареты</a
             >
           </div>
@@ -49,7 +49,7 @@
           заправка, которая обеспечит приятный вкус и аромат во время парения.
         </p>
         <div class="article_after_name_block">
-          <p class="article_after_block_name">
+          <p id="vid_jidkosti" class="article_after_block_name">
             Виды жидкостей для электронных сигарет
           </p>
           <p class="article_after_block_text">
@@ -170,7 +170,7 @@
         >
           Также на современном рынке представлены вейпы без вкуса и запаха.
         </p>
-        <p
+        <p id="how_to_chose"
           class="article_after_block_name pad_text_article5rem pad_text_article_bot20px"
         >
           Как выбрать жидкость для электронной <br />

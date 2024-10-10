@@ -36,6 +36,7 @@
   color: rgb(255, 255, 255);
   font-family: Hero-Bold;
   text-transform: uppercase;
+  transition: 0.3s ease;
 }
 .nav_text:hover {
   color: rgb(231, 255, 124);
@@ -52,6 +53,7 @@
   width: 12.5rem;
   height: 6.25rem;
   background: rgb(247, 46, 90);
+  transition: 0.3s ease;
 }
 .catalog_btn_active {
   background: none;
@@ -62,12 +64,14 @@
   text-transform: uppercase;
   width: 12.5rem;
   height: 6.25rem;
+  transition: 0.3s ease;
 }
 .catalog_btn_active:hover {
   background: none;
   color: rgb(247, 46, 90);
 }
 .gradient-line {
+  pointer-events: none;
   position: absolute;
   top: 6.25rem;
   right: 0;
@@ -76,6 +80,7 @@
   width: 100%;
   height: 0.06rem;
   background: linear-gradient(to right, rgb(255, 255, 255), rgb(247, 46, 90));
+  transition: 0.3s ease;
 }
 .catalog_btn:hover {
   color: rgb(46, 49, 55);
@@ -197,25 +202,31 @@
   color: rgb(255, 255, 255) !important;
 }
 .mail_social {
+  cursor: pointer;
   background-repeat: no-repeat;
   width: 2.25rem;
   height: 1.5rem;
   background-image: url(@/assets/img/mail.png);
   background-size: cover;
+  transition: 0.3s ease;
 }
 .tg_social {
+  cursor: pointer;
   width: 2.31rem;
   height: 1.88rem;
   background-image: url(@/assets/img/tg.png);
   background-repeat: no-repeat;
   background-size: cover;
+  transition: 0.3s ease;
 }
 .wp_social {
+  cursor: pointer;
   width: 1.88rem;
   height: 1.88rem;
   background-image: url(@/assets/img/wp.png);
   background-repeat: no-repeat;
   background-size: cover;
+  transition: 0.3s ease;
 }
 .mail_social:hover {
   background-image: url(@/assets/img/mail_yel.png);
@@ -236,6 +247,7 @@
   position: absolute;
   left: 5rem;
   bottom: 3rem;
+  cursor: pointer;
   display: flex;
   gap: 1.2rem;
   z-index: 0;
@@ -243,17 +255,23 @@
 .social_media_v2 {
   left: 5rem;
   bottom: 3rem;
+  cursor: pointer;
   display: flex;
   gap: 1.2rem;
 }
+.show_news_button_phone {
+  display: none;
+}
 .social_media_delivery {
   position: absolute;
+  cursor: pointer;
   left: 5rem;
   bottom: 3rem;
   display: flex;
   gap: 1.2rem;
 }
 .social_media_goods {
+  cursor: pointer;
   position: absolute;
   left: 5rem;
   bottom: -3rem;
@@ -481,17 +499,17 @@
   background: rgb(60, 59, 75);
   width: 20rem;
   height: 6.25rem;
-  right: 6.62rem;
+  left: 65rem;
   bottom: 7.31rem;
   padding-left: 3.75rem;
   padding-right: 3.75rem;
   align-items: center;
   justify-content: space-between;
+  transition: 0.3s ease;
 }
 ._3pods_button:hover {
   width: 21.63rem;
   background: rgb(72, 71, 88);
-  transition: width 0.3s ease, background-color 0.3s ease;
 }
 ._3pods_button_text {
   font-size: 1rem;
@@ -584,6 +602,7 @@
   display: flex;
   gap: 5rem;
   flex-wrap: wrap;
+  justify-content: center;
 }
 .reviews_name {
   font-family: Hero-Bold;
@@ -658,6 +677,7 @@
   color: rgb(93, 92, 114);
   font-weight: 400;
   line-height: 1.19rem;
+  transition: 0.3s ease;
 }
 .form-input:hover {
   background: rgb(255, 255, 255);
@@ -667,6 +687,7 @@
 }
 .form-textarea_last {
   font-size: 1.05rem;
+  outline: none;
 }
 .form-textarea {
   height: 3.25rem;
@@ -731,6 +752,7 @@ width: 29.06rem;
   font-weight: 400;
   line-height: 1.19rem;
   border: 1px solid rgb(202, 201, 216);
+  transition: 0.3s ease;
 }
 
 .form-input:hover,
@@ -767,6 +789,7 @@ width: 29.06rem;
   line-height: 1.19rem;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  transition: 0.3s ease;
 }
 
 .submit-button:hover {
@@ -784,6 +807,7 @@ width: 29.06rem;
 .policy-link {
   font-family: Hero-Regular;
   text-decoration: underline !important;
+  transition: 0.3s ease;
 }
 
 .policy-link:hover {
@@ -808,10 +832,12 @@ width: 29.06rem;
 }
 
 .footer_links_text {
+  color: white;
   font-family: Hero-Light;
   font-weight: 700;
   text-transform: uppercase;
   line-height: 1.19rem;
+  transition: 0.3s ease;
 }
 .footer_links {
   display: flex;
@@ -819,6 +845,7 @@ width: 29.06rem;
   flex-direction: column;
   padding-top: 1.25rem;
   margin-bottom: 3.75rem;
+  transition: 0.3s ease;
 }
 .footer_block {
   position: relative;
@@ -832,6 +859,7 @@ width: 29.06rem;
   align-items: flex-end;
 }
 .footer_links_opacity_text {
+  color: white;
   font-family: Hero-Light;
   font-weight: 200;
   text-transform: uppercase;
@@ -839,8 +867,13 @@ width: 29.06rem;
   position: absolute;
   bottom: 0.625rem;
   left: 10.56rem;
+  transition: 0.3s ease;
 }
 .footer_btn {
+  transition: 0.5s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 17.81rem;
   height: 6.19rem;
   background: rgb(242, 243, 247);
@@ -849,7 +882,9 @@ width: 29.06rem;
   line-height: 1.19rem;
   margin-bottom: 5.06rem;
   text-transform: uppercase;
+  transition: 0.3s ease;
 }
+
 .footer_links_text:hover {
   color: rgb(60, 59, 75);
 }
@@ -857,6 +892,7 @@ width: 29.06rem;
   position: absolute;
   left: 10.56rem;
   bottom: 3.75rem;
+  transition: 0.3s ease;
 }
 .footer_links_opacity_text_position:hover {
   color: rgb(60, 59, 75);
@@ -865,8 +901,10 @@ width: 29.06rem;
   position: absolute;
   left: 24.18rem;
   bottom: 3.75rem;
+  transition: 0.3s ease;
 }
 .footer_links_opacity_text_position {
+  color: white;
   left: 35.87rem;
   font-family: Hero-Light;
   font-weight: 200;
@@ -874,6 +912,7 @@ width: 29.06rem;
   line-height: 1.19rem;
   bottom: 0.625rem;
   position: absolute;
+  transition: 0.3s ease;
 }
 .footer_btn:hover {
   background: rgb(60, 59, 75);
@@ -907,25 +946,31 @@ width: 29.06rem;
   background-color: black;
 }
 .mail_social_katalog {
+  cursor: pointer;
   background-repeat: no-repeat;
   width: 2.25rem;
   height: 1.5rem;
   background-image: url(@/assets/img/mail_katalog.png);
   background-size: cover;
+  transition: 0.3s ease;
 }
 .tg_social_katalog {
+  cursor: pointer;
   width: 2.31rem;
   height: 1.88rem;
   background-image: url(@/assets/img/tg_katalog.png);
   background-size: cover;
   background-repeat: no-repeat;
+  transition: 0.3s ease;
 }
 .wp_social_katalog {
+  cursor: pointer;
   width: 1.88rem;
   height: 1.88rem;
   background-image: url(@/assets/img/wp_katalog.png);
   background-size: cover;
   background-repeat: no-repeat;
+  transition: 0.3s ease;
 }
 .mail_social_katalog:hover {
   background-image: url(@/assets/img/mail_yel.png);
@@ -1047,6 +1092,7 @@ width: 29.06rem;
 .list_product_button_block {
   display: flex;
   gap: 1.87rem;
+
 }
 .list_product_dots {
   display: flex;
@@ -1063,6 +1109,7 @@ width: 29.06rem;
   padding-top: 1.87rem;
 }
 .list_product_name {
+  cursor: pointer;
   position: absolute;
   font-family: Hero-Regular;
   font-size: 2rem;
@@ -1071,6 +1118,10 @@ width: 29.06rem;
   text-transform: uppercase;
   top: 2.75rem;
   left: 3.75rem;
+}
+.list_product_items_link {
+  cursor: pointer;
+  width: fit-content;
 }
 .list_product_dots span {
   color: rgb(255, 255, 255);
@@ -1081,6 +1132,9 @@ width: 29.06rem;
   position: relative;
   padding: 0 1.25rem;
 }
+.title_article_list_text_phone12{
+  display: none;
+    }
 .list_product_dots span:not(:last-child)::after {
   content: "•";
   position: absolute;
@@ -1095,6 +1149,7 @@ width: 29.06rem;
   background: rgb(22, 22, 22);
 }
 .list_product_items_container {
+  justify-content: center;
   display: flex;
   gap: 5rem;
   row-gap: 2.5rem;
@@ -1264,6 +1319,7 @@ width: 29.06rem;
   height: 100%;
 }
 .news_container {
+  justify-content: center;
   padding: 5rem;
   padding-bottom: 2.5rem;
   display: flex;
@@ -1279,6 +1335,10 @@ width: 29.06rem;
   padding-bottom: 2rem;
   width: 37.5rem;
 }
+.news_block:hover .news_block_btn {
+  color: rgb(22, 22, 22);
+  background: rgb(247, 46, 90);
+}
 .no-scroll {
   overflow: hidden;
 }
@@ -1287,8 +1347,11 @@ width: 29.06rem;
 }
 .full_block_18 {
   display: flex;
-  position: absolute;
-  height: 100vh;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 100vh; /* Позволит содержимому занимать необходимую высоту */
   width: 100%;
   z-index: 3;
   background-image: url(@/assets/img/ageverification_back.png);
@@ -1297,6 +1360,7 @@ width: 29.06rem;
   flex-direction: column;
   row-gap: 2.5rem;
 }
+
 .full_block_18_question {
   padding-top: 18.87rem;
   font-family: Hero-Regular;
@@ -1326,6 +1390,7 @@ width: 29.06rem;
   font-size: 2rem;
   font-weight: 700;
   line-height: 2.38rem;
+  transition: 0.3s ease;
 }
 .full_block_18_button:hover {
   background-color: rgb(231, 255, 124);
@@ -1375,6 +1440,7 @@ width: 29.06rem;
   font-weight: 700;
   line-height: 1.19rem;
   text-transform: uppercase;
+  transition: 0.3s ease;
 }
 .news_block_btn:hover {
   color: rgb(22, 22, 22);
@@ -1464,6 +1530,9 @@ width: 29.06rem;
   justify-content: space-between;
   padding: 9rem 5rem 0rem 5rem;
 }
+.header_text_container_goods_img_pos_phone1{
+  display: none;
+}
 .header_back_article_container_test {
   justify-content: space-between;
   position: relative;
@@ -1504,6 +1573,7 @@ width: 29.06rem;
 .first_block_article {
   display: flex;
   flex-direction: column;
+  
   padding-left: 5rem;
   gap: 3rem;
 }
@@ -1532,7 +1602,8 @@ width: 29.06rem;
   font-weight: 400;
   line-height: 1.19rem;
   text-transform: uppercase;
-  letter-spacing: -0.02rem;
+  letter-spacing: -0.03rem;
+  transition: 0.3s ease;
 }
 .header_article_top_text:hover {
   color: rgb(247, 46, 90);
@@ -1555,6 +1626,7 @@ width: 29.06rem;
   line-height: 1.19rem;
   padding-left: 1.25rem;
   position: relative;
+  transition: 0.3s ease;
 }
 .article_post_wrapper {
   display: grid;
@@ -1565,12 +1637,14 @@ width: 29.06rem;
   height: fit-content;
   position: relative;
   padding-top: 1.25rem;
+  transition: 0.3s ease;
 }
 .article_content_link::before {
   content: attr(data-index);
   position: absolute;
   left: 0;
   padding-right: 1.25rem;
+  transition: 0.3s ease;
 }
 
 .article_content_link:hover {
@@ -1740,6 +1814,7 @@ width: 29.06rem;
   font-family: Hero-Regular;
   font-weight: 700;
   line-height: 1.19rem;
+  transition: 0.3s ease;
 }
 .article_after_block_link:hover {
   color: rgb(247, 46, 90);
@@ -1819,34 +1894,33 @@ width: 29.06rem;
 .burger_line1 {
   position: absolute;
   width: 1.13rem;
-  height: 0rem;
+  height: 0.125rem;
   background-color: rgb(255, 255, 255);
   border-radius: 0.88rem;
   top: 0;
-  border: 0.12rem solid rgb(255, 255, 255);
+
   transition: 0.5s ease;
 }
 .burger_line2 {
   position: absolute;
   width: 1.13rem;
-  height: 0rem;
+  height: 0.125rem;
   right: 0;
   background-color: rgb(255, 255, 255);
   border-radius: 0.88rem;
   top: 50%; /* Средняя линия */
   transform: translateY(-50%);
-  border: 0.12rem solid rgb(255, 255, 255);
+
   transition: 0.5s ease;
 }
 
 .burger_line3 {
   position: absolute;
   width: 1.13rem;
-  height: 0rem;
+  height: 0.125rem;
   background-color: rgb(255, 255, 255);
   border-radius: 0.88rem;
   bottom: 0;
-  border: 0.12rem solid rgb(255, 255, 255);
   transition: 0.5s ease;
 }
 .burger {
@@ -1872,11 +1946,14 @@ width: 29.06rem;
   }
   .gradient-line {
     top: 4.4rem;
+    pointer-events: none;
   }
   .adapt_header_img_pos {
     display: flex;
-    gap: 3.5rem;
+    padding-right: 3rem;
+    width: 100%;
     align-items: center;
+    justify-content: space-between;
   }
   .nav_text_block {
     display: none;
@@ -1906,6 +1983,7 @@ width: 29.06rem;
     margin-left: 8.6rem;
   }
   .social_media {
+    cursor: pointer;
     gap: 1.62rem;
     flex-direction: column;
     left: 2rem;
@@ -1913,7 +1991,7 @@ width: 29.06rem;
   }
   .box_marker_slider {
     bottom: 2.31rem;
-    left: 8.81rem;
+    left: calc(50%-3.75rem);
   }
   .marker_slider_1 {
     width: 1.19rem;
@@ -1983,6 +2061,8 @@ width: 29.06rem;
     gap: 4.37rem;
     margin-top: 6.87rem;
     padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    align-items: center;
   }
   .nomber_block_red {
     width: 18.44rem;
@@ -2032,7 +2112,6 @@ width: 29.06rem;
     padding-top: 2.5rem;
     padding-left: 1.87rem;
     background-image: url(@/assets/img/for_phone/3pods_forphone.png);
-    width: 23.44rem;
     height: 51.88rem;
   }
   .catalog_3pods_text {
@@ -2067,10 +2146,11 @@ width: 29.06rem;
     bottom: 7.5rem;
   }
   ._3pods_button {
-    right: 1.87rem;
+    right: 1.87rem !important;
     bottom: 1.87rem;
     width: 12.19rem;
     height: 3.75rem;
+    left: initial;
   }
   ._3pods_button_text {
     font-size: 0.75rem;
@@ -2086,6 +2166,7 @@ width: 29.06rem;
   ._3pods_button {
     padding-left: 1.87rem;
     padding-right: 1.87rem;
+    transition: 0.3s ease;
   }
   ._3pods_button:hover {
     width: 12.19rem;
@@ -2244,10 +2325,6 @@ width: 29.06rem;
     padding-right: 0;
     display: block;
     height: 13rem;
-    width: 14.25rem;
-  }
-  .footer_img {
-    width: 9.19rem;
   }
   .footer_links_text_phone {
     display: flex;
@@ -2276,6 +2353,7 @@ width: 29.06rem;
     gap: 0.25rem;
   }
   .footer_links_phone_text {
+    color: white;
     font-size: 0.75rem;
     font-family: Hero-Light;
     font-weight: 200;
@@ -2393,10 +2471,10 @@ width: 29.06rem;
     display: block;
   }
   .list_product_dots {
-    width: 19.13rem;
-    flex-direction: row;
+    width: 6.13rem;
+    flex-direction: column;
     align-items: flex-start;
-    padding-left: 1.02rem;
+    padding-left: 0;
   }
   .header_goods_img_block {
     display: flex;
@@ -2570,8 +2648,10 @@ width: 29.06rem;
     margin-left: 6.9rem;
   }
   .news_container {
+    
     padding: 1.87rem;
     gap: 1.87rem;
+    justify-content: center;
   }
   .not_phone_news {
     display: none;
@@ -2583,6 +2663,7 @@ width: 29.06rem;
     width: 19.69rem;
     padding-bottom: 1.07rem;
     border-radius: 1rem;
+    justify-content: center;
   }
   .news_block_img1 {
     width: 6.56rem;
@@ -2743,6 +2824,12 @@ width: 29.06rem;
     font-weight: 400;
     line-height: 0.75rem;
   }
+  .list_product_dots_goods {
+    width: 19.13rem;
+    flex-direction: row;
+    align-items: flex-start;
+    padding-left: 1.02rem;
+  }
   .header_article_question {
     padding-top: 1.87rem;
     width: 19.69rem;
@@ -2751,7 +2838,8 @@ width: 29.06rem;
     line-height: 1.81rem;
   }
   .first_block_article {
-    padding-left: 1.87rem;
+    padding-left: 0;
+    align-items: center;
     gap: 1.5rem;
   }
   .article_content_block_phone1 {
@@ -2844,7 +2932,7 @@ width: 29.06rem;
     font-weight: 700;
     line-height: 0.88rem;
     background: rgb(247, 46, 90);
-    width: 11.72rem;
+    width: 50%;
     height: 5rem;
     color: white;
     display: flex;
@@ -2853,6 +2941,9 @@ width: 29.06rem;
   }
   .title_article_list_text_phone1 {
     display: none;
+  }
+  .title_article_list_text_phone12{
+display: block;
   }
   .propast {
     display: none;
