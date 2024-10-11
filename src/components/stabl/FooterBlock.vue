@@ -12,11 +12,11 @@
           <RouterLink to="/contacts" class="footer_links_text "
             >о&nbsp;нас</RouterLink
           >
-          <RouterLink to="/" class="footer_links_text "
-            >отзывы</RouterLink
+          <RouterLink to="/delivery" class="footer_links_text "
+            >доставка</RouterLink
           >
-          <RouterLink to="/contacts" class="footer_links_text "
-            >контакты</RouterLink
+          <RouterLink to="/news" class="footer_links_text "
+            >новости</RouterLink
           >
         </div>
         <div class="footer_links_text_phone">
@@ -37,13 +37,13 @@
         <p class=" footer_links_opacity_text_position">
           © 2024 7s. Все права защищены.
         </p>
-        <a href="#make_order_container" class="footer_btn color_grey-black"
-          >связаться с нами</a
+        <RouterLink to="/katalog" class="footer_btn color_grey-black"
+          >каталог</RouterLink
         >
       </div>
     </div>
-    <a href="#make_order_container" class="footer_btn_phone"
-      >связаться с нами</a
+    <RouterLink to="/katalog" class="footer_btn_phone"
+      >каталог</RouterLink
     >
     <div class="footer_phone_end">
       <a class="footer_links_phone_text " href="/"

@@ -7,10 +7,9 @@
       <div class="tg_social"></div>
       <div class="wp_social"></div>
     </div>
-    <div class="box_title_home_pages">
+    <div class="title_7stars">
       <h1 class="title color_white text_align_left">
-        seven<br />
-        <span class="margin_title color_white"> stars</span>
+        о 7stars
       </h1>
     </div>
   </div>

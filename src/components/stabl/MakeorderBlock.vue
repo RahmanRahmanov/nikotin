@@ -4,16 +4,16 @@
     <div class="make_order_name_back">
       <div class="make_order_name">оформить<br />закупку</div>
     </div>
-    <div class="form-container">
-      <div class="form_block">
-        <div class="pos_relative_error">
-          <input
-            type="text"
-            placeholder="Ваше имя"
-            v-model="name"
-            class="form-input"
-            ref="form_input_name"
-          />
+      <div class="form-container">
+        <div class="form_block">
+          <div class="pos_relative_error">
+            <input
+              type="text"
+              placeholder="Ваше имя"
+              v-model="name"
+              class="form-input"
+              ref="form_input_name"
+            />
           <p v-if="nameError" class="error-text">{{ nameError }}</p>
         </div>
 
@@ -31,7 +31,7 @@
         <textarea
           placeholder="Расскажите о вашей компании"
           v-model="company"
-          class="form-textarea form-textarea_padd form-textarea_last"
+          class="form-textarea form-input form-textarea_padd form-textarea_last"
         ></textarea>
 
         <button class="submit-button" @click="validateForm">ОТПРАВИТЬ</button>
@@ -63,8 +63,12 @@
         alt=""
         @click="closeModal"
       />
-      <p class="thanks_text">
+      <p class="thanks_text title_article_list_text_phone1">
         Спасибо! Данные успешно <br />
+        отправлены.
+      </p>
+      <p class="thanks_text title_article_list_text_phone12">
+        Спасибо! Данные успешно 
         отправлены.
       </p>
     </div>

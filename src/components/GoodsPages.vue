@@ -82,13 +82,13 @@
           blueberry <br />
           <span class="goods_name_margin title_goods_name title_article_list_text_phone12">raspberry</span>
         </p>
-      </div>
-    </div>
-    <div class="social_media title_article_list_text_phone1">
+      </div>    <div class="social_media_goods1 social_media title_article_list_text_phone1">
       <div class="mail_social"></div>
       <div class="tg_social"></div>
       <div class="wp_social"></div>
     </div>
+    </div>
+
   </section>
   <div class="day_night_container">
     <div class="day_night_block">

@@ -238,10 +238,21 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+.title_7stars {
+  position: absolute;
+  left: 8%;
+  top: 40%;
+}
 .wp_social:hover {
   background-image: url(@/assets/img/wp_yel.png);
   background-repeat: no-repeat;
   background-size: cover;
+}
+.social_media_goods1 {
+  position: relative !important;
+  left: inherit !important;
+  bottom: inherit !important;
+  padding-top: 5.75rem;
 }
 .social_media {
   position: absolute;
@@ -894,7 +905,7 @@ width: 29.06rem;
   bottom: 3.75rem;
   transition: 0.3s ease;
 }
-.footer_links_opacity_text_position:hover {
+.footer_links_opacity_text:hover {
   color: rgb(60, 59, 75);
 }
 .footer_links_text_position2 {
@@ -937,7 +948,7 @@ width: 29.06rem;
 }
 .title_catalog_container {
   padding-top: 6.25rem;
-  height: 100vh;
+  height: fit-content;
   background-color: black;
 }
 .title_catalog_container1 {
@@ -1076,9 +1087,12 @@ width: 29.06rem;
   text-align: right;
   text-transform: uppercase;
   margin-bottom: 2.5rem;
+  color: white;
   transition: 0.5s ease;
 }
-
+.list_product_button:hover {
+  background-color: rgba(166, 165, 184, 1);
+}
 .list_product_button.active {
   background: rgb(247, 46, 90); /* Активная кнопка */
   color: white;
@@ -1092,7 +1106,6 @@ width: 29.06rem;
 .list_product_button_block {
   display: flex;
   gap: 1.87rem;
-
 }
 .list_product_dots {
   display: flex;
@@ -1132,9 +1145,9 @@ width: 29.06rem;
   position: relative;
   padding: 0 1.25rem;
 }
-.title_article_list_text_phone12{
+.title_article_list_text_phone12 {
   display: none;
-    }
+}
 .list_product_dots span:not(:last-child)::after {
   content: "•";
   position: absolute;
@@ -1530,7 +1543,7 @@ width: 29.06rem;
   justify-content: space-between;
   padding: 9rem 5rem 0rem 5rem;
 }
-.header_text_container_goods_img_pos_phone1{
+.header_text_container_goods_img_pos_phone1 {
   display: none;
 }
 .header_back_article_container_test {
@@ -1573,7 +1586,7 @@ width: 29.06rem;
 .first_block_article {
   display: flex;
   flex-direction: column;
-  
+
   padding-left: 5rem;
   gap: 3rem;
 }
@@ -1758,6 +1771,7 @@ width: 29.06rem;
   height: 100%;
   padding-top: 7.3rem;
   padding-left: 6.31rem;
+  padding-bottom: 3.12rem;
   z-index: 0;
 }
 .header_text_container_goods_img_pos {
@@ -1970,8 +1984,9 @@ width: 29.06rem;
     transform: rotate(-90deg); /* Поворот на 90 градусов */
     transform-origin: left top; /* Точка поворота */
     white-space: nowrap; /* Запрещает перенос строки */
-    left: 11rem;
+    left: inherit;
     bottom: -10rem;
+    right: -21rem;
   }
   .title {
     padding-left: 4rem;
@@ -2246,6 +2261,9 @@ width: 29.06rem;
     padding-top: 2.5rem;
     padding-left: 1.87rem;
     height: 43.25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   .make_order_name {
     font-size: 2.25rem;
@@ -2648,7 +2666,6 @@ width: 29.06rem;
     margin-left: 6.9rem;
   }
   .news_container {
-    
     padding: 1.87rem;
     gap: 1.87rem;
     justify-content: center;
@@ -2804,7 +2821,7 @@ width: 29.06rem;
   }
   .header_text_container_goods_img_pos {
     flex-direction: column-reverse;
-    gap: 1.87rem;
+    gap: 1.5rem;
   }
   .header_text_container_goods {
     display: flex;
@@ -2942,10 +2959,22 @@ width: 29.06rem;
   .title_article_list_text_phone1 {
     display: none;
   }
-  .title_article_list_text_phone12{
-display: block;
+  .title_article_list_text_phone12 {
+    display: block;
   }
   .propast {
     display: none;
+  }
+  .make_order_name_back {
+    width: 100%;
+  }
+  .back_header_img {
+    height: 100%;
+  }
+  .thanks_text {
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.81rem;
+    width: 16.88rem;
   }
 }

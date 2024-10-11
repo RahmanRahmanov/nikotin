@@ -103,7 +103,7 @@ section {
   display: block;
 }
 body {
-  background-color:rgb(242, 243, 247)!important;
+  background-color: rgb(242, 243, 247) !important;
 }
 ol,
 ul {
@@ -317,3 +317,16 @@ html {
     font-size: 16px;
   }
 }
+::-webkit-scrollbar {
+  width: 6px; /* Ширина скроллбара */
+}
+
+::-webkit-scrollbar-thumb {
+  /* background-color: rgb(231, 255, 124);  */
+  background-color: rgb(247, 46, 90);
+  border-radius: 0px; /* Радиус для сглаживания углов */
+}
+
+/* ::-webkit-scrollbar-track {
+  background-color: black; 
+} */
