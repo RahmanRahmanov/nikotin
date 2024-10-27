@@ -135,16 +135,16 @@
     <p class="catalog_3pods_text color_grey-black">каталог</p>
     <div class="catalog_3pods">
       <div class="_3pods_1">
-        <img class="_3pods_img" src="@/assets/img/3pods_1.png" alt="" />
+        <img class="_3pods_img" src="@/assets/img/katalog_pod/katalog_pod1.png" alt="" />
       </div>
       <div class="_3pods_2">
-        <img class="_3pods_img" src="@/assets/img/3pods_2.png" alt="" />
+        <img class="_3pods_img" src="@/assets/img/katalog_pod/katalog_pod8.png" alt="" />
       </div>
       <div class="_3pods_3">
-        <img class="_3pods_img" src="@/assets/img/3pods_3.png" alt="" />
+        <img class="_3pods_img" src="@/assets/img/katalog_pod/katalog_pod5.png" alt="" />
       </div>
     </div>
-    <button class="_3pods_button">
+    <RouterLink to="/katalog"> <button class="_3pods_button">
       <p class="_3pods_button_text color_white">перейти</p>
       <img class="arrow_katalog_img" src="@/assets/img/Arrow 1.svg" alt="" />
       <img
@@ -152,7 +152,7 @@
         src="@/assets/img/Arrow_phone.png"
         alt=""
       />
-    </button>
+    </button></RouterLink>
   </div>
 
   <div class="top_tastes_container">

@@ -14,8 +14,12 @@
     <div class="day_night_block">
       <div class="day_night_text_block">
         <p class="day_night_title">day&night</p>
-        <p class="day_night_text day_night_text_none">линейка вкусов<br />для ценителей крепости</p>
-        <p class="day_night_text day_night_text_none_phone">линейка вкусов для<br />ценителей крепости</p>
+        <p class="day_night_text day_night_text_none">
+          линейка вкусов<br />для ценителей крепости
+        </p>
+        <p class="day_night_text day_night_text_none_phone">
+          линейка вкусов для<br />ценителей крепости
+        </p>
       </div>
       <div class="day_night_img_block">
         <div class="day_night_img">
@@ -70,293 +74,329 @@
           ]"
           @click="toggleBlock(2)"
         >
-          жидкости
+          Жидкость 20%
+        </button>
+        <button
+          :class="[
+            'list_product_button',
+            'list_product_button2',
+            { active: activeButton === 3 },
+          ]"
+          @click="toggleBlock(3)"
+        >
+          Жидкость 50%
         </button>
       </div>
       <div class="list_product_items_container" v-if="activeButton === 1">
-        <a class="list_product_items_link" href=""> <div class="list_product_items_block">
-          <img
-            class="list_product_items_block1"
-            src="@/assets/img/back/back_item1.png"
-            alt=""
-          /> 
-          <p class="list_product_name color_white">blueberry raspberry</p>
-          <div class="list_product_podik_img">
+        <a class="list_product_items_link" href="">
+          <div class="list_product_items_block">
             <img
-              class="list_product_podik_img1"
-              src="@/assets/img/katalog_pod/katalog_pod1.png"
+              class="list_product_items_block1"
+              src="@/assets/img/back/back_item1.png"
               alt=""
             />
-          </div>
-          <div class="list_product_dots list_product_dots_pos_katalog">
-            <span>20K</span>
-            <span>20 mg</span>
-            <span>salt</span>
-          </div>
-        </div></a>
-        <a class="list_product_items_link" href=""> <div class="list_product_items_block">
-          <img
-            class="list_product_items_block1"
-            src="@/assets/img/back/back_item2.png"
-            alt=""
-          />
-          <p class="list_product_name color_white">grape ice</p>
-          <div class="list_product_podik_img">
+            <p class="list_product_name color_white">blueberry raspberry</p>
+            <div class="list_product_podik_img">
+              <img
+                class="list_product_podik_img1"
+                src="@/assets/img/katalog_pod/katalog_pod1.png"
+                alt=""
+              />
+            </div>
+            <div class="list_product_dots list_product_dots_pos_katalog">
+              <span>20K</span>
+              <span>20 mg</span>
+              <span>salt</span>
+            </div>
+          </div></a
+        >
+        <a class="list_product_items_link" href="">
+          <div class="list_product_items_block">
             <img
-              class="list_product_podik_img1"
-              src="@/assets/img/katalog_pod/katalog_pod2.png"
+              class="list_product_items_block1"
+              src="@/assets/img/back/back_item2.png"
               alt=""
             />
-          </div>
-          <div class="list_product_dots list_product_dots_pos_katalog">
-            <span>20K</span>
-            <span>20 mg</span>
-            <span>salt</span>
-          </div>
-        </div></a>
-        <a class="list_product_items_link" href=""> <div class="list_product_items_block">
-          <img
-            class="list_product_items_block1"
-            src="@/assets/img/back/back_item3.png"
-            alt=""
-          />
-          <p class="list_product_name color_white">lush ice</p>
-          <div class="list_product_podik_img list_product_podik_img3">
+            <p class="list_product_name color_white">grape ice</p>
+            <div class="list_product_podik_img">
+              <img
+                class="list_product_podik_img1"
+                src="@/assets/img/katalog_pod/katalog_pod2.png"
+                alt=""
+              />
+            </div>
+            <div class="list_product_dots list_product_dots_pos_katalog">
+              <span>20K</span>
+              <span>20 mg</span>
+              <span>salt</span>
+            </div>
+          </div></a
+        >
+        <a class="list_product_items_link" href="">
+          <div class="list_product_items_block">
             <img
-              class="list_product_podik_img1"
-              src="@/assets/img/katalog_pod/katalog_pod3.png"
+              class="list_product_items_block1"
+              src="@/assets/img/back/back_item3.png"
               alt=""
             />
-          </div>
-          <div class="list_product_dots list_product_dots_pos_katalog">
-            <span>20K</span>
-            <span>20 mg</span>
-            <span>salt</span>
-          </div>
-        </div></a>
-        <a class="list_product_items_link" href=""><div class="list_product_items_block">
-          <img
-            class="list_product_items_block1"
-            src="@/assets/img/back/back_item4.png"
-            alt=""
-          />
-          <p class="list_product_name color_white">kiwi strawberry</p>
-          <div class="list_product_podik_img list_product_podik_img4">
+            <p class="list_product_name color_white">lush ice</p>
+            <div class="list_product_podik_img list_product_podik_img3">
+              <img
+                class="list_product_podik_img1"
+                src="@/assets/img/katalog_pod/katalog_pod3.png"
+                alt=""
+              />
+            </div>
+            <div class="list_product_dots list_product_dots_pos_katalog">
+              <span>20K</span>
+              <span>20 mg</span>
+              <span>salt</span>
+            </div>
+          </div></a
+        >
+        <a class="list_product_items_link" href=""
+          ><div class="list_product_items_block">
             <img
-              class="list_product_podik_img1"
-              src="@/assets/img/katalog_pod/katalog_pod4.png"
+              class="list_product_items_block1"
+              src="@/assets/img/back/back_item4.png"
               alt=""
             />
-          </div>
-          <div class="list_product_dots list_product_dots_pos_katalog">
-            <span>20K</span>
-            <span>20 mg</span>
-            <span>salt</span>
-          </div>
-        </div></a>
-        <a class="list_product_items_link" href=""> <div class="list_product_items_block">
-          <img
-            class="list_product_items_block1"
-            src="@/assets/img/back/back_item5.png"
-            alt=""
-          />
-          <p class="list_product_name color_white">cola lemon</p>
-          <div class="list_product_podik_img list_product_podik_img5">
+            <p class="list_product_name color_white">kiwi strawberry</p>
+            <div class="list_product_podik_img list_product_podik_img4">
+              <img
+                class="list_product_podik_img1"
+                src="@/assets/img/katalog_pod/katalog_pod4.png"
+                alt=""
+              />
+            </div>
+            <div class="list_product_dots list_product_dots_pos_katalog">
+              <span>20K</span>
+              <span>20 mg</span>
+              <span>salt</span>
+            </div>
+          </div></a
+        >
+        <a class="list_product_items_link" href="">
+          <div class="list_product_items_block">
             <img
-              class="list_product_podik_img1"
-              src="@/assets/img/katalog_pod/katalog_pod5.png"
+              class="list_product_items_block1"
+              src="@/assets/img/back/back_item5.png"
               alt=""
             />
-          </div>
-          <div class="list_product_dots list_product_dots_pos_katalog">
-            <span>20K</span>
-            <span>20 mg</span>
-            <span>salt</span>
-          </div>
-        </div></a><a class="list_product_items_link" href="">
-        <div class="list_product_items_block">
-          <img
-            class="list_product_items_block1"
-            src="@/assets/img/back/back_item6.png"
-            alt=""
-          />
-          <p class="list_product_name color_white">dark cherry</p>
-          <div class="list_product_podik_img list_product_podik_img6">
+            <p class="list_product_name color_white">cola lemon</p>
+            <div class="list_product_podik_img list_product_podik_img5">
+              <img
+                class="list_product_podik_img1"
+                src="@/assets/img/katalog_pod/katalog_pod5.png"
+                alt=""
+              />
+            </div>
+            <div class="list_product_dots list_product_dots_pos_katalog">
+              <span>20K</span>
+              <span>20 mg</span>
+              <span>salt</span>
+            </div>
+          </div></a
+        ><a class="list_product_items_link" href="">
+          <div class="list_product_items_block">
             <img
-              class="list_product_podik_img1"
-              src="@/assets/img/katalog_pod/katalog_pod6.png"
+              class="list_product_items_block1"
+              src="@/assets/img/back/back_item6.png"
               alt=""
             />
-          </div>
-          <div class="list_product_dots list_product_dots_pos_katalog">
-            <span>20K</span>
-            <span>20 mg</span>
-            <span>salt</span>
-          </div>
-        </div></a><a class="list_product_items_link" href="">
-        <div class="list_product_items_block">
-          <img
-            class="list_product_items_block1"
-            src="@/assets/img/back/back_item7.png"
-            alt=""
-          />
-          <p class="list_product_name color_white">energy drink</p>
-          <div class="list_product_podik_img list_product_podik_img7">
+            <p class="list_product_name color_white">dark cherry</p>
+            <div class="list_product_podik_img list_product_podik_img6">
+              <img
+                class="list_product_podik_img1"
+                src="@/assets/img/katalog_pod/katalog_pod6.png"
+                alt=""
+              />
+            </div>
+            <div class="list_product_dots list_product_dots_pos_katalog">
+              <span>20K</span>
+              <span>20 mg</span>
+              <span>salt</span>
+            </div>
+          </div></a
+        ><a class="list_product_items_link" href="">
+          <div class="list_product_items_block">
             <img
-              class="list_product_podik_img1"
-              src="@/assets/img/katalog_pod/katalog_pod7.png"
+              class="list_product_items_block1"
+              src="@/assets/img/back/back_item7.png"
               alt=""
             />
-          </div>
-          <div class="list_product_dots list_product_dots_pos_katalog">
-            <span>20K</span>
-            <span>20 mg</span>
-            <span>salt</span>
-          </div>
-        </div></a> <a class="list_product_items_link" href="">
-        <div class="list_product_items_block">
-          <img
-            class="list_product_items_block1"
-            src="@/assets/img/back/back_item8.png"
-            alt=""
-          />
-          <p class="list_product_name color_white">raspberry root soda</p>
-          <div class="list_product_podik_img list_product_podik_img8">
+            <p class="list_product_name color_white">energy drink</p>
+            <div class="list_product_podik_img list_product_podik_img7">
+              <img
+                class="list_product_podik_img1"
+                src="@/assets/img/katalog_pod/katalog_pod7.png"
+                alt=""
+              />
+            </div>
+            <div class="list_product_dots list_product_dots_pos_katalog">
+              <span>20K</span>
+              <span>20 mg</span>
+              <span>salt</span>
+            </div>
+          </div></a
+        >
+        <a class="list_product_items_link" href="">
+          <div class="list_product_items_block">
             <img
-              class="list_product_podik_img1"
-              src="@/assets/img/katalog_pod/katalog_pod8.png"
+              class="list_product_items_block1"
+              src="@/assets/img/back/back_item8.png"
               alt=""
             />
-          </div>
-          <div class="list_product_dots list_product_dots_pos_katalog">
-            <span>20K</span>
-            <span>20 mg</span>
-            <span>salt</span>
-          </div>
-        </div></a> <a class="list_product_items_link" href="">
-        <div class="list_product_items_block">
-          <img
-            class="list_product_items_block1"
-            src="@/assets/img/back/back_item9.png"
-            alt=""
-          />
-          <p class="list_product_name color_white">mixed berry</p>
-          <div class="list_product_podik_img list_product_podik_img9">
+            <p class="list_product_name color_white">raspberry root soda</p>
+            <div class="list_product_podik_img list_product_podik_img8">
+              <img
+                class="list_product_podik_img1"
+                src="@/assets/img/katalog_pod/katalog_pod8.png"
+                alt=""
+              />
+            </div>
+            <div class="list_product_dots list_product_dots_pos_katalog">
+              <span>20K</span>
+              <span>20 mg</span>
+              <span>salt</span>
+            </div>
+          </div></a
+        >
+        <a class="list_product_items_link" href="">
+          <div class="list_product_items_block">
             <img
-              class="list_product_podik_img1"
-              src="@/assets/img/katalog_pod/katalog_pod9.png"
+              class="list_product_items_block1"
+              src="@/assets/img/back/back_item9.png"
               alt=""
             />
-          </div>
-          <div class="list_product_dots list_product_dots_pos_katalog">
-            <span>20K</span>
-            <span>20 mg</span>
-            <span>salt</span>
-          </div>
-        </div></a> <a class="list_product_items_link" href="">
-        <div class="list_product_items_block">
-          <img
-            class="list_product_items_block1"
-            src="@/assets/img/back/back_item10.png"
-            alt=""
-          />
-          <p class="list_product_name color_white">blackcurrant strawberry</p>
-          <div class="list_product_podik_img list_product_podik_img9">
+            <p class="list_product_name color_white">mixed berry</p>
+            <div class="list_product_podik_img list_product_podik_img9">
+              <img
+                class="list_product_podik_img1"
+                src="@/assets/img/katalog_pod/katalog_pod9.png"
+                alt=""
+              />
+            </div>
+            <div class="list_product_dots list_product_dots_pos_katalog">
+              <span>20K</span>
+              <span>20 mg</span>
+              <span>salt</span>
+            </div>
+          </div></a
+        >
+        <a class="list_product_items_link" href="">
+          <div class="list_product_items_block">
             <img
-              class="list_product_podik_img1"
-              src="@/assets/img/katalog_pod/katalog_pod10.png"
+              class="list_product_items_block1"
+              src="@/assets/img/back/back_item10.png"
               alt=""
             />
-          </div>
-          <div class="list_product_dots list_product_dots_pos_katalog">
-            <span>20K</span>
-            <span>20 mg</span>
-            <span>salt</span>
-          </div>
-        </div></a>
+            <p class="list_product_name color_white">blackcurrant strawberry</p>
+            <div class="list_product_podik_img list_product_podik_img9">
+              <img
+                class="list_product_podik_img1"
+                src="@/assets/img/katalog_pod/katalog_pod10.png"
+                alt=""
+              />
+            </div>
+            <div class="list_product_dots list_product_dots_pos_katalog">
+              <span>20K</span>
+              <span>20 mg</span>
+              <span>salt</span>
+            </div>
+          </div></a
+        >
       </div>
       <div class="list_product_items_container" v-if="activeButton === 2">
-        <div class="list_product_items_container"> <a class="list_product_items_link" href="">
-          <div class="list_product_items_block">
-            <img
-              class="list_product_items_block1"
-              src="@/assets/img/back/back_item2.png"
-              alt=""
-            />
-            <p class="list_product_name color_white">grape ice</p>
-            <div class="list_product_podik_img">
+        <div class="list_product_items_container">
+          <a class="list_product_items_link" href="">
+            <div class="list_product_items_block">
               <img
-                class="list_product_podik_img1"
-                src="@/assets/img/katalog_pod/katalog_pod2.png"
+                class="list_product_items_block1"
+                src="@/assets/img/back/back_item2.png"
                 alt=""
               />
-            </div>
-            <div class="list_product_dots list_product_dots_pos_katalog">
-              <span>20K</span>
-              <span>20 mg</span>
-              <span>salt</span>
-            </div>
-          </div></a> <a class="list_product_items_link" href="">
-          <div class="list_product_items_block">
-            <img
-              class="list_product_items_block1"
-              src="@/assets/img/back/back_item2.png"
-              alt=""
-            />
-            <p class="list_product_name color_white">grape ice</p>
-            <div class="list_product_podik_img">
+              <p class="list_product_name color_white">grape ice</p>
+              <div class="list_product_podik_img">
+                <img
+                  class="list_product_podik_img1"
+                  src="@/assets/img/katalog_pod/katalog_pod2.png"
+                  alt=""
+                />
+              </div>
+              <div class="list_product_dots list_product_dots_pos_katalog">
+                <span>20K</span>
+                <span>20 mg</span>
+                <span>salt</span>
+              </div>
+            </div></a
+          >
+          <a class="list_product_items_link" href="">
+            <div class="list_product_items_block">
               <img
-                class="list_product_podik_img1"
-                src="@/assets/img/katalog_pod/katalog_pod2.png"
+                class="list_product_items_block1"
+                src="@/assets/img/back/back_item2.png"
                 alt=""
               />
-            </div>
-            <div class="list_product_dots list_product_dots_pos_katalog">
-              <span>20K</span>
-              <span>20 mg</span>
-              <span>salt</span>
-            </div>
-          </div></a> <a class="list_product_items_link" href="">
-          <div class="list_product_items_block">
-            <img
-              class="list_product_items_block1"
-              src="@/assets/img/back/back_item2.png"
-              alt=""
-            />
-            <p class="list_product_name color_white">grape ice</p>
-            <div class="list_product_podik_img">
+              <p class="list_product_name color_white">grape ice</p>
+              <div class="list_product_podik_img">
+                <img
+                  class="list_product_podik_img1"
+                  src="@/assets/img/katalog_pod/katalog_pod2.png"
+                  alt=""
+                />
+              </div>
+              <div class="list_product_dots list_product_dots_pos_katalog">
+                <span>20K</span>
+                <span>20 mg</span>
+                <span>salt</span>
+              </div>
+            </div></a
+          >
+          <a class="list_product_items_link" href="">
+            <div class="list_product_items_block">
               <img
-                class="list_product_podik_img1"
-                src="@/assets/img/katalog_pod/katalog_pod2.png"
+                class="list_product_items_block1"
+                src="@/assets/img/back/back_item2.png"
                 alt=""
               />
-            </div>
-            <div class="list_product_dots list_product_dots_pos_katalog">
-              <span>20K</span>
-              <span>20 mg</span>
-              <span>salt</span>
-            </div>
-          </div></a> <a class="list_product_items_link" href="">
-          <div class="list_product_items_block">
-            <img
-              class="list_product_items_block1"
-              src="@/assets/img/back/back_item2.png"
-              alt=""
-            />
-            <p class="list_product_name color_white">grape ice</p>
-            <div class="list_product_podik_img">
+              <p class="list_product_name color_white">grape ice</p>
+              <div class="list_product_podik_img">
+                <img
+                  class="list_product_podik_img1"
+                  src="@/assets/img/katalog_pod/katalog_pod2.png"
+                  alt=""
+                />
+              </div>
+              <div class="list_product_dots list_product_dots_pos_katalog">
+                <span>20K</span>
+                <span>20 mg</span>
+                <span>salt</span>
+              </div>
+            </div></a
+          >
+          <a class="list_product_items_link" href="">
+            <div class="list_product_items_block">
               <img
-                class="list_product_podik_img1"
-                src="@/assets/img/katalog_pod/katalog_pod2.png"
+                class="list_product_items_block1"
+                src="@/assets/img/back/back_item2.png"
                 alt=""
               />
-            </div>
-            <div class="list_product_dots list_product_dots_pos_katalog">
-              <span>20K</span>
-              <span>20 mg</span>
-              <span>salt</span>
-            </div>
-          </div></a>
+              <p class="list_product_name color_white">grape ice</p>
+              <div class="list_product_podik_img">
+                <img
+                  class="list_product_podik_img1"
+                  src="@/assets/img/katalog_pod/katalog_pod2.png"
+                  alt=""
+                />
+              </div>
+              <div class="list_product_dots list_product_dots_pos_katalog">
+                <span>20K</span>
+                <span>20 mg</span>
+                <span>salt</span>
+              </div>
+            </div></a
+          >
         </div>
       </div>
     </div>

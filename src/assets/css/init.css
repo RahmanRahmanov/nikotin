@@ -787,6 +787,7 @@ width: 29.06rem;
   display: flex;
   flex-direction: column;
   row-gap: 1.125rem;
+  align-items: center;
 }
 
 .submit-button {
@@ -2280,13 +2281,13 @@ width: 29.06rem;
   }
   .form-input,
   .form-textarea {
-    width: 15.19rem;
+    width: 13.19rem;
     font-size: 0.75rem;
     font-weight: 400;
     line-height: 0.88rem;
   }
   .submit-button {
-    width: 17.59rem;
+    width: 15.59rem;
     font-size: 0.75rem;
     font-weight: 400;
     line-height: 0.88rem;
