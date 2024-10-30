@@ -88,7 +88,7 @@
         </button>
       </div>
       <div class="list_product_items_container" v-if="activeButton === 1">
-        <a class="list_product_items_link" href="">
+        <RouterLink to="/goods" class="list_product_items_link">
           <div class="list_product_items_block">
             <img
               class="list_product_items_block1"
@@ -108,9 +108,9 @@
               <span>20 mg</span>
               <span>salt</span>
             </div>
-          </div></a
+          </div></RouterLink
         >
-        <a class="list_product_items_link" href="">
+        <RouterLink to="/goodsgrape" class="list_product_items_link">
           <div class="list_product_items_block">
             <img
               class="list_product_items_block1"
@@ -130,9 +130,9 @@
               <span>20 mg</span>
               <span>salt</span>
             </div>
-          </div></a
+          </div></RouterLink
         >
-        <a class="list_product_items_link" href="">
+        <RouterLink to="/goodslush" class="list_product_items_link">
           <div class="list_product_items_block">
             <img
               class="list_product_items_block1"
@@ -152,10 +152,11 @@
               <span>20 mg</span>
               <span>salt</span>
             </div>
-          </div></a
+          </div></RouterLink
         >
-        <a class="list_product_items_link" href=""
-          ><div class="list_product_items_block">
+        <RouterLink to="/goodskiwi" class="list_product_items_link">
+          >
+          <div class="list_product_items_block">
             <img
               class="list_product_items_block1"
               src="@/assets/img/back/back_item4.png"
@@ -174,9 +175,10 @@
               <span>20 mg</span>
               <span>salt</span>
             </div>
-          </div></a
+          </div></RouterLink
         >
-        <a class="list_product_items_link" href="">
+        <RouterLink to="/goodscola" class="list_product_items_link "
+        >
           <div class="list_product_items_block">
             <img
               class="list_product_items_block1"
@@ -196,8 +198,9 @@
               <span>20 mg</span>
               <span>salt</span>
             </div>
-          </div></a
-        ><a class="list_product_items_link" href="">
+          </div></RouterLink
+        > <RouterLink to="/goodscherry" class="list_product_items_link "
+        >
           <div class="list_product_items_block">
             <img
               class="list_product_items_block1"
@@ -217,8 +220,9 @@
               <span>20 mg</span>
               <span>salt</span>
             </div>
-          </div></a
-        ><a class="list_product_items_link" href="">
+          </div></RouterLink
+        > <RouterLink to="/goodsenergy" class="list_product_items_link "
+        >
           <div class="list_product_items_block">
             <img
               class="list_product_items_block1"
@@ -238,9 +242,10 @@
               <span>20 mg</span>
               <span>salt</span>
             </div>
-          </div></a
+          </div></RouterLink
         >
-        <a class="list_product_items_link" href="">
+        <RouterLink to="/goodsraspberry" class="list_product_items_link "
+        >
           <div class="list_product_items_block">
             <img
               class="list_product_items_block1"
@@ -260,9 +265,10 @@
               <span>20 mg</span>
               <span>salt</span>
             </div>
-          </div></a
+          </div></RouterLink
         >
-        <a class="list_product_items_link" href="">
+        <RouterLink to="/goodsmixed" class="list_product_items_link "
+        >
           <div class="list_product_items_block">
             <img
               class="list_product_items_block1"
@@ -282,9 +288,9 @@
               <span>20 mg</span>
               <span>salt</span>
             </div>
-          </div></a
+          </div></RouterLink
         >
-        <a class="list_product_items_link" href="">
+        <RouterLink to="/goodsblackcurrant" class="list_product_items_link ">
           <div class="list_product_items_block">
             <img
               class="list_product_items_block1"
@@ -304,8 +310,7 @@
               <span>20 mg</span>
               <span>salt</span>
             </div>
-          </div></a
-        >
+          </div></RouterLink>
       </div>
       <div class="list_product_items_container" v-if="activeButton === 2">
         <div class="list_product_items_container">

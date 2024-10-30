@@ -12,7 +12,7 @@
       <swiper-slide>
         <div class="slide-background">
           <img
-            src="@/assets/img/goods_blackc-strawb.png"
+            src="@/assets/img/katalog_pod/katalog_pod10.png"
             alt="slide image"
             class="slide-image"
           />
@@ -22,7 +22,7 @@
       <swiper-slide>
         <div class="slide-background">
           <img
-            src="@/assets/img/goods_cola-lemon.png"
+            src="@/assets/img/katalog_pod/katalog_pod4.png"
             alt="slide image"
             class="slide-image"
           />
@@ -32,7 +32,7 @@
       <swiper-slide>
         <div class="slide-background">
           <img
-            src="@/assets/img/goods_grapeice.png"
+            src="@/assets/img/katalog_pod/katalog_pod5.png"
             alt="slide image"
             class="slide-image"
           />
@@ -42,7 +42,7 @@
       <swiper-slide>
         <div class="slide-background">
           <img
-            src="@/assets/img/goods_raroot-sod.png"
+            src="@/assets/img/katalog_pod/katalog_pod8.png"
             alt="slide image"
             class="slide-image"
           />
@@ -52,7 +52,7 @@
       <swiper-slide>
         <div class="slide-background">
           <img
-            src="@/assets/img/goods_blackc-strawb.png"
+            src="@/assets/img/katalog_pod/katalog_pod9.png"
             alt="slide image"
             class="slide-image"
           />
@@ -62,7 +62,7 @@
       <swiper-slide>
         <div class="slide-background">
           <img
-            src="@/assets/img/goods_grapeice.png"
+            src="@/assets/img/katalog_pod/katalog_pod2.png"
             alt="slide image"
             class="slide-image"
           />
