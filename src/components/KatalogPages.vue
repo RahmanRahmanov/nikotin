@@ -55,37 +55,42 @@
   </div>
   <div class="list_product_container">
     <div class="list_product_block">
-      <div class="list_product_button_block">
-        <button
-          :class="[
-            'list_product_button',
-            'list_product_button1',
-            { active: activeButton === 1 },
-          ]"
-          @click="toggleBlock(1)"
-        >
-          электронные сигареты
-        </button>
-        <button
-          :class="[
-            'list_product_button',
-            'list_product_button2',
-            { active: activeButton === 2 },
-          ]"
-          @click="toggleBlock(2)"
-        >
-          Жидкость 20%
-        </button>
-        <button
-          :class="[
-            'list_product_button',
-            'list_product_button2',
-            { active: activeButton === 3 },
-          ]"
-          @click="toggleBlock(3)"
-        >
-          Жидкость 50%
-        </button>
+      <div class="list_product_items_container_button_phone">
+        <div class="list_product_button_block">
+          <div class="list_product_items_container_button_phone1">
+            <button
+              :class="[
+                'list_product_button',
+                'list_product_button1',
+                { active: activeButton === 1 },
+              ]"
+              @click="toggleBlock(1)"
+            >
+              электронные сигареты
+            </button>
+
+            <button
+              :class="[
+                'list_product_button',
+                'list_product_button2',
+                { active: activeButton === 2 },
+              ]"
+              @click="toggleBlock(2)"
+            >
+              Жидкость 20%
+            </button>
+          </div>
+          <button
+            :class="[
+              'list_product_button',
+              'list_product_button2',
+              { active: activeButton === 3 },
+            ]"
+            @click="toggleBlock(3)"
+          >
+            Жидкость 50%
+          </button>
+        </div>
       </div>
       <div class="list_product_items_container" v-if="activeButton === 1">
         <RouterLink to="/goods" class="list_product_items_link">
@@ -155,7 +160,7 @@
           </div></RouterLink
         >
         <RouterLink to="/goodskiwi" class="list_product_items_link">
-          >
+          
           <div class="list_product_items_block">
             <img
               class="list_product_items_block1"
@@ -177,8 +182,7 @@
             </div>
           </div></RouterLink
         >
-        <RouterLink to="/goodscola" class="list_product_items_link "
-        >
+        <RouterLink to="/goodscola" class="list_product_items_link">
           <div class="list_product_items_block">
             <img
               class="list_product_items_block1"
@@ -199,8 +203,8 @@
               <span>salt</span>
             </div>
           </div></RouterLink
-        > <RouterLink to="/goodscherry" class="list_product_items_link "
         >
+        <RouterLink to="/goodscherry" class="list_product_items_link">
           <div class="list_product_items_block">
             <img
               class="list_product_items_block1"
@@ -221,8 +225,8 @@
               <span>salt</span>
             </div>
           </div></RouterLink
-        > <RouterLink to="/goodsenergy" class="list_product_items_link "
         >
+        <RouterLink to="/goodsenergy" class="list_product_items_link">
           <div class="list_product_items_block">
             <img
               class="list_product_items_block1"
@@ -244,8 +248,7 @@
             </div>
           </div></RouterLink
         >
-        <RouterLink to="/goodsraspberry" class="list_product_items_link "
-        >
+        <RouterLink to="/goodsraspberry" class="list_product_items_link">
           <div class="list_product_items_block">
             <img
               class="list_product_items_block1"
@@ -267,8 +270,7 @@
             </div>
           </div></RouterLink
         >
-        <RouterLink to="/goodsmixed" class="list_product_items_link "
-        >
+        <RouterLink to="/goodsmixed" class="list_product_items_link">
           <div class="list_product_items_block">
             <img
               class="list_product_items_block1"
@@ -290,7 +292,7 @@
             </div>
           </div></RouterLink
         >
-        <RouterLink to="/goodsblackcurrant" class="list_product_items_link ">
+        <RouterLink to="/goodsblackcurrant" class="list_product_items_link">
           <div class="list_product_items_block">
             <img
               class="list_product_items_block1"
@@ -310,7 +312,8 @@
               <span>20 mg</span>
               <span>salt</span>
             </div>
-          </div></RouterLink>
+          </div></RouterLink
+        >
       </div>
       <div class="list_product_items_container" v-if="activeButton === 2">
         <div class="list_product_items_container">

@@ -10,63 +10,69 @@
     >
       <!-- Статически указанные слайды с изображениями -->
       <swiper-slide>
-        <div class="slide-background">
-          <img
-            src="@/assets/img/katalog_pod/katalog_pod10.png"
-            alt="slide image"
-            class="slide-image"
-          />
-        </div>
+        <RouterLink to="/goods" class="list_product_items_link">
+          <div class="slide-background">
+            <img
+              src="@/assets/img/katalog_pod/katalog_pod10.png"
+              alt="slide image"
+              class="slide-image"
+            /></div
+        ></RouterLink>
       </swiper-slide>
 
       <swiper-slide>
-        <div class="slide-background">
-          <img
-            src="@/assets/img/katalog_pod/katalog_pod4.png"
-            alt="slide image"
-            class="slide-image"
-          />
-        </div>
+        <RouterLink to="/goodskiwi" class="list_product_items_link">
+          <div class="slide-background">
+            <img
+              src="@/assets/img/katalog_pod/katalog_pod4.png"
+              alt="slide image"
+              class="slide-image"
+            /></div
+        ></RouterLink>
       </swiper-slide>
 
       <swiper-slide>
-        <div class="slide-background">
-          <img
-            src="@/assets/img/katalog_pod/katalog_pod5.png"
-            alt="slide image"
-            class="slide-image"
-          />
-        </div>
+        <RouterLink to="/goodscola" class="list_product_items_link">
+          <div class="slide-background">
+            <img
+              src="@/assets/img/katalog_pod/katalog_pod5.png"
+              alt="slide image"
+              class="slide-image"
+            /></div
+        ></RouterLink>
+      </swiper-slide>
+
+      <swiper-slide
+        ><RouterLink to="/goodsraspberry" class="list_product_items_link">
+          <div class="slide-background">
+            <img
+              src="@/assets/img/katalog_pod/katalog_pod8.png"
+              alt="slide image"
+              class="slide-image"
+            /></div
+        ></RouterLink>
       </swiper-slide>
 
       <swiper-slide>
-        <div class="slide-background">
-          <img
-            src="@/assets/img/katalog_pod/katalog_pod8.png"
-            alt="slide image"
-            class="slide-image"
-          />
-        </div>
+        <RouterLink to="/goodsmixed" class="list_product_items_link">
+          <div class="slide-background">
+            <img
+              src="@/assets/img/katalog_pod/katalog_pod9.png"
+              alt="slide image"
+              class="slide-image"
+            /></div
+        ></RouterLink>
       </swiper-slide>
 
-      <swiper-slide>
-        <div class="slide-background">
-          <img
-            src="@/assets/img/katalog_pod/katalog_pod9.png"
-            alt="slide image"
-            class="slide-image"
-          />
-        </div>
-      </swiper-slide>
-
-      <swiper-slide>
-        <div class="slide-background">
-          <img
-            src="@/assets/img/katalog_pod/katalog_pod2.png"
-            alt="slide image"
-            class="slide-image"
-          />
-        </div>
+      <swiper-slide
+        ><RouterLink to="/goodsgrape" class="list_product_items_link">
+          <div class="slide-background">
+            <img
+              src="@/assets/img/katalog_pod/katalog_pod2.png"
+              alt="slide image"
+              class="slide-image"
+            /></div
+        ></RouterLink>
       </swiper-slide>
     </swiper>
   </div>
