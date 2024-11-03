@@ -160,7 +160,6 @@
           </div></RouterLink
         >
         <RouterLink to="/goodskiwi" class="list_product_items_link">
-          
           <div class="list_product_items_block">
             <img
               class="list_product_items_block1"
@@ -317,95 +316,581 @@
       </div>
       <div class="list_product_items_container" v-if="activeButton === 2">
         <div class="list_product_items_container">
-          <a class="list_product_items_link" href="">
+          <RouterLink to="/goods" class="list_product_items_link">
             <div class="list_product_items_block">
               <img
                 class="list_product_items_block1"
-                src="@/assets/img/back/back_item2.png"
+                src="@/assets/img/back/back_item_1.png"
                 alt=""
               />
-              <p class="list_product_name color_white">grape ice</p>
+              <p class="list_product_name color_white">персик</p>
               <div class="list_product_podik_img">
                 <img
                   class="list_product_podik_img1"
-                  src="@/assets/img/katalog_pod/katalog_pod2.png"
+                  src="@/assets/img/katalog_pod/peach.png"
                   alt=""
                 />
               </div>
               <div class="list_product_dots list_product_dots_pos_katalog">
-                <span>20K</span>
-                <span>20 mg</span>
+                <span>30ml</span>
+                <span>50 mg</span>
                 <span>salt</span>
               </div>
-            </div></a
+            </div></RouterLink
           >
-          <a class="list_product_items_link" href="">
+          <RouterLink to="/goodsgrape" class="list_product_items_link">
             <div class="list_product_items_block">
               <img
                 class="list_product_items_block1"
-                src="@/assets/img/back/back_item2.png"
+                src="@/assets/img/back/back_item_2.png"
                 alt=""
               />
-              <p class="list_product_name color_white">grape ice</p>
+              <p class="list_product_name color_white">черника малина</p>
               <div class="list_product_podik_img">
                 <img
                   class="list_product_podik_img1"
-                  src="@/assets/img/katalog_pod/katalog_pod2.png"
+                  src="@/assets/img/katalog_pod/blueberries_raspberries.png"
                   alt=""
                 />
               </div>
               <div class="list_product_dots list_product_dots_pos_katalog">
-                <span>20K</span>
-                <span>20 mg</span>
+                <span>30ml</span>
+                <span>50 mg</span>
                 <span>salt</span>
               </div>
-            </div></a
+            </div></RouterLink
           >
-          <a class="list_product_items_link" href="">
+          <RouterLink to="/goodslush" class="list_product_items_link">
             <div class="list_product_items_block">
               <img
                 class="list_product_items_block1"
-                src="@/assets/img/back/back_item2.png"
+                src="@/assets/img/back/back_item_3.png"
                 alt=""
               />
-              <p class="list_product_name color_white">grape ice</p>
-              <div class="list_product_podik_img">
+              <p class="list_product_name color_white">розовый лимонад</p>
+              <div class="list_product_podik_img list_product_podik_img3">
                 <img
                   class="list_product_podik_img1"
-                  src="@/assets/img/katalog_pod/katalog_pod2.png"
+                  src="@/assets/img/katalog_pod/wild_berries.png"
                   alt=""
                 />
               </div>
               <div class="list_product_dots list_product_dots_pos_katalog">
-                <span>20K</span>
-                <span>20 mg</span>
+                <span>30ml</span>
+                <span>50 mg</span>
                 <span>salt</span>
               </div>
-            </div></a
+            </div></RouterLink
           >
-          <a class="list_product_items_link" href="">
+          <RouterLink to="/goodskiwi" class="list_product_items_link">
             <div class="list_product_items_block">
               <img
                 class="list_product_items_block1"
-                src="@/assets/img/back/back_item2.png"
+                src="@/assets/img/back/back_item_4.png"
                 alt=""
               />
-              <p class="list_product_name color_white">grape ice</p>
-              <div class="list_product_podik_img">
+              <p class="list_product_name color_white">манго</p>
+              <div class="list_product_podik_img list_product_podik_img4">
                 <img
                   class="list_product_podik_img1"
-                  src="@/assets/img/katalog_pod/katalog_pod2.png"
+                  src="@/assets/img/katalog_pod/mango.png"
                   alt=""
                 />
               </div>
               <div class="list_product_dots list_product_dots_pos_katalog">
-                <span>20K</span>
-                <span>20 mg</span>
+                <span>30ml</span>
+                <span>50 mg</span>
                 <span>salt</span>
               </div>
-            </div></a
+            </div></RouterLink
+          >
+          <RouterLink to="/goodscola" class="list_product_items_link">
+            <div class="list_product_items_block">
+              <img
+                class="list_product_items_block1"
+                src="@/assets/img/back/back_item_5.png"
+                alt=""
+              />
+              <p class="list_product_name color_white">малина банан</p>
+              <div class="list_product_podik_img list_product_podik_img5">
+                <img
+                  class="list_product_podik_img1"
+                  src="@/assets/img/katalog_pod/raspberry_banana.png"
+                  alt=""
+                />
+              </div>
+              <div class="list_product_dots list_product_dots_pos_katalog">
+                <span>30ml</span>
+                <span>50 mg</span>
+                <span>salt</span>
+              </div>
+            </div></RouterLink
+          >
+          <RouterLink to="/goodscherry" class="list_product_items_link">
+            <div class="list_product_items_block">
+              <img
+                class="list_product_items_block1"
+                src="@/assets/img/back/back_item_6.png"
+                alt=""
+              />
+              <p class="list_product_name color_white">лесные ягоды</p>
+              <div class="list_product_podik_img list_product_podik_img6">
+                <img
+                  class="list_product_podik_img1"
+                  src="@/assets/img/katalog_pod/wild_berries.png"
+                  alt=""
+                />
+              </div>
+              <div class="list_product_dots list_product_dots_pos_katalog">
+                <span>30ml</span>
+                <span>50 mg</span>
+                <span>salt</span>
+              </div>
+            </div></RouterLink
+          >
+          <RouterLink to="/goodsenergy" class="list_product_items_link">
+            <div class="list_product_items_block">
+              <img
+                class="list_product_items_block1"
+                src="@/assets/img/back/back_item_7.png"
+                alt=""
+              />
+              <p class="list_product_name color_white">клубничное мороженое</p>
+              <div class="list_product_podik_img list_product_podik_img7">
+                <img
+                  class="list_product_podik_img1"
+                  src="@/assets/img/katalog_pod/strawberry_ice_cream.png"
+                  alt=""
+                />
+              </div>
+              <div class="list_product_dots list_product_dots_pos_katalog">
+                <span>30ml</span>
+                <span>50 mg</span>
+                <span>salt</span>
+              </div>
+            </div></RouterLink
+          >
+          <RouterLink to="/goodsraspberry" class="list_product_items_link">
+            <div class="list_product_items_block">
+              <img
+                class="list_product_items_block1"
+                src="@/assets/img/back/back_item_8.png"
+                alt=""
+              />
+              <p class="list_product_name color_white">жвачка</p>
+              <div class="list_product_podik_img list_product_podik_img8">
+                <img
+                  class="list_product_podik_img1"
+                  src="@/assets/img/katalog_pod/chewing gum.png"
+                  alt=""
+                />
+              </div>
+              <div class="list_product_dots list_product_dots_pos_katalog">
+                <span>30ml</span>
+                <span>50 mg</span>
+                <span>salt</span>
+              </div>
+            </div></RouterLink
+          >
+          <RouterLink to="/goodsmixed" class="list_product_items_link">
+            <div class="list_product_items_block">
+              <img
+                class="list_product_items_block1"
+                src="@/assets/img/back/back_item_9.png"
+                alt=""
+              />
+              <p class="list_product_name color_white">ежевика</p>
+              <div class="list_product_podik_img list_product_podik_img9">
+                <img
+                  class="list_product_podik_img1"
+                  src="@/assets/img/katalog_pod/blackberry.png"
+                  alt=""
+                />
+              </div>
+              <div class="list_product_dots list_product_dots_pos_katalog">
+                <span>30ml</span>
+                <span>50 mg</span>
+                <span>salt</span>
+              </div>
+            </div></RouterLink
+          >
+          <RouterLink to="/goodsblackcurrant" class="list_product_items_link">
+            <div class="list_product_items_block">
+              <img
+                class="list_product_items_block1"
+                src="@/assets/img/back/back_item_10.png"
+                alt=""
+              />
+              <p class="list_product_name color_white">вишня лайм</p>
+              <div class="list_product_podik_img list_product_podik_img9">
+                <img
+                  class="list_product_podik_img1"
+                  src="@/assets/img/katalog_pod/cherry_lime.png"
+                  alt=""
+                />
+              </div>
+              <div class="list_product_dots list_product_dots_pos_katalog">
+                <span>30ml</span>
+                <span>50 mg</span>
+                <span>salt</span>
+              </div>
+            </div></RouterLink
+          >
+          <RouterLink to="/goodsblackcurrant" class="list_product_items_link">
+            <div class="list_product_items_block">
+              <img
+                class="list_product_items_block1"
+                src="@/assets/img/back/back_item_11.png"
+                alt=""
+              />
+              <p class="list_product_name color_white">виноград</p>
+              <div class="list_product_podik_img list_product_podik_img9">
+                <img
+                  class="list_product_podik_img1"
+                  src="@/assets/img/katalog_pod/grape.png"
+                  alt=""
+                />
+              </div>
+              <div class="list_product_dots list_product_dots_pos_katalog">
+                <span>30ml</span>
+                <span>50 mg</span>
+                <span>salt</span>
+              </div>
+            </div></RouterLink
+          >
+          <RouterLink to="/goodsblackcurrant" class="list_product_items_link">
+            <div class="list_product_items_block">
+              <img
+                class="list_product_items_block1"
+                src="@/assets/img/back/back_item_12.png"
+                alt=""
+              />
+              <p class="list_product_name color_white">арбуз</p>
+              <div class="list_product_podik_img list_product_podik_img9">
+                <img
+                  class="list_product_podik_img1"
+                  src="@/assets/img/katalog_pod/lush.png"
+                  alt=""
+                />
+              </div>
+              <div class="list_product_dots list_product_dots_pos_katalog">
+                <span>30ml</span>
+                <span>50 mg</span>
+                <span>salt</span>
+              </div>
+            </div></RouterLink
+          >
+          <RouterLink to="/goodsblackcurrant" class="list_product_items_link">
+            <div class="list_product_items_block">
+              <img
+                class="list_product_items_block1"
+                src="@/assets/img/back/back_item_13.png"
+                alt=""
+              />
+              <p class="list_product_name color_white">лимон ананас</p>
+              <div class="list_product_podik_img list_product_podik_img9">
+                <img
+                  class="list_product_podik_img1"
+                  src="@/assets/img/katalog_pod/lemon_pineapple.png"
+                  alt=""
+                />
+              </div>
+              <div class="list_product_dots list_product_dots_pos_katalog">
+                <span>30ml</span>
+                <span>50 mg</span>
+                <span>salt</span>
+              </div>
+            </div></RouterLink
           >
         </div>
+      </div>
+      <div class="list_product_items_container" v-if="activeButton === 3">
+        <RouterLink to="/goods" class="list_product_items_link">
+          <div class="list_product_items_block">
+            <img
+              class="list_product_items_block1"
+              src="@/assets/img/back/back_item_1.png"
+              alt=""
+            />
+            <p class="list_product_name color_white">персик</p>
+            <div class="list_product_podik_img">
+              <img
+                class="list_product_podik_img1"
+                src="@/assets/img/katalog_pod/peach.png"
+                alt=""
+              />
+            </div>
+            <div class="list_product_dots list_product_dots_pos_katalog">
+              <span>30ml</span>
+              <span>50 mg</span>
+              <span>salt</span>
+            </div>
+          </div></RouterLink
+        >
+        <RouterLink to="/goodsgrape" class="list_product_items_link">
+          <div class="list_product_items_block">
+            <img
+              class="list_product_items_block1"
+              src="@/assets/img/back/back_item_2.png"
+              alt=""
+            />
+            <p class="list_product_name color_white">черника малина</p>
+            <div class="list_product_podik_img">
+              <img
+                class="list_product_podik_img1"
+                src="@/assets/img/katalog_pod/blueberries_raspberries.png"
+                alt=""
+              />
+            </div>
+            <div class="list_product_dots list_product_dots_pos_katalog">
+              <span>30ml</span>
+              <span>50 mg</span>
+              <span>salt</span>
+            </div>
+          </div></RouterLink
+        >
+        <RouterLink to="/goodslush" class="list_product_items_link">
+          <div class="list_product_items_block">
+            <img
+              class="list_product_items_block1"
+              src="@/assets/img/back/back_item_3.png"
+              alt=""
+            />
+            <p class="list_product_name color_white">розовый лимонад</p>
+            <div class="list_product_podik_img list_product_podik_img3">
+              <img
+                class="list_product_podik_img1"
+                src="@/assets/img/katalog_pod/wild_berries.png"
+                alt=""
+              />
+            </div>
+            <div class="list_product_dots list_product_dots_pos_katalog">
+              <span>30ml</span>
+              <span>50 mg</span>
+              <span>salt</span>
+            </div>
+          </div></RouterLink
+        >
+        <RouterLink to="/goodskiwi" class="list_product_items_link">
+          <div class="list_product_items_block">
+            <img
+              class="list_product_items_block1"
+              src="@/assets/img/back/back_item_4.png"
+              alt=""
+            />
+            <p class="list_product_name color_white">манго</p>
+            <div class="list_product_podik_img list_product_podik_img4">
+              <img
+                class="list_product_podik_img1"
+                src="@/assets/img/katalog_pod/mango.png"
+                alt=""
+              />
+            </div>
+            <div class="list_product_dots list_product_dots_pos_katalog">
+              <span>30ml</span>
+              <span>50 mg</span>
+              <span>salt</span>
+            </div>
+          </div></RouterLink
+        >
+        <RouterLink to="/goodscola" class="list_product_items_link">
+          <div class="list_product_items_block">
+            <img
+              class="list_product_items_block1"
+              src="@/assets/img/back/back_item_5.png"
+              alt=""
+            />
+            <p class="list_product_name color_white">малина банан</p>
+            <div class="list_product_podik_img list_product_podik_img5">
+              <img
+                class="list_product_podik_img1"
+                src="@/assets/img/katalog_pod/raspberry_banana.png"
+                alt=""
+              />
+            </div>
+            <div class="list_product_dots list_product_dots_pos_katalog">
+              <span>30ml</span>
+              <span>50 mg</span>
+              <span>salt</span>
+            </div>
+          </div></RouterLink
+        >
+        <RouterLink to="/goodscherry" class="list_product_items_link">
+          <div class="list_product_items_block">
+            <img
+              class="list_product_items_block1"
+              src="@/assets/img/back/back_item_6.png"
+              alt=""
+            />
+            <p class="list_product_name color_white">лесные ягоды</p>
+            <div class="list_product_podik_img list_product_podik_img6">
+              <img
+                class="list_product_podik_img1"
+                src="@/assets/img/katalog_pod/wild_berries.png"
+                alt=""
+              />
+            </div>
+            <div class="list_product_dots list_product_dots_pos_katalog">
+              <span>30ml</span>
+              <span>50 mg</span>
+              <span>salt</span>
+            </div>
+          </div></RouterLink
+        >
+        <RouterLink to="/goodsenergy" class="list_product_items_link">
+          <div class="list_product_items_block">
+            <img
+              class="list_product_items_block1"
+              src="@/assets/img/back/back_item_7.png"
+              alt=""
+            />
+            <p class="list_product_name color_white">клубничное мороженое</p>
+            <div class="list_product_podik_img list_product_podik_img7">
+              <img
+                class="list_product_podik_img1"
+                src="@/assets/img/katalog_pod/strawberry_ice_cream.png"
+                alt=""
+              />
+            </div>
+            <div class="list_product_dots list_product_dots_pos_katalog">
+              <span>30ml</span>
+              <span>50 mg</span>
+              <span>salt</span>
+            </div>
+          </div></RouterLink
+        >
+        <RouterLink to="/goodsraspberry" class="list_product_items_link">
+          <div class="list_product_items_block">
+            <img
+              class="list_product_items_block1"
+              src="@/assets/img/back/back_item_8.png"
+              alt=""
+            />
+            <p class="list_product_name color_white">жвачка</p>
+            <div class="list_product_podik_img list_product_podik_img8">
+              <img
+                class="list_product_podik_img1"
+                src="@/assets/img/katalog_pod/chewing gum.png"
+                alt=""
+              />
+            </div>
+            <div class="list_product_dots list_product_dots_pos_katalog">
+              <span>30ml</span>
+              <span>50 mg</span>
+              <span>salt</span>
+            </div>
+          </div></RouterLink
+        >
+        <RouterLink to="/goodsmixed" class="list_product_items_link">
+          <div class="list_product_items_block">
+            <img
+              class="list_product_items_block1"
+              src="@/assets/img/back/back_item_9.png"
+              alt=""
+            />
+            <p class="list_product_name color_white">ежевика</p>
+            <div class="list_product_podik_img list_product_podik_img9">
+              <img
+                class="list_product_podik_img1"
+                src="@/assets/img/katalog_pod/blackberry.png"
+                alt=""
+              />
+            </div>
+            <div class="list_product_dots list_product_dots_pos_katalog">
+              <span>30ml</span>
+              <span>50 mg</span>
+              <span>salt</span>
+            </div>
+          </div></RouterLink
+        >
+        <RouterLink to="/goodsblackcurrant" class="list_product_items_link">
+          <div class="list_product_items_block">
+            <img
+              class="list_product_items_block1"
+              src="@/assets/img/back/back_item_10.png"
+              alt=""
+            />
+            <p class="list_product_name color_white">вишня лайм</p>
+            <div class="list_product_podik_img list_product_podik_img9">
+              <img
+                class="list_product_podik_img1"
+                src="@/assets/img/katalog_pod/cherry_lime.png"
+                alt=""
+              />
+            </div>
+            <div class="list_product_dots list_product_dots_pos_katalog">
+              <span>30ml</span>
+              <span>50 mg</span>
+              <span>salt</span>
+            </div>
+          </div></RouterLink
+        >
+        <RouterLink to="/goodsblackcurrant" class="list_product_items_link">
+          <div class="list_product_items_block">
+            <img
+              class="list_product_items_block1"
+              src="@/assets/img/back/back_item_11.png"
+              alt=""
+            />
+            <p class="list_product_name color_white">виноград</p>
+            <div class="list_product_podik_img list_product_podik_img9">
+              <img
+                class="list_product_podik_img1"
+                src="@/assets/img/katalog_pod/grape.png"
+                alt=""
+              />
+            </div>
+            <div class="list_product_dots list_product_dots_pos_katalog">
+              <span>30ml</span>
+              <span>50 mg</span>
+              <span>salt</span>
+            </div>
+          </div></RouterLink
+        >
+        <RouterLink to="/goodsblackcurrant" class="list_product_items_link">
+          <div class="list_product_items_block">
+            <img
+              class="list_product_items_block1"
+              src="@/assets/img/back/back_item_12.png"
+              alt=""
+            />
+            <p class="list_product_name color_white">арбуз</p>
+            <div class="list_product_podik_img list_product_podik_img9">
+              <img
+                class="list_product_podik_img1"
+                src="@/assets/img/katalog_pod/lush.png"
+                alt=""
+              />
+            </div>
+            <div class="list_product_dots list_product_dots_pos_katalog">
+              <span>30ml</span>
+              <span>50 mg</span>
+              <span>salt</span>
+            </div>
+          </div></RouterLink
+        >
+        <RouterLink to="/goodsblackcurrant" class="list_product_items_link">
+          <div class="list_product_items_block">
+            <img
+              class="list_product_items_block1"
+              src="@/assets/img/back/back_item_13.png"
+              alt=""
+            />
+            <p class="list_product_name color_white">лимон ананас</p>
+            <div class="list_product_podik_img list_product_podik_img9">
+              <img
+                class="list_product_podik_img1"
+                src="@/assets/img/katalog_pod/lemon_pineapple.png"
+                alt=""
+              />
+            </div>
+            <div class="list_product_dots list_product_dots_pos_katalog">
+              <span>30ml</span>
+              <span>50 mg</span>
+              <span>salt</span>
+            </div>
+          </div></RouterLink
+        >
       </div>
     </div>
   </div>
