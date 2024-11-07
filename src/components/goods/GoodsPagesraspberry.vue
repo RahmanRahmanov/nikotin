@@ -4,14 +4,14 @@
     <div class="title_goods_block">
       <img
         class="back_header_img"
-        src="@/assets/img/goodsback/chrr.png"
+        src="@/assets/img/goodsback/raspbsoda.png"
         alt=""
       />
 
       <div class="header_text_container_goods_img_pos">
         <div class="header_text_container_goods">
           <p class="title_goods_name header_text_container_goods_img_pos_phone">
-            dark cherry<br />
+            raspberry root soda<br />
             <span class="goods_name_margin title_goods_name "></span>
           </p>
           <div class="title_goods_list_container_block">
@@ -74,13 +74,13 @@
         <div class="header_goods_img_block">
           <img
             class="header_goods_img"
-            src="@/assets/img/katalog_pod/katalog_pod6.png"
+            src="@/assets/img/katalog_pod/katalog_pod8.png"
             alt=""
           />
         </div>
         <p class="title_goods_name title_article_list_text_phone12" >
-          dark cherry<br />
-          <span class="goods_name_margin title_goods_name title_article_list_text_phone12"></span>
+          raspberry  <br />
+          <span class="goods_name_margin title_goods_name title_article_list_text_phone12">root soda</span>
         </p>
       </div>    <div class="social_media_goods1 social_media title_article_list_text_phone1">
       <div class="mail_social"></div>
@@ -140,10 +140,10 @@
 </template>
 
 <script>
-import HeaderBlock from "./stabl/HeaderBlock.vue";
-import MakeorderBlock from "./stabl/MakeorderBlock.vue";
-import FooterBlock from "./stabl/FooterBlock.vue";
-import TopLiest from "./stabl/TopLiest.vue";
+import HeaderBlock from "@/components/stabl/HeaderBlock.vue";
+import MakeorderBlock from "@/components/stabl/MakeorderBlock.vue";
+import FooterBlock from "@/components/stabl/FooterBlock.vue";
+import TopLiest from "@/components/stabl/TopLiest.vue";
 import GoodsSlider from "@/components/UI/GoodsSlider.vue";
 export default {
   components: {

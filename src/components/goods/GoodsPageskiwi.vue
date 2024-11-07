@@ -140,10 +140,10 @@
 </template>
 
 <script>
-import HeaderBlock from "./stabl/HeaderBlock.vue";
-import MakeorderBlock from "./stabl/MakeorderBlock.vue";
-import FooterBlock from "./stabl/FooterBlock.vue";
-import TopLiest from "./stabl/TopLiest.vue";
+import HeaderBlock from "@/components/stabl/HeaderBlock.vue";
+import MakeorderBlock from "@/components/stabl/MakeorderBlock.vue";
+import FooterBlock from "@/components/stabl/FooterBlock.vue";
+import TopLiest from "@/components/stabl/TopLiest.vue";
 import GoodsSlider from "@/components/UI/GoodsSlider.vue";
 export default {
   components: {

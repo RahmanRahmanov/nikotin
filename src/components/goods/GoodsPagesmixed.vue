@@ -4,15 +4,15 @@
     <div class="title_goods_block">
       <img
         class="back_header_img"
-        src="@/assets/img/goodsback/blbrspb.png"
+        src="@/assets/img/goodsback/mix.png"
         alt=""
       />
 
       <div class="header_text_container_goods_img_pos">
         <div class="header_text_container_goods">
           <p class="title_goods_name header_text_container_goods_img_pos_phone">
-            blackcurrant <br />
-            <span class="goods_name_margin title_goods_name ">strawberry</span>
+            mixed berry<br />
+            <span class="goods_name_margin title_goods_name "></span>
           </p>
           <div class="title_goods_list_container_block">
             <div class="title_goods_list_text_block">
@@ -74,13 +74,13 @@
         <div class="header_goods_img_block">
           <img
             class="header_goods_img"
-            src="@/assets/img/katalog_pod/katalog_pod10.png"
+            src="@/assets/img/katalog_pod/katalog_pod9.png"
             alt=""
           />
         </div>
         <p class="title_goods_name title_article_list_text_phone12" >
-          blackcurrant <br />
-          <span class="goods_name_margin title_goods_name title_article_list_text_phone12">strawberry</span>
+          mixed berry<br />
+          <span class="goods_name_margin title_goods_name title_article_list_text_phone12"></span>
         </p>
       </div>    <div class="social_media_goods1 social_media title_article_list_text_phone1">
       <div class="mail_social"></div>
@@ -140,10 +140,10 @@
 </template>
 
 <script>
-import HeaderBlock from "./stabl/HeaderBlock.vue";
-import MakeorderBlock from "./stabl/MakeorderBlock.vue";
-import FooterBlock from "./stabl/FooterBlock.vue";
-import TopLiest from "./stabl/TopLiest.vue";
+import HeaderBlock from "@/components/stabl/HeaderBlock.vue";
+import MakeorderBlock from "@/components/stabl/MakeorderBlock.vue";
+import FooterBlock from "@/components/stabl/FooterBlock.vue";
+import TopLiest from "@/components/stabl/TopLiest.vue";
 import GoodsSlider from "@/components/UI/GoodsSlider.vue";
 export default {
   components: {

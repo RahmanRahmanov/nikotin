@@ -77,7 +77,7 @@
               ]"
               @click="toggleBlock(2)"
             >
-              Жидкость 20%
+              Жидкость 2%
             </button>
           </div>
           <button
@@ -88,7 +88,7 @@
             ]"
             @click="toggleBlock(3)"
           >
-            Жидкость 50%
+            Жидкость 6%
           </button>
         </div>
       </div>
@@ -320,14 +320,14 @@
             <div class="list_product_items_block">
               <img
                 class="list_product_items_block1"
-                src="@/assets/img/back/back_item_1.png"
+                src="@/assets/img/katalog_jijk/jijkiback1.png"
                 alt=""
               />
               <p class="list_product_name color_white">персик</p>
-              <div class="list_product_podik_img">
+              <div class="list_product_jijk_img">
                 <img
-                  class="list_product_podik_img1"
-                  src="@/assets/img/katalog_pod/peach.png"
+                  class="list_product_jijk_img1"
+                  src="@/assets/img/katalog_jijk/jijkiimg1.png"
                   alt=""
                 />
               </div>
@@ -342,14 +342,14 @@
             <div class="list_product_items_block">
               <img
                 class="list_product_items_block1"
-                src="@/assets/img/back/back_item_2.png"
+                src="@/assets/img/katalog_jijk/jijkiback2.png"
                 alt=""
               />
-              <p class="list_product_name color_white">черника малина</p>
-              <div class="list_product_podik_img">
+              <p class="list_product_name color_white">манго персик арбуз</p>
+              <div class="list_product_jijk_img">
                 <img
-                  class="list_product_podik_img1"
-                  src="@/assets/img/katalog_pod/blueberries_raspberries.png"
+                  class="list_product_jijk_img1"
+                  src="@/assets/img/katalog_jijk/jijkiimg2.png"
                   alt=""
                 />
               </div>
@@ -364,20 +364,20 @@
             <div class="list_product_items_block">
               <img
                 class="list_product_items_block1"
-                src="@/assets/img/back/back_item_3.png"
+                src="@/assets/img/katalog_jijk/jijkiback3.png"
                 alt=""
               />
-              <p class="list_product_name color_white">розовый лимонад</p>
-              <div class="list_product_podik_img list_product_podik_img3">
+              <p class="list_product_name color_white">малина</p>
+              <div class="list_product_jijk_img list_product_podik_img3">
                 <img
-                  class="list_product_podik_img1"
-                  src="@/assets/img/katalog_pod/wild_berries.png"
+                  class="list_product_jijk_img1"
+                  src="@/assets/img/katalog_jijk/jijkiimg3.png"
                   alt=""
                 />
               </div>
               <div class="list_product_dots list_product_dots_pos_katalog">
                 <span>30ml</span>
-                <span>50 mg</span>
+                <span>20 mg</span>
                 <span>salt</span>
               </div>
             </div></RouterLink
@@ -386,20 +386,20 @@
             <div class="list_product_items_block">
               <img
                 class="list_product_items_block1"
-                src="@/assets/img/back/back_item_4.png"
+                src="@/assets/img/katalog_jijk/jijkiback4.png"
                 alt=""
               />
-              <p class="list_product_name color_white">манго</p>
-              <div class="list_product_podik_img list_product_podik_img4">
+              <p class="list_product_name color_white">лесные ягоды</p>
+              <div class="list_product_jijk_img list_product_podik_img4">
                 <img
-                  class="list_product_podik_img1"
-                  src="@/assets/img/katalog_pod/mango.png"
+                  class="list_product_jijk_img1"
+                  src="@/assets/img/katalog_jijk/jijkiimg4.png"
                   alt=""
                 />
               </div>
               <div class="list_product_dots list_product_dots_pos_katalog">
                 <span>30ml</span>
-                <span>50 mg</span>
+                <span>20 mg</span>
                 <span>salt</span>
               </div>
             </div></RouterLink
@@ -408,20 +408,20 @@
             <div class="list_product_items_block">
               <img
                 class="list_product_items_block1"
-                src="@/assets/img/back/back_item_5.png"
+                src="@/assets/img/katalog_jijk/jijkiback5.png"
                 alt=""
               />
-              <p class="list_product_name color_white">малина банан</p>
-              <div class="list_product_podik_img list_product_podik_img5">
+              <p class="list_product_name color_white">кола лимон</p>
+              <div class="list_product_jijk_img list_product_podik_img5">
                 <img
-                  class="list_product_podik_img1"
-                  src="@/assets/img/katalog_pod/raspberry_banana.png"
+                  class="list_product_jijk_img1"
+                  src="@/assets/img/katalog_jijk/jijkiimg5.png"
                   alt=""
                 />
               </div>
               <div class="list_product_dots list_product_dots_pos_katalog">
                 <span>30ml</span>
-                <span>50 mg</span>
+                <span>20 mg</span>
                 <span>salt</span>
               </div>
             </div></RouterLink
@@ -430,20 +430,20 @@
             <div class="list_product_items_block">
               <img
                 class="list_product_items_block1"
-                src="@/assets/img/back/back_item_6.png"
+                src="@/assets/img/katalog_jijk/jijkiback6.png"
                 alt=""
               />
-              <p class="list_product_name color_white">лесные ягоды</p>
-              <div class="list_product_podik_img list_product_podik_img6">
+              <p class="list_product_name color_white">клубничный лимонад</p>
+              <div class="list_product_jijk_img list_product_podik_img6">
                 <img
-                  class="list_product_podik_img1"
-                  src="@/assets/img/katalog_pod/wild_berries.png"
+                  class="list_product_jijk_img1"
+                  src="@/assets/img/katalog_jijk/jijkiimg6.png"
                   alt=""
                 />
               </div>
               <div class="list_product_dots list_product_dots_pos_katalog">
                 <span>30ml</span>
-                <span>50 mg</span>
+                <span>20 mg</span>
                 <span>salt</span>
               </div>
             </div></RouterLink
@@ -452,20 +452,20 @@
             <div class="list_product_items_block">
               <img
                 class="list_product_items_block1"
-                src="@/assets/img/back/back_item_7.png"
+                src="@/assets/img/katalog_jijk/jijkiback7.png"
                 alt=""
               />
-              <p class="list_product_name color_white">клубничное мороженое</p>
-              <div class="list_product_podik_img list_product_podik_img7">
+              <p class="list_product_name color_white">клубничный крем</p>
+              <div class="list_product_jijk_img list_product_podik_img7">
                 <img
-                  class="list_product_podik_img1"
-                  src="@/assets/img/katalog_pod/strawberry_ice_cream.png"
+                  class="list_product_jijk_img1"
+                  src="@/assets/img/katalog_jijk/jijkiimg7.png"
                   alt=""
                 />
               </div>
               <div class="list_product_dots list_product_dots_pos_katalog">
                 <span>30ml</span>
-                <span>50 mg</span>
+                <span>20 mg</span>
                 <span>salt</span>
               </div>
             </div></RouterLink
@@ -474,20 +474,22 @@
             <div class="list_product_items_block">
               <img
                 class="list_product_items_block1"
-                src="@/assets/img/back/back_item_8.png"
+                src="@/assets/img/katalog_jijk/jijkiback8.png"
                 alt=""
               />
-              <p class="list_product_name color_white">жвачка</p>
-              <div class="list_product_podik_img list_product_podik_img8">
+              <p class="list_product_name color_white">
+                клубнично-малиновая жвачка
+              </p>
+              <div class="list_product_jijk_img list_product_podik_img8">
                 <img
-                  class="list_product_podik_img1"
-                  src="@/assets/img/katalog_pod/chewing gum.png"
+                  class="list_product_jijk_img1"
+                  src="@/assets/img/katalog_jijk/jijkiimg8.png"
                   alt=""
                 />
               </div>
               <div class="list_product_dots list_product_dots_pos_katalog">
                 <span>30ml</span>
-                <span>50 mg</span>
+                <span>20 mg</span>
                 <span>salt</span>
               </div>
             </div></RouterLink
@@ -496,20 +498,20 @@
             <div class="list_product_items_block">
               <img
                 class="list_product_items_block1"
-                src="@/assets/img/back/back_item_9.png"
+                src="@/assets/img/katalog_jijk/jijkiback9.png"
                 alt=""
               />
-              <p class="list_product_name color_white">ежевика</p>
-              <div class="list_product_podik_img list_product_podik_img9">
+              <p class="list_product_name color_white">зеленое яблоко</p>
+              <div class="list_product_jijk_img list_product_podik_img9">
                 <img
-                  class="list_product_podik_img1"
-                  src="@/assets/img/katalog_pod/blackberry.png"
+                  class="list_product_jijk_img1"
+                  src="@/assets/img/katalog_jijk/jijkiimg9.png"
                   alt=""
                 />
               </div>
               <div class="list_product_dots list_product_dots_pos_katalog">
                 <span>30ml</span>
-                <span>50 mg</span>
+                <span>20 mg</span>
                 <span>salt</span>
               </div>
             </div></RouterLink
@@ -518,20 +520,20 @@
             <div class="list_product_items_block">
               <img
                 class="list_product_items_block1"
-                src="@/assets/img/back/back_item_10.png"
+                src="@/assets/img/katalog_jijk/jijkiback10.png"
                 alt=""
               />
-              <p class="list_product_name color_white">вишня лайм</p>
-              <div class="list_product_podik_img list_product_podik_img9">
+              <p class="list_product_name color_white">банан молоко</p>
+              <div class="list_product_jijk_img list_product_podik_img9">
                 <img
-                  class="list_product_podik_img1"
-                  src="@/assets/img/katalog_pod/cherry_lime.png"
+                  class="list_product_jijk_img1"
+                  src="@/assets/img/katalog_jijk/jijkiimg10.png"
                   alt=""
                 />
               </div>
               <div class="list_product_dots list_product_dots_pos_katalog">
                 <span>30ml</span>
-                <span>50 mg</span>
+                <span>20 mg</span>
                 <span>salt</span>
               </div>
             </div></RouterLink
@@ -540,20 +542,20 @@
             <div class="list_product_items_block">
               <img
                 class="list_product_items_block1"
-                src="@/assets/img/back/back_item_11.png"
+                src="@/assets/img/katalog_jijk/jijkiback11.png"
                 alt=""
               />
-              <p class="list_product_name color_white">виноград</p>
-              <div class="list_product_podik_img list_product_podik_img9">
+              <p class="list_product_name color_white">арбузная жвачка</p>
+              <div class="list_product_jijk_img list_product_podik_img9">
                 <img
-                  class="list_product_podik_img1"
-                  src="@/assets/img/katalog_pod/grape.png"
+                  class="list_product_jijk_img1"
+                  src="@/assets/img/katalog_jijk/jijkiimg11.png"
                   alt=""
                 />
               </div>
               <div class="list_product_dots list_product_dots_pos_katalog">
                 <span>30ml</span>
-                <span>50 mg</span>
+                <span>20 mg</span>
                 <span>salt</span>
               </div>
             </div></RouterLink
@@ -562,20 +564,20 @@
             <div class="list_product_items_block">
               <img
                 class="list_product_items_block1"
-                src="@/assets/img/back/back_item_12.png"
+                src="@/assets/img/katalog_jijk/jijkiback12.png"
                 alt=""
               />
-              <p class="list_product_name color_white">арбуз</p>
-              <div class="list_product_podik_img list_product_podik_img9">
+              <p class="list_product_name color_white">ананас кокос</p>
+              <div class="list_product_jijk_img list_product_podik_img9">
                 <img
-                  class="list_product_podik_img1"
-                  src="@/assets/img/katalog_pod/lush.png"
+                  class="list_product_jijk_img1"
+                  src="@/assets/img/katalog_jijk/jijkiimg12.png"
                   alt=""
                 />
               </div>
               <div class="list_product_dots list_product_dots_pos_katalog">
                 <span>30ml</span>
-                <span>50 mg</span>
+                <span>20 mg</span>
                 <span>salt</span>
               </div>
             </div></RouterLink
@@ -584,20 +586,42 @@
             <div class="list_product_items_block">
               <img
                 class="list_product_items_block1"
-                src="@/assets/img/back/back_item_13.png"
+                src="@/assets/img/katalog_jijk/jijkiback13.png"
                 alt=""
               />
-              <p class="list_product_name color_white">лимон ананас</p>
-              <div class="list_product_podik_img list_product_podik_img9">
+              <p class="list_product_name color_white">черника виноград</p>
+              <div class="list_product_jijk_img list_product_podik_img9">
                 <img
-                  class="list_product_podik_img1"
-                  src="@/assets/img/katalog_pod/lemon_pineapple.png"
+                  class="list_product_jijk_img1"
+                  src="@/assets/img/katalog_jijk/jijkiimg13.png"
                   alt=""
                 />
               </div>
               <div class="list_product_dots list_product_dots_pos_katalog">
                 <span>30ml</span>
-                <span>50 mg</span>
+                <span>20 mg</span>
+                <span>salt</span>
+              </div>
+            </div></RouterLink
+          >
+          <RouterLink to="/goodsblackcurrant" class="list_product_items_link">
+            <div class="list_product_items_block">
+              <img
+                class="list_product_items_block1"
+                src="@/assets/img/katalog_jijk/jijkiback14.png"
+                alt=""
+              />
+              <p class="list_product_name color_white">черника</p>
+              <div class="list_product_jijk_img list_product_podik_img9">
+                <img
+                  class="list_product_jijk_img1"
+                  src="@/assets/img/katalog_jijk/jijkiimg14.png"
+                  alt=""
+                />
+              </div>
+              <div class="list_product_dots list_product_dots_pos_katalog">
+                <span>30ml</span>
+                <span>20 mg</span>
                 <span>salt</span>
               </div>
             </div></RouterLink
@@ -613,16 +637,16 @@
               alt=""
             />
             <p class="list_product_name color_white">персик</p>
-            <div class="list_product_podik_img">
+            <div class="list_product_jijk_img">
               <img
-                class="list_product_podik_img1"
+                class="list_product_jijk_img1"
                 src="@/assets/img/katalog_pod/peach.png"
                 alt=""
               />
             </div>
             <div class="list_product_dots list_product_dots_pos_katalog">
               <span>30ml</span>
-              <span>50 mg</span>
+              <span>60 mg</span>
               <span>salt</span>
             </div>
           </div></RouterLink
@@ -635,16 +659,16 @@
               alt=""
             />
             <p class="list_product_name color_white">черника малина</p>
-            <div class="list_product_podik_img">
+            <div class="list_product_jijk_img">
               <img
-                class="list_product_podik_img1"
+                class="list_product_jijk_img1"
                 src="@/assets/img/katalog_pod/blueberries_raspberries.png"
                 alt=""
               />
             </div>
             <div class="list_product_dots list_product_dots_pos_katalog">
               <span>30ml</span>
-              <span>50 mg</span>
+              <span>60 mg</span>
               <span>salt</span>
             </div>
           </div></RouterLink
@@ -657,16 +681,16 @@
               alt=""
             />
             <p class="list_product_name color_white">розовый лимонад</p>
-            <div class="list_product_podik_img list_product_podik_img3">
+            <div class="list_product_jijk_img list_product_podik_img3">
               <img
-                class="list_product_podik_img1"
+                class="list_product_jijk_img1"
                 src="@/assets/img/katalog_pod/wild_berries.png"
                 alt=""
               />
             </div>
             <div class="list_product_dots list_product_dots_pos_katalog">
               <span>30ml</span>
-              <span>50 mg</span>
+              <span>60 mg</span>
               <span>salt</span>
             </div>
           </div></RouterLink
@@ -679,16 +703,16 @@
               alt=""
             />
             <p class="list_product_name color_white">манго</p>
-            <div class="list_product_podik_img list_product_podik_img4">
+            <div class="list_product_jijk_img list_product_podik_img4">
               <img
-                class="list_product_podik_img1"
+                class="list_product_jijk_img1"
                 src="@/assets/img/katalog_pod/mango.png"
                 alt=""
               />
             </div>
             <div class="list_product_dots list_product_dots_pos_katalog">
               <span>30ml</span>
-              <span>50 mg</span>
+              <span>60 mg</span>
               <span>salt</span>
             </div>
           </div></RouterLink
@@ -701,16 +725,16 @@
               alt=""
             />
             <p class="list_product_name color_white">малина банан</p>
-            <div class="list_product_podik_img list_product_podik_img5">
+            <div class="list_product_jijk_img list_product_podik_img5">
               <img
-                class="list_product_podik_img1"
+                class="list_product_jijk_img1"
                 src="@/assets/img/katalog_pod/raspberry_banana.png"
                 alt=""
               />
             </div>
             <div class="list_product_dots list_product_dots_pos_katalog">
               <span>30ml</span>
-              <span>50 mg</span>
+              <span>60 mg</span>
               <span>salt</span>
             </div>
           </div></RouterLink
@@ -723,16 +747,16 @@
               alt=""
             />
             <p class="list_product_name color_white">лесные ягоды</p>
-            <div class="list_product_podik_img list_product_podik_img6">
+            <div class="list_product_jijk_img list_product_podik_img6">
               <img
-                class="list_product_podik_img1"
+                class="list_product_jijk_img1"
                 src="@/assets/img/katalog_pod/wild_berries.png"
                 alt=""
               />
             </div>
             <div class="list_product_dots list_product_dots_pos_katalog">
               <span>30ml</span>
-              <span>50 mg</span>
+              <span>60 mg</span>
               <span>salt</span>
             </div>
           </div></RouterLink
@@ -745,16 +769,16 @@
               alt=""
             />
             <p class="list_product_name color_white">клубничное мороженое</p>
-            <div class="list_product_podik_img list_product_podik_img7">
+            <div class="list_product_jijk_img list_product_podik_img7">
               <img
-                class="list_product_podik_img1"
+                class="list_product_jijk_img1"
                 src="@/assets/img/katalog_pod/strawberry_ice_cream.png"
                 alt=""
               />
             </div>
             <div class="list_product_dots list_product_dots_pos_katalog">
               <span>30ml</span>
-              <span>50 mg</span>
+              <span>60 mg</span>
               <span>salt</span>
             </div>
           </div></RouterLink
@@ -767,16 +791,16 @@
               alt=""
             />
             <p class="list_product_name color_white">жвачка</p>
-            <div class="list_product_podik_img list_product_podik_img8">
+            <div class="list_product_jijk_img list_product_podik_img8">
               <img
-                class="list_product_podik_img1"
+                class="list_product_jijk_img1"
                 src="@/assets/img/katalog_pod/chewing gum.png"
                 alt=""
               />
             </div>
             <div class="list_product_dots list_product_dots_pos_katalog">
               <span>30ml</span>
-              <span>50 mg</span>
+              <span>60 mg</span>
               <span>salt</span>
             </div>
           </div></RouterLink
@@ -789,16 +813,16 @@
               alt=""
             />
             <p class="list_product_name color_white">ежевика</p>
-            <div class="list_product_podik_img list_product_podik_img9">
+            <div class="list_product_jijk_img list_product_podik_img9">
               <img
-                class="list_product_podik_img1"
+                class="list_product_jijk_img1"
                 src="@/assets/img/katalog_pod/blackberry.png"
                 alt=""
               />
             </div>
             <div class="list_product_dots list_product_dots_pos_katalog">
               <span>30ml</span>
-              <span>50 mg</span>
+              <span>60 mg</span>
               <span>salt</span>
             </div>
           </div></RouterLink
@@ -811,16 +835,16 @@
               alt=""
             />
             <p class="list_product_name color_white">вишня лайм</p>
-            <div class="list_product_podik_img list_product_podik_img9">
+            <div class="list_product_jijk_img list_product_podik_img9">
               <img
-                class="list_product_podik_img1"
+                class="list_product_jijk_img1"
                 src="@/assets/img/katalog_pod/cherry_lime.png"
                 alt=""
               />
             </div>
             <div class="list_product_dots list_product_dots_pos_katalog">
               <span>30ml</span>
-              <span>50 mg</span>
+              <span>60 mg</span>
               <span>salt</span>
             </div>
           </div></RouterLink
@@ -833,16 +857,16 @@
               alt=""
             />
             <p class="list_product_name color_white">виноград</p>
-            <div class="list_product_podik_img list_product_podik_img9">
+            <div class="list_product_jijk_img list_product_podik_img9">
               <img
-                class="list_product_podik_img1"
+                class="list_product_jijk_img1"
                 src="@/assets/img/katalog_pod/grape.png"
                 alt=""
               />
             </div>
             <div class="list_product_dots list_product_dots_pos_katalog">
               <span>30ml</span>
-              <span>50 mg</span>
+              <span>60 mg</span>
               <span>salt</span>
             </div>
           </div></RouterLink
@@ -855,16 +879,16 @@
               alt=""
             />
             <p class="list_product_name color_white">арбуз</p>
-            <div class="list_product_podik_img list_product_podik_img9">
+            <div class="list_product_jijk_img list_product_podik_img9">
               <img
-                class="list_product_podik_img1"
+                class="list_product_jijk_img1"
                 src="@/assets/img/katalog_pod/lush.png"
                 alt=""
               />
             </div>
             <div class="list_product_dots list_product_dots_pos_katalog">
               <span>30ml</span>
-              <span>50 mg</span>
+              <span>60 mg</span>
               <span>salt</span>
             </div>
           </div></RouterLink
@@ -877,16 +901,16 @@
               alt=""
             />
             <p class="list_product_name color_white">лимон ананас</p>
-            <div class="list_product_podik_img list_product_podik_img9">
+            <div class="list_product_jijk_img list_product_podik_img9">
               <img
-                class="list_product_podik_img1"
+                class="list_product_jijk_img1"
                 src="@/assets/img/katalog_pod/lemon_pineapple.png"
                 alt=""
               />
             </div>
             <div class="list_product_dots list_product_dots_pos_katalog">
               <span>30ml</span>
-              <span>50 mg</span>
+              <span>60 mg</span>
               <span>salt</span>
             </div>
           </div></RouterLink

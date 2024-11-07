@@ -9,15 +9,15 @@ import NewsPages from "@/components/NewsPages.vue";
 import ArticlePages from "@/components/ArticlePages.vue";
 import GoodsPages from "@/components/GoodsPages.vue";
 import TestPages from "@/components/TestPages.vue";
-import GoodsPagesgrape from "@/components/GoodsPagesgrape.vue";
-import GoodsPageslush from "@/components/GoodsPageslush.vue";
-import GoodsPageskiwi from "@/components/GoodsPageskiwi.vue";
-import GoodsPagescola from "@/components/GoodsPagescola.vue";
-import GoodsPagescherry from "@/components/GoodsPagescherry.vue";
-import GoodsPagesenergy from "@/components/GoodsPagesenergy.vue";
-import GoodsPagesraspberry from "@/components/GoodsPagesraspberry.vue";
-import GoodsPagesmixed from "@/components/GoodsPagesmixed.vue";
-import GoodsPagesblackcurrant from "@/components/GoodsPagesblackcurrant.vue";
+import GoodsPagesgrape from "@/components/goods/GoodsPagesgrape.vue";
+import GoodsPageslush from "@/components/goods/GoodsPageslush.vue";
+import GoodsPageskiwi from "@/components/goods/GoodsPageskiwi.vue";
+import GoodsPagescola from "@/components/goods/GoodsPagescola.vue";
+import GoodsPagescherry from "@/components/goods/GoodsPagescherry.vue";
+import GoodsPagesenergy from "@/components/goods/GoodsPagesenergy.vue";
+import GoodsPagesraspberry from "@/components/goods/GoodsPagesraspberry.vue";
+import GoodsPagesmixed from "@/components/goods/GoodsPagesmixed.vue";
+import GoodsPagesblackcurrant from "@/components/goods/GoodsPagesblackcurrant.vue";
 const router = createRouter({
   history: createWebHistory(),
   routes: [

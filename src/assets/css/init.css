@@ -541,6 +541,17 @@
   text-transform: uppercase;
   padding-bottom: 1.25rem;
 }
+.list_product_jijk_img{
+  position: absolute;
+  top: 6rem;
+  left: 2rem;
+
+}
+.list_product_jijk_img1{
+  object-fit: cover;
+  width: 11.6rem;
+  height: 20rem;
+}
 .mixed_berry_20k {
   position: absolute;
   font-family: Hero-Regular;
